@@ -13,7 +13,10 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+    alias: {
+      styles: path.resolve('./src/styles')
+    }
   },
   module: {
     rules: [
@@ -21,7 +24,11 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         loader: 'ts-loader'
       },
-      { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+      {
+        test: /\.scss$/,
+        loader: "style-loader!css-loader!sass-loader"
+      },
+      { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }      
     ]
   },
   plugins: [

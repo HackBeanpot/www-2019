@@ -8,13 +8,15 @@ This is the repo for the new hack beanpot website created for the 2019 season
 
 ## Developing
 [Visual Studio Code](https://code.visualstudio.com/) is the recommended editor, and it is helpful to be familiar with command line to use `git` and `npm`.  
-To run the project, use `npm run start`.  
+To run the project, use `npm i` then `npm run start`.  
 For debugging, download the chrome extension [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en).
 
 #### Styling
 In your user settings (`ctrl ,` in VSC) change the default to use 2 spaces for a tab. Use single quotes `'` instead of double quotes `"` for strings.
 
-Components, props and state should be named with `CapitalizedCamelCase`. Variables are `camelCased`. File names and folder names should be in `dash-separated-lowercase`.
+We use Prettier for code styling. In VSC, install the prettier extension. In your user settings, add the line `"editor.formatOnSave": true` to automatically format files when you save them.
+
+Components, props and state should be named with `CapitalizedCamelCase`. Variables are `camelCased`. File names, folder names, and CSS classes should be in `dash-separated-lowercase`.
 
 #### Structure
 Configuration files go in the root directory.  
@@ -45,7 +47,7 @@ When your feature is done, make sure your branch is up to date, then push your b
 > fix and commit any conflicts  
 > `git push origin <your-branch>`  
 
-To merge your changes into `develop`, open a pull request and add reviewers and fill in the PR template. You will need x reviewers to approve your PR before merging.
+To merge your changes into `develop`, open a pull request and add reviewers and fill in the PR template. You will need 3 reviewers to approve your PR before merging.
 **When merging, use the squash and merge option.**
 
 ## Deployment
