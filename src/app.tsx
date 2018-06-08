@@ -1,17 +1,15 @@
 import * as React from 'react';
-import 'styles/main.scss';
+import '@styles/main.scss';
+import Stories from '@stories/stories';
+import { Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="app">
-        <header className="app-header">
-          <h1 className="app-title">This our website</h1>
-        </header>
-        <p className="app-intro">
-          Welcome to hack beanpot 2019
-        </p>
-      </div>
+      <Switch>
+        {/* For main page routing, follow the pattern for the stories path. */}
+        <Route exact path={'/stories'} component={Stories} />
+      </Switch>
     );
   }
 }
