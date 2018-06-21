@@ -1,0 +1,58 @@
+version: 2
+jobs:
+  build:
+    docker:
+      # Get the latest version of node
+      - image: circleci/node:latest
+
+
+    filters:
+      # We only want circle to listen for changes on master
+      branches:
+        only: master
+
+
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "b0:5a:c3:32:6c:a7:a2:9c:e9:03:d3:ad:b3:8e:80:a6"
+
+      - checkout
+
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: 
+          name: install dependencies
+          command: npm install 
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: build gatsby site
+          command: npm run-script build
+
+      - run:
+          name: deploy to gh-pages branch
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              git config --global user.email team@hackbeanpot.com
+              git config --global user.name hackbeanbot
+              git add -f .cache public
+              git stash
+              git checkout gh-pages
+              find . -mindepth 1 -maxdepth 1  ! -path './.git' ! -path './.git/*' ! -name '.gitignore' ! -path './.circleci' ! -path './.circleci/*' ! -name 'CNAME' -exec rm -rf {} +
+              git checkout stash -- .
+              git stash drop
+              sudo cp -r public/ ~
+              rm -rf public
+              git add -A
+              git commit -m "CI build"
+              git push
+            fi

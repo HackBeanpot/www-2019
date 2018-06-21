@@ -12,7 +12,7 @@
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -24,7 +24,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -41,13 +41,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "34e6f655e23c4a223b68f42df6652d5e",
+        "contentDigest": "9deaaeacc5be5298cf064565bd118b05",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-page-creator": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "id": "Plugin component-page-creator",
       "name": "component-page-creator",
       "version": "1.0.0",
@@ -59,7 +59,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
@@ -80,13 +80,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1a091518370d8d77e5dc3c9fbd220957",
+        "contentDigest": "abf1cc7d52d20796cd80728328a6a160",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -98,7 +98,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -119,13 +119,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c761c91bced2898fac84466a8dcd56ee",
+        "contentDigest": "90130ce482128bca70e701313418a92a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -138,7 +138,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -155,13 +155,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8297390086153f9ff3888b40858567fb",
+        "contentDigest": "3eef5b1c6d26bc9bff3dfb9d8ff13ef3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -173,7 +173,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -190,13 +190,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "448862e881890178b5a30251c455b002",
+        "contentDigest": "829353c6e28a870e95b33d1811e032f4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -209,7 +209,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -226,13 +226,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c212e6d1ede158b28c0282488f7acc5a",
+        "contentDigest": "6d73741f97222b689c09f6f15bb8444e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/Warren/www-2019/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/home/circleci/project/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.10",
@@ -244,7 +244,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/Warren/www-2019/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -303,31 +303,31 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1015f77ad4867229937f1560f65a34af",
+        "contentDigest": "d18cf0bd042603009c7310ee9ee22fc7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/Warren/www-2019",
+      "resolve": "/home/circleci/project",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a77c4ad8ddfd7c099694aea8fa852ba5",
+      "version": "3416161f507ffb74d9131c74a4d52a6f",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/Warren/www-2019",
+      "pluginFilepath": "/home/circleci/project",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "name": "www-2019",
+        "description": "HackBeanpot Website 2019",
         "version": "1.0.0",
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Team HackBeanpot <team@hackbeanpot.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -360,23 +360,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ea191a8570c19b79b6ac1cde82c4e8eb",
+        "contentDigest": "4099fc26c872f5d8f5e8cadd2b6c8157",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter"
+        "title": "HackBeanpot 2019 - Come together to build and learn this Spring"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-17T22:23:34.974Z",
+      "buildTime": "2018-06-21T11:48:02.670Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "175f7767c387457beaf05cee29c095aa",
+        "contentDigest": "5b6c89a6a7c8a9313ebb0772d4a4ca56",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -386,18 +386,18 @@
       "jsonName": "404.json",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/Warren/www-2019/src/pages/404.js",
+      "component": "/home/circleci/project/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/Warren/www-2019/src/pages/404.js",
+      "componentPath": "/home/circleci/project/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bbe4deaaabb66ebfec741ac35bd978dc",
+        "contentDigest": "036ef419ce85199a3f4b59673b3e6b5b",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -407,18 +407,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/Warren/www-2019/src/pages/index.js",
+      "component": "/home/circleci/project/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/Warren/www-2019/src/pages/index.js",
+      "componentPath": "/home/circleci/project/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eb1fb72b3a8629609479d17109a5343d",
+        "contentDigest": "d3fba3823e5ea9af08c72f67dbe9eca4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -428,18 +428,18 @@
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
       "path": "/page-2/",
-      "component": "/Users/Warren/www-2019/src/pages/page-2.js",
+      "component": "/home/circleci/project/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/Warren/www-2019/src/pages/page-2.js",
+      "componentPath": "/home/circleci/project/src/pages/page-2.js",
       "id": "SitePage /page-2/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "58a7a62331db2ff41d48bf4e54dc8b82",
+        "contentDigest": "044c13a9e5ed6727a88eb37e678035f4",
         "description": "Plugin component-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -449,18 +449,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/Warren/www-2019/src/pages/404.js",
+      "component": "/home/circleci/project/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/Warren/www-2019/src/pages/404.js",
+      "componentPath": "/home/circleci/project/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0a7013741c6ed41bb18ffbd48ba1bd7a",
+        "contentDigest": "9426f6a7e8a1cbb8367a929f56aad32d",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -468,7 +468,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4aaafeb6faeaf625f8c2005b21dec211"
+    "PLUGINS_HASH": "9fc29cbe294e697d9e21cbadf7d972ce"
   },
   "componentDataDependencies": {
     "nodes": {

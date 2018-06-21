@@ -1,7 +1,7 @@
 
   import React from "react"
-  import Component from "/Users/Warren/www-2019/src/layouts/index.js"
-  import data from "/Users/Warren/www-2019/.cache/json/layout-index.json"
+  import Component from "/home/circleci/project/src/layouts/index.js"
+  import data from "/home/circleci/project/.cache/json/layout-index.json"
 
   export default (props) => <Component {...props} {...data} />
   
