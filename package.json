@@ -21,6 +21,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "bootstrap": "^4.1.1",
+    "gatsby-plugin-sass": "^1.0.26",
     "prettier": "^1.12.0"
   }
 }
