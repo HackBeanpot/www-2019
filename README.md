@@ -4,8 +4,7 @@ HackBeanpot's website for 2018-2019. It is written in React and served using Git
 
 ## Getting Set Up For Development
 
-First and foremost, make sure you have [Node](https://nodejs.org) installed. The recommended
-IDE is Visual Studio Code.
+First and foremost, make sure you have [Node](https://nodejs.org) installed.
 
 `git clone https://github.com/HackBeanpot/www-2019` Clone into this repository.
 `cd www-2019` CD into the new local repo.
@@ -22,7 +21,7 @@ The branch `develop` is our main branch. Branch off of here if you are starting 
 
 All other branches are probably used for developing things. When you make one, try to give it a descriptive name!
 
-Once your PR is approved, select the **squash and merge** option and remember to delete your personal branches after merging to keep the repo clean.
+Once your PR is approved, select the **squash and merge** option. Commits can be merged unsquashed if you feel that they are meaningful (ie if they each fulfill their own purpose). The goal is to keep the commit history organized so that it is easy to find when certain changes are made. Remember to delete your personal branches after merging to keep the repo clean.
 
 ## Directory Structure
 
@@ -38,7 +37,7 @@ Spaces, not tabs.
 Each "tab" is 2 spaces.
 And try to keep to 80 char lines.
 
-We use Prettier for code styling. In VSC, install the prettier extension. In your user settings, add the line `"editor.formatOnSave": true` to automatically format files when you save them. Alternatively, run the format script `npm run format` before opening a PR.
+We use Prettier for code styling. If you are using Visual Studio Code, install the prettier extension. In your user settings, add the line `"editor.formatOnSave": true` to automatically format files when you save them. Alternatively, run the format script `npm run format` before opening a PR.
 
 Components, props and state should be named with `CapitalizedCamelCase`. Variables are `camelCased`. File names, folder names, and CSS classes should be in `dash-separated-lowercase`.
 
@@ -56,6 +55,6 @@ Forbidden magic. Basically. (Coming soon, Warren will write about it)
 
 ## Useful References
 
-- [React](https://reactjs.org/docs/hello-world.html)
-- [Gatsby Components](https://www.gatsbyjs.org/docs/building-with-components/)
-- [Prettier](https://prettier.io/)
+* [React](https://reactjs.org/docs/hello-world.html)
+* [Gatsby Components](https://www.gatsbyjs.org/docs/building-with-components/)
+* [Prettier](https://prettier.io/)
