@@ -9,14 +9,14 @@ import 'styles/main.scss';
 const Layout = ({ children }) => (
   <div>
     <Helmet
-      title={'Hack Beanpot'}
+      title={'HackBeanpot'}
       meta={[
         { name: 'description', content: 'A Boston area hackathon' },
         { name: 'keywords', content: 'Hack Beanpot' }
       ]}
     />
-    <Nav siteTitle={'Hack Beanpot'} />
-    <div>{children()}</div>
+    <Nav siteTitle={'HackBeanpot'} />
+    <div className="container">{children()}</div>
   </div>
 );
 
