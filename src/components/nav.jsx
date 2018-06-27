@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 const Nav = ({ siteTitle }) => (
+  // TODO arrange links for mobile/smaller screens
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/home/">
       {siteTitle}
