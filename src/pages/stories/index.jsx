@@ -1,11 +1,25 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React, { Fragment } from 'react';
 
-const Stories = () => (
-  <div>
-    <h1>We've all got our stories</h1>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
-);
+import Stories from 'pages/stories/components/stories';
+import FeaturedProjects from 'pages/stories/components/featured-projects';
 
-export default Stories;
+class StoriesPage extends React.Component {
+  render() {
+    return (
+      <Fragment>
+        {/* TODO: Feed in stories data */}
+        <Stories />
+
+        <div className="stories-future">
+          <h2>Our Future</h2>
+          <p>{/* TODO: Come up with content for this */}</p>
+        </div>
+
+        {/* TODO: Feed in projects data */}
+        <FeaturedProjects />
+      </Fragment>
+    );
+  }
+}
+
+export default StoriesPage;
