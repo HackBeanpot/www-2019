@@ -50,6 +50,7 @@ jobs:
               find . -mindepth 1 -maxdepth 1  ! -path './.git' ! -path './.git/*' ! -name '.gitignore' ! -path './.circleci' ! -path './.circleci/*' ! -name 'CNAME' -exec rm -rf {} +
               git checkout stash -- .
               git stash drop
+              find . -mindepth 1 -maxdepth 1  ! -path './.git' ! -path './.git/*' ! -name '.gitignore' ! -path './.circleci' ! -path './.circleci/*' ! -name 'CNAME' ! -path './public' ! -path './public/*' ! -path './.cache' ! -path './.cache/*' -exec rm -rf {} +
               sudo cp -r public/ ~
               rm -rf public
               git add -A
