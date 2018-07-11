@@ -2,13 +2,14 @@ import React, { Fragment } from 'react';
 
 import Stories from 'pages/stories/components/stories';
 import FeaturedProjects from 'pages/stories/components/featured-projects';
+import Quotes from 'data/stories.json';
 
 class StoriesPage extends React.Component {
   render() {
     return (
       <Fragment>
         {/* TODO: Feed in stories data */}
-        <Stories />
+        <Stories stories={Quotes} />
 
         <div className="stories-future">
           <h2>Our Future</h2>
