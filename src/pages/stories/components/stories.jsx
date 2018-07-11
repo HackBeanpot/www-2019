@@ -4,7 +4,7 @@ import Quote from 'pages/stories/components/quote';
 class Stories extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { quote: 'placeholder quote', author: 'someone', from: 'NEU' };
+    this.state = { name: '', quote: '', from: '' };
   }
 
   render() {
@@ -13,6 +13,9 @@ class Stories extends React.Component {
         <h1>Stories</h1>
         <h3>Some inspirational byline</h3>
         {/* TODO: Create story modals */}
+        {this.props.stories.map(
+          story => story.name + ', ' + story.quote + ', ' + story.from
+        )}
         <Quote
           quote={this.state.quote}
           author={this.state.author}
@@ -22,5 +25,9 @@ class Stories extends React.Component {
     );
   }
 }
+
+Stories.defaultProps = {
+  stories: []
+};
 
 export default Stories;
