@@ -48,7 +48,7 @@ const App = () => (
             <AboutItem
                 header="The People"
                 content="People content"
-                pageLink="/sponsorship"
+                pageLink="/sponsors/"
                 floatDirection="left"
             />
         </section>

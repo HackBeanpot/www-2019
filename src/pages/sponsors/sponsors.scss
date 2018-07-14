@@ -1,0 +1,27 @@
+@import '../../styles/constants.scss';
+
+.sponsor-header {
+    background-color: #ddd;
+    height: 300px;
+}
+
+.sponsor-cta {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.sponsor-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.sponsor-subtitle {
+    font-size: 25px;
+    font-weight: 600;
+
+}
