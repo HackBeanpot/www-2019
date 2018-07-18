@@ -21,6 +21,34 @@
         "path": "/projects/"
     },
     {
+        "componentChunkName": "component---src-pages-stories-components-featured-projects-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "stories-components-featured-projects.json",
+        "path": "/stories/components/featured-projects/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stories-components-project-detailed-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "stories-components-project-detailed.json",
+        "path": "/stories/components/project-detailed/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stories-components-quote-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "stories-components-quote.json",
+        "path": "/stories/components/quote/"
+    },
+    {
+        "componentChunkName": "component---src-pages-stories-components-stories-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "stories-components-stories.json",
+        "path": "/stories/components/stories/"
+    },
+    {
         "componentChunkName": "component---src-pages-stories-index-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",

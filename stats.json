@@ -1,0 +1,88 @@
+{
+  "assetsByChunkName": {
+    "path---stories-components-stories": [
+      "path---stories-components-stories-a0e39f21c11f6a62c5ab.js",
+      "path---stories-components-stories-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-stories-components-stories-jsx": [
+      "component---src-pages-stories-components-stories-jsx-d5172b822ecc9b4d156d.js",
+      "component---src-pages-stories-components-stories-jsx-d5172b822ecc9b4d156d.js.map"
+    ],
+    "component---src-pages-stories-components-quote-jsx": [
+      "component---src-pages-stories-components-quote-jsx-9644dcff880cc0a10c96.js",
+      "component---src-pages-stories-components-quote-jsx-9644dcff880cc0a10c96.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-9f7a97217d45f9135a4e.js",
+      "component---src-layouts-index-jsx-9f7a97217d45f9135a4e.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-index-jsx": [
+      "component---src-pages-projects-index-jsx-ec30fa7eeb4374a69a3b.js",
+      "component---src-pages-projects-index-jsx-ec30fa7eeb4374a69a3b.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---stories-components-quote": [
+      "path---stories-components-quote-a0e39f21c11f6a62c5ab.js",
+      "path---stories-components-quote-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---stories-components-project-detailed": [
+      "path---stories-components-project-detailed-a0e39f21c11f6a62c5ab.js",
+      "path---stories-components-project-detailed-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-48285a2a6c6116ddc80e.js",
+      "commons-48285a2a6c6116ddc80e.js.map"
+    ],
+    "component---src-pages-stories-components-project-detailed-jsx": [
+      "component---src-pages-stories-components-project-detailed-jsx-7050f1780feca73333ad.js",
+      "component---src-pages-stories-components-project-detailed-jsx-7050f1780feca73333ad.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-8bc3c0b1f2e45fb8d20b.js",
+      "component---src-pages-404-jsx-8bc3c0b1f2e45fb8d20b.js.map"
+    ],
+    "component---src-pages-stories-index-jsx": [
+      "component---src-pages-stories-index-jsx-7d5ecfc709ccf1b526e3.js",
+      "component---src-pages-stories-index-jsx-7d5ecfc709ccf1b526e3.js.map"
+    ],
+    "path---stories": [
+      "path---stories-a0e39f21c11f6a62c5ab.js",
+      "path---stories-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-dffa6d6483d065beb585.js",
+      "component---src-pages-index-jsx-dffa6d6483d065beb585.js.map"
+    ],
+    "path---stories-components-featured-projects": [
+      "path---stories-components-featured-projects-a0e39f21c11f6a62c5ab.js",
+      "path---stories-components-featured-projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-5dc7d16fc974882d9ec9.js",
+      "app-5dc7d16fc974882d9ec9.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-stories-components-featured-projects-jsx": [
+      "component---src-pages-stories-components-featured-projects-jsx-8b382a0e7769ec7913de.js",
+      "component---src-pages-stories-components-featured-projects-jsx-8b382a0e7769ec7913de.js.map"
+    ]
+  }
+}

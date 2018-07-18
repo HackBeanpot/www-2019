@@ -46,45 +46,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin component-page-creator": {
-      "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "id": "Plugin component-page-creator",
-      "name": "component-page-creator",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "createPagesStatefully"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-page-creator",
-      "packageJson": {
-        "name": "component-page-creator",
-        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
-        "version": "1.0.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "abf1cc7d52d20796cd80728328a6a160",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin component-layout-creator": {
       "resolve": "/home/circleci/project/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
@@ -457,7 +418,7 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.247"
+            "version": "^1.9.273"
           },
           {
             "name": "gatsby-link",
@@ -470,6 +431,14 @@
           {
             "name": "gatsby-plugin-resolve-src",
             "version": "^1.1.3"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
           },
           {
             "name": "react-helmet",
@@ -502,18 +471,100 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/home/circleci/project/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/circleci/project/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9bba0170360001807774bbb1c86f81ee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Site": {
       "siteMetadata": {
         "title": "HackBeanpot 2019 - Come together to build and learn this Spring"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-18T02:40:44.879Z",
+      "buildTime": "2018-07-18T03:00:44.384Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "eff6ab90bed910536a2cf5d749755bf1",
+        "contentDigest": "b74fab13bd0c91bf2a9d4f89cdfb94d0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -526,16 +577,16 @@
       "component": "/home/circleci/project/src/pages/404.jsx",
       "componentChunkName": "component---src-pages-404-jsx",
       "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/home/circleci/project/src/pages/404.jsx",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ee968f5735a965a7e153722dc96e1dbb",
-        "description": "Plugin component-page-creator",
+        "contentDigest": "0bdee061c8fd324c5eb8b703814bc190",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -547,16 +598,16 @@
       "component": "/home/circleci/project/src/pages/index.jsx",
       "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/home/circleci/project/src/pages/index.jsx",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "06cc60fa82f70030c37cc58f3267c8c1",
-        "description": "Plugin component-page-creator",
+        "contentDigest": "564ae69bf0eaf007c938dcc6a3e67d71",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -568,16 +619,100 @@
       "component": "/home/circleci/project/src/pages/projects/index.jsx",
       "componentChunkName": "component---src-pages-projects-index-jsx",
       "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/home/circleci/project/src/pages/projects/index.jsx",
       "id": "SitePage /projects/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b78b50dc9ccebcc738002e976151ce6b",
-        "description": "Plugin component-page-creator",
+        "contentDigest": "c86b03cf4298e03a86f620b986c47f92",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stories/components/featured-projects/": {
+      "layout": "index",
+      "jsonName": "stories-components-featured-projects.json",
+      "internalComponentName": "ComponentStoriesComponentsFeaturedProjects",
+      "path": "/stories/components/featured-projects/",
+      "component": "/home/circleci/project/src/pages/stories/components/featured-projects.jsx",
+      "componentChunkName": "component---src-pages-stories-components-featured-projects-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/stories/components/featured-projects.jsx",
+      "id": "SitePage /stories/components/featured-projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "65cbcef0fa3bdb909a6b49af047556ad",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stories/components/project-detailed/": {
+      "layout": "index",
+      "jsonName": "stories-components-project-detailed.json",
+      "internalComponentName": "ComponentStoriesComponentsProjectDetailed",
+      "path": "/stories/components/project-detailed/",
+      "component": "/home/circleci/project/src/pages/stories/components/project-detailed.jsx",
+      "componentChunkName": "component---src-pages-stories-components-project-detailed-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/stories/components/project-detailed.jsx",
+      "id": "SitePage /stories/components/project-detailed/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "12e4785dc41c50f5ad5bfc91569a412c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stories/components/quote/": {
+      "layout": "index",
+      "jsonName": "stories-components-quote.json",
+      "internalComponentName": "ComponentStoriesComponentsQuote",
+      "path": "/stories/components/quote/",
+      "component": "/home/circleci/project/src/pages/stories/components/quote.jsx",
+      "componentChunkName": "component---src-pages-stories-components-quote-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/stories/components/quote.jsx",
+      "id": "SitePage /stories/components/quote/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "00a19d5afc64003ca4c66f64bd4a304d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /stories/components/stories/": {
+      "layout": "index",
+      "jsonName": "stories-components-stories.json",
+      "internalComponentName": "ComponentStoriesComponentsStories",
+      "path": "/stories/components/stories/",
+      "component": "/home/circleci/project/src/pages/stories/components/stories.jsx",
+      "componentChunkName": "component---src-pages-stories-components-stories-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/stories/components/stories.jsx",
+      "id": "SitePage /stories/components/stories/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "13a1949d9be826af9c5aefd263c3ffdd",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -589,16 +724,16 @@
       "component": "/home/circleci/project/src/pages/stories/index.jsx",
       "componentChunkName": "component---src-pages-stories-index-jsx",
       "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
       "componentPath": "/home/circleci/project/src/pages/stories/index.jsx",
       "id": "SitePage /stories/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb92a839d4128a57ad6d7c9aaec84c76",
-        "description": "Plugin component-page-creator",
+        "contentDigest": "77102767957e2cb5f04875ba7a891c18",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -618,7 +753,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a55cfbf8ded2f70f04947f7386852a89",
+        "contentDigest": "c2da7844bc7e6307bbbcb50c3c93c280",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -626,7 +761,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "54dc2f9ff38e10c83870f4607aecdcba"
+    "PLUGINS_HASH": "2a016dfa882453b8e1230df44c184b7a"
   },
   "componentDataDependencies": {
     "nodes": {},
