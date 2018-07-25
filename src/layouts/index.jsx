@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
       ]}
     />
     <Nav siteTitle={'HackBeanpot'} />
-    <div className="container">{children()}</div>
+    <div>{children()}</div>
   </div>
 
   // TODO: Add footer

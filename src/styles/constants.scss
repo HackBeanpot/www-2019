@@ -1,1 +1,19 @@
-$quote-bg: #fbc0c1;
+@import '/global-style.scss';
+
+* {
+    font-family: $font-family;
+  }
+
+.logo-div {
+    font-family: $logo-font-family;
+}
+
+.light-background {
+    background-color: $gray;
+    color: $navy;
+}
+
+.dark-background {
+    background-color: $navy;
+    color: $gray;
+}
