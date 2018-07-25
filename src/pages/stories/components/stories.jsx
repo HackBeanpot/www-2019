@@ -4,7 +4,7 @@ import Quote from 'pages/stories/components/quote';
 class Stories extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { quote: 'placeholder quote', author: 'someone', from: 'NEU' };
+    this.state = { quote: 'placeholder quote', author: 'Someone', from: 'NEU' };
   }
 
   render() {
