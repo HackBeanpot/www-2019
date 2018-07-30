@@ -1,27 +1,44 @@
 @import '../../styles/constants.scss';
 
-.sponsor-header {
-    background-color: #ddd;
-    height: 300px;
+.sponsor-welcome {
+    padding-bottom: 100px
+}
+
+.sponsor-perks {
+    padding-bottom: 100px;
+}
+
+.sponsors {
+    height: 500px;
 }
 
 .sponsor-cta {
     padding-top: 20px;
-    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 0;
+    text-align: left;
     font-size: 20px;
-    color: black;
+    color: $navy;
 }
 
 .sponsor-title {
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     font-weight: 600;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .sponsor-subtitle {
     font-size: 25px;
     font-weight: 600;
+}
 
+.sponsor-button {
+    background-color: $yellow;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 33px;
+    border-style: none;
+    font-size: 20px;
 }
