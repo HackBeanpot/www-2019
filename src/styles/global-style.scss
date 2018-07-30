@@ -1,11 +1,17 @@
+// The main style file for all shared styles
+
 @charset "UTF-8";
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import '/constants.scss';
 
+// Import styles for pages
 @import '../pages/stories/stories.scss';
 @import '../pages/sponsors/sponsors.scss';
-@import '../components/aboutItem/AboutItem.scss';
-@import '/constants.scss';
 @import '/home.scss';
+
+// Import styles for components
+@import '../components/aboutItem/AboutItem.scss';
+
 @import '/footer.scss';
 
 * {
