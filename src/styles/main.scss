@@ -2,16 +2,17 @@
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import '../pages/stories/stories.scss';
-@import '/constants.scss';
+@import './constants.scss';
 
 .landing-section {
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-logo {
-  height: 75%;
-  width: 50%;
-  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 .icon {
@@ -19,20 +20,13 @@
   width: 50px;
 }
 
+.header-title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
 .about-section {
-  /* Placeholder */
-}
-
-.align-left-img {
-  float: left;
-  height: 40%;
-  width: 40%;
-}
-
-.align-right-img {
-  float: right;
-  height: 40%;
-  width: 40%;
+  height: 200vh;
 }
 
 .faq-section {

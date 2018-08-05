@@ -17,3 +17,36 @@
     background-color: $navy;
     color: $gray;
 }
+
+.yellow-btn {
+    background-color: $yellow;
+    color: white;
+    border-style: none;
+    font-weight: 700;
+}
+
+.lg-btn {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.md-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 50px;
+}
+
+h2 {
+    font-size: $h2;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: $h3;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: $h4;
+}
