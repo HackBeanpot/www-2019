@@ -23,10 +23,19 @@
 .header-title {
   font-size: 72px;
   font-weight: 700;
+  padding: 15px 0px;
+}
+
+.header-text {
+  margin-bottom: 20px;
 }
 
 .about-section {
-  height: 200vh;
+  height: 150vh;
+}
+
+.about-title {
+  margin-bottom: 50px;
 }
 
 .faq-section {

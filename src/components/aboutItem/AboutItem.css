@@ -1,11 +1,19 @@
+.about-item {
+  clear: both;
+  overflow:auto; 
+  margin-bottom: 30px;
+}
+
 .align-left-img {
   float: left;
-  height: 40%;
-  width: 40%;
+  width: 100%;
 }
 
 .align-right-img {
   float: right;
-  height: 40%;
-  width: 40%;
+  width: 100%;
+}
+
+.about-item-content {
+  float: left;
 }

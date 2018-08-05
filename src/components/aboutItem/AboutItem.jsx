@@ -5,21 +5,24 @@ import './AboutItem.css';
 
 const AboutItem = props => {
   let button;
-  if (props.hasBtn) {button = <Button text={props.btn.text} url={props.btn.url} size={props.btn.size}/>;}
-  
+  if (props.hasBtn)
+    button = (
+      <Button text={props.btn.text} url={props.btn.url} size={props.btn.size} />
+    );
   return (
-  <div className="" style={{ clear: 'both' }}>
-    <img
-      src="https://hackbeanpot.com/img/wmud/IMG_0299.jpg"
-      className={`align-${props.floatDirection}-img`}
-    />
-    <div className="about-item-content">
-      <h3>{props.header}</h3>
-      {props.content}
-      {button}
+    <div className="about-item">
+      <img
+        src="https://hackbeanpot.com/img/wmud/IMG_0299.jpg"
+        className={`col-sm-4 align-${props.floatDirection}-img`}
+      />
+      <div className="col-sm-7 about-item-content">
+        <h3>{props.header}</h3>
+        {props.content}
+        {button}
+      </div>
     </div>
-  </div>
-)};
+  );
+};
 
 AboutItem.defaultProps = {
   header: 'AboutItem section header',

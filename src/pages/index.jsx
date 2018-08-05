@@ -44,7 +44,8 @@ const App = () => {
             src="https://hackbeanpot.com/img/solid_logo.png"
           />
           <div className="offset-1 col-6">
-            <div>
+            <div className="header-text">
+              <div>
               <h4>
                 An independently-run Boston hackathon for curious students,
                 hackers, makers, and beginners.
@@ -53,16 +54,19 @@ const App = () => {
             <h1 className="logo-div header-title">HackBeanpot</h1>
             {/* <MailingListPrompt /> */}
             <h4>
-              We are currently looking for companies to sponsor HackBeanpot
-              2018!
+              <strong>
+                We are currently looking for companies to sponsor HackBeanpot
+                2019!
+              </strong>
             </h4>
+            </div>
             <Button text="Learn More" size="lg-btn" />
           </div>
         </div>
       </section>
 
       <section className="about-section container">
-        <h2>HackBeanpot is about...</h2>
+        <h2 className="about-title">HackBeanpot is about...</h2>
         <AboutItem
           header="The stories."
           content={aboutStoriesContent}

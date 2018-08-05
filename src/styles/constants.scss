@@ -25,6 +25,10 @@
     font-weight: 700;
 }
 
+.yellow-btn:hover {
+    color: white;
+}
+
 .lg-btn {
     font-size: 20px;
     padding: 10px 40px;
@@ -49,4 +53,5 @@ h3 {
 
 h4 {
     font-size: $h4;
+    line-height: 30px;
 }
