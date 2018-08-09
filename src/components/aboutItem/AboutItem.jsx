@@ -1,23 +1,27 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import Button from '../Button';
-import './AboutItem.css';
+import React, { Fragment } from 'react';
+import './AboutItem.scss';
 
 const AboutItem = props => {
   let button;
   if (props.hasBtn)
     button = (
-      <Button text={props.btn.text} url={props.btn.url} size={props.btn.size} />
+      <a
+        href={props.btn.url}
+        role="button"
+        className={`btn yellow-btn ${props.btn.size}`}
+      >
+        {props.btn.text}
+      </a>
     );
   return (
     <div className="about-item">
       <img
-        src="https://hackbeanpot.com/img/wmud/IMG_0299.jpg"
+        src={props.imgSrc}
         className={`col-sm-4 align-${props.floatDirection}-img`}
       />
       <div className="col-sm-7 about-item-content">
-        <h3>{props.header}</h3>
-        {props.content}
+        <p className="about-item-title">{props.title}</p>
+        <div dangerouslySetInnerHTML={{ __html: props.content }} />
         {button}
       </div>
     </div>
@@ -25,9 +29,10 @@ const AboutItem = props => {
 };
 
 AboutItem.defaultProps = {
-  header: 'AboutItem section header',
-  content: 'AboutItem section content',
-  pageLink: '/',
+  title: '',
+  content: '',
+  imgSrc: '',
+  hasBtn: false,
   floatDirection: 'left'
 };
 

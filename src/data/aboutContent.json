@@ -1,0 +1,31 @@
+[
+  {
+    "title": "The stories.",
+    "imgSrc": "https://hackbeanpot.com/img/wmud/IMG_0299.jpg",
+    "hasBtn": false,
+    "floatDirection": "left",
+    "content":
+      "<p>Memorable stories from HackBeanpot are just one of the things that make us unique. Our attendees range from CS graduate students to beginner designers who have never written a line of code before.</p>"
+  },
+  {
+    "title": "The projects.",
+    "imgSrc": "https://hackbeanpot.com/img/wmud/IMG_0299.jpg",
+    "hasBtn": false,
+    "floatDirection": "right",
+    "content":
+      "<p>Projects at HackBeanpot are about learning and exploration. In past years they’ve ranged from an IoT pill bottle (SecureStash) to a crowdsourced music playlist (CrowdDJ) to a scripting language made entirely of emojis (EmojiScript).</p>"
+  },
+  {
+    "title": "The people.",
+    "imgSrc": "https://hackbeanpot.com/img/wmud/IMG_0299.jpg",
+    "hasBtn": true,
+    "btn": {
+      "text": "Check out our Sponsors page",
+      "url": "/sponsors",
+      "size": "md-btn"
+    },
+    "floatDirection": "left",
+    "content":
+      "<Fragment><p>Every year HackBeanpot looks forward to hosting XXX curious students, experienced hackers, and hi-tech sponsors at the Genuine HQ in Boston. The only person we’re missing is you!</p><p><strong>Interested in sponsoring HackBeanpot?</strong></p></Fragment>"
+  }
+]
