@@ -1,5 +1,4 @@
-import React, { Fragment } from 'react';
-import './AboutItem.scss';
+import React from 'react';
 
 const AboutItem = props => {
   let button;
