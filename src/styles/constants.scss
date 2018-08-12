@@ -18,3 +18,26 @@
   background-color: $navy;
   color: $gray;
 }
+
+.yellow-btn {
+  background-color: $yellow;
+  color: white;
+  border-style: none;
+  font-weight: 700;
+}
+
+.yellow-btn:hover {
+  color: white;
+}
+
+.lg-btn {
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+
+.md-btn {
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 50px;
+}

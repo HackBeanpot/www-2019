@@ -3,17 +3,18 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import '../pages/stories/stories.scss';
 @import '../pages/sponsors/sponsors.scss';
-
-@import 'constants.scss';
+@import '../components/aboutItem/AboutItem.scss';
+@import './constants.scss';
 
 .landing-section {
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-logo {
-  height: 75%;
-  width: 50%;
-  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 .icon {
@@ -21,26 +22,47 @@
   width: 50px;
 }
 
+// HEADER
+
+.header-title {
+  font-size: 72px;
+  font-weight: 700;
+  padding: 15px 0px;
+}
+
+.header-content {
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-size: $large-body;
+}
+
+// ABOUT
+
 .about-section {
-  /* Placeholder */
+  height: 160vh;
 }
 
-.align-left-img {
-  float: left;
-  height: 40%;
-  width: 40%;
+.about-title {
+  font-size: $subtitle;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
-.align-right-img {
-  float: right;
-  height: 40%;
-  width: 40%;
-}
+// FAQ
 
 .faq-section {
   clear: both;
   background: #d3d3d3;
 }
+
+.faq-masonry-element {
+  width: 500px;
+  padding: 10px 20px;
+}
+
+// SPONSORS
 
 .sponsors-section {
   /* Placeholder */

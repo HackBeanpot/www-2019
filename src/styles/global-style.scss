@@ -7,8 +7,14 @@ $font-family: 'Nunito', sans-serif; //use on most of website
 $logo-font-family: 'Dosis', sans-serif; //use exclusively for logo type
 
 // colors
-$navy: #1b365d; //text color on light bg, secondary bg color
-$gray: #eeeeee; //text color on dark bg, primary bg color
-$light-blue: #a4dbe8; //details for dark background, illustrations
-$teal: #25c9d0; //details for light background, circuit illustrations
-$yellow: #fbdd40; //call to action button
+$navy: #1B365D; //text color on light bg, secondary bg color
+$gray: #EEEEEE; //text color on dark bg, primary bg color
+$light-blue: #A4DBE8; //details for dark background, illustrations
+$teal: #25C9D0; //details for light background, circuit illustrations
+$yellow: #FBDD40; //call to action button
+
+// font sizes
+$title: 32px;
+$subtitle: 24px;
+$large-body: 20px;
+$small-body: 16px;

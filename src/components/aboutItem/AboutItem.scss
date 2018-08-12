@@ -1,0 +1,24 @@
+.about-item-title {
+  font-size: $subtitle;
+  font-weight: 700;
+}
+
+.about-item {
+  clear: both;
+  overflow:auto; 
+  margin-bottom: 50px;
+}
+
+.align-left-img {
+  float: left;
+  width: 100%;
+}
+
+.align-right-img {
+  float: right;
+  width: 100%;
+}
+
+.about-item-content {
+  float: left;
+}
