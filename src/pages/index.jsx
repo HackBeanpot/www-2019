@@ -58,18 +58,67 @@ const App = () => {
 
       <section className="sponsors-section">
         <h2>2019 Sponsors</h2>
-        <div>
+        <div className="row">
           <img
-            className="sponsor"
-            src="https://www.freelogodesign.org/Content/img/logo-ex-5.png"
+            className="sponsor col-12"
+            src="https://hackbeanpot.com/img/sponsors/Intuit_2016_RGB.jpg"
+          />
+        </div>
+        <div className="row">
+          <img
+            className="sponsor col-6"
+            src="https://hackbeanpot.com/img/sponsors/genuine-840.png"
           />
           <img
-            className="sponsor"
-            src="https://www.freelogodesign.org/Content/img/logo-ex-5.png"
+            className="sponsor col-6"
+            src="https://hackbeanpot.com/img/sponsors/jack-morton-logo.jpg"
+          />
+        </div>
+        <div className="row">
+          <img
+            className="sponsor col-12"
+            src="https://hackbeanpot.com/img/sponsors/PowerAdvocate-500.png"
+          />
+        </div>
+        <div className="row">
+          <img
+            className="sponsor col-12"
+            src="https://hackbeanpot.com/img/sponsors/TriNetX-450.jpg"
+          />
+        </div>
+        <div className="row">
+          <img
+            className="sponsor col-4"
+            src="https://hackbeanpot.com/img/sponsors/pan-neu-500.jpg"
           />
           <img
-            className="sponsor"
-            src="https://www.freelogodesign.org/Content/img/logo-ex-5.png"
+            className="sponsor col-4"
+            src="https://hackbeanpot.com/img/sponsors/DriftLogo-300.png"
+          />
+          <img
+            className="sponsor col-4"
+            src="https://hackbeanpot.com/img/sponsors/bookbub-428.png"
+          />
+        </div>
+        <div className="row">
+          <img
+            className="sponsor col-6"
+            src="https://hackbeanpot.com/img/sponsors/GTI_logo-840.png"
+          />
+          <img
+            className="sponsor col-6"
+            src="https://hackbeanpot.com/img/sponsors/rdv-logo-150.png"
+          />
+        </div>
+        <h2>In-kind sponsors</h2>
+        <div className="row">
+          <img
+            className="sponsor col-6"
+            src="https://hackbeanpot.com/img/in-kind-sponsors/union-square-donuts-700.png"
+          />
+          <img
+            className="sponsor col-6"
+            src="https://hackbeanpot.com/img/in-kind-sponsors/Chipotle-Full-Logo.png"
           />
         </div>
       </section>
