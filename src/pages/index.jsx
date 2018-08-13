@@ -51,7 +51,7 @@ const App = () => {
         ))}
       </section>
 
-      <section className="faq-section">
+      <section className="faq-section container">
         <h2>Frequently Asked Questions</h2>
         <FAQItems FAQs={FAQs} />
       </section>

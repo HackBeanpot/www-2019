@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import Masonry from 'react-masonry-component';
 
+const masonryOptions = {
+    gutter: 10 // Horizontal margin for masonry columns
+};
+
 class FAQItems extends Component {
   constructor(props) {
     super(props);
@@ -14,7 +18,7 @@ class FAQItems extends Component {
       </div>
     ));
 
-    return <Masonry>{childElements}</Masonry>;
+    return <Masonry options={masonryOptions}>{childElements}</Masonry>;
   }
 }
 FAQItems.defaultProps = {
