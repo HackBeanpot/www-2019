@@ -69,6 +69,11 @@
 }
 
 .sponsor {
-  height: 20%;
-  width: 20%;
+  align-content: center;
+  transition-duration: 0.3s;
 }
+
+.sponsor:hover {
+  transform: scale(1.05);
+}
+

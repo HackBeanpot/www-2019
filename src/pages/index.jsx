@@ -57,69 +57,57 @@ const App = () => {
       </section>
 
       <section className="sponsors-section">
-        <h2>2019 Sponsors</h2>
+        <h2>2018 Sponsors</h2>
         <div className="row">
-          <img
-            className="sponsor col-12"
-            src="https://hackbeanpot.com/img/sponsors/Intuit_2016_RGB.jpg"
-          />
+          <a href="https://www.intuit.com/" className="sponsor col-12 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/Intuit_2016_RGB.jpg" />
+          </a>
         </div>
         <div className="row">
-          <img
-            className="sponsor col-6"
-            src="https://hackbeanpot.com/img/sponsors/genuine-840.png"
-          />
-          <img
-            className="sponsor col-6"
-            src="https://hackbeanpot.com/img/sponsors/jack-morton-logo.jpg"
-          />
+          <a href="https://wearegenuine.com/" className="sponsor col-6 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/genuine-840.png" />
+          </a>
+          <a href="http://www.jackmorton.com/" className="sponsor col-6 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/jack-morton-logo.jpg" />
+          </a>
         </div>
         <div className="row">
-          <img
-            className="sponsor col-12"
-            src="https://hackbeanpot.com/img/sponsors/PowerAdvocate-500.png"
-          />
+          <a href="https://marketing.poweradvocate.com/" className="sponsor col-12 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/PowerAdvocate-500.png" />
+          </a>
         </div>
         <div className="row">
-          <img
-            className="sponsor col-12"
-            src="https://hackbeanpot.com/img/sponsors/TriNetX-450.jpg"
-          />
+          <a href="https://www.trinetx.com/" className="sponsor col-12 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/TriNetX-450.jpg" />
+          </a>
         </div>
         <div className="row">
-          <img
-            className="sponsor col-4"
-            src="https://hackbeanpot.com/img/sponsors/pan-neu-500.jpg"
-          />
-          <img
-            className="sponsor col-4"
-            src="https://hackbeanpot.com/img/sponsors/DriftLogo-300.png"
-          />
-          <img
-            className="sponsor col-4"
-            src="https://hackbeanpot.com/img/sponsors/bookbub-428.png"
-          />
+          <a href="https://www.northeastern.edu/pan/" className="sponsor col-4 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/pan-neu-500.jpg" />
+          </a>
+          <a href="https://drift.com//" className="sponsor col-4 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/DriftLogo-300.png" />
+          </a>
+          <a href="https://www.bookbub.com/careers" className="sponsor col-4 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/bookbub-428.png" />
+          </a>
         </div>
         <div className="row">
-          <img
-            className="sponsor col-6"
-            src="https://hackbeanpot.com/img/sponsors/GTI_logo-840.png"
-          />
-          <img
-            className="sponsor col-6"
-            src="https://hackbeanpot.com/img/sponsors/rdv-logo-150.png"
-          />
+          <a href="http://www.gtiproperties.com/" className="sponsor col-6 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/GTI_logo-840.png" />
+          </a>
+          <a href="http://www.roughdraft.vc/" className="sponsor col-6 text-center">
+            <img src="https://hackbeanpot.com/img/sponsors/rdv-logo-150.png" />
+          </a>
         </div>
         <h2>In-kind sponsors</h2>
         <div className="row">
-          <img
-            className="sponsor col-6"
-            src="https://hackbeanpot.com/img/in-kind-sponsors/union-square-donuts-700.png"
-          />
-          <img
-            className="sponsor col-6"
-            src="https://hackbeanpot.com/img/in-kind-sponsors/Chipotle-Full-Logo.png"
-          />
+          <a href="http://unionsquaredonuts.com/" className="sponsor col-6 text-center">
+            <img src="https://hackbeanpot.com/img/in-kind-sponsors/union-square-donuts-700.png" />
+          </a>
+          <a href="https://www.chipotle.com/" className="sponsor col-6 text-center">
+            <img src="https://hackbeanpot.com/img/in-kind-sponsors/Chipotle-Full-Logo.png" />
+          </a>
         </div>
       </section>
     </div>
