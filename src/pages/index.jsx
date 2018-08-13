@@ -52,7 +52,7 @@ const App = () => {
       </section>
 
       <section className="faq-section container">
-        <h2>Frequently Asked Questions</h2>
+        <p className="faq-title">Frequently Asked Questions</p>
         <FAQItems FAQs={FAQs} />
       </section>
 

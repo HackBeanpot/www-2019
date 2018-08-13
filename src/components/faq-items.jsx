@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Masonry from 'react-masonry-component';
 
 const masonryOptions = {
-    gutter: 10 // Horizontal margin for masonry columns
+    gutter: 20 // Horizontal margin for masonry columns
 };
 
 class FAQItems extends Component {
@@ -13,8 +13,8 @@ class FAQItems extends Component {
   render() {
     const childElements = this.props.FAQs.map(FAQ => (
       <div className="faq-masonry-element">
-        <h4>{FAQ.question}</h4>
-        <p>{FAQ.answer}</p>
+        <p className="faq-element-question">{FAQ.question}</p>
+        <p className="faq-element-answer">{FAQ.answer}</p>
       </div>
     ));
 
