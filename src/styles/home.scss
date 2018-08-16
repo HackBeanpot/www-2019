@@ -2,12 +2,13 @@
 
 .landing-section {
   height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-logo {
-  height: 75%;
-  width: 50%;
-  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 .icon {
@@ -15,26 +16,42 @@
   width: 50px;
 }
 
-.align-left-img {
-  float: left;
-  height: 40%;
-  width: 40%;
+// HEADER
+
+.header-title {
+  font-size: 72px;
+  font-weight: 700;
+  padding: 15px 0px;
 }
 
-.align-right-img {
-  float: right;
-  height: 40%;
-  width: 40%;
+.header-content {
+  margin-bottom: 20px;
 }
+
+.header-text {
+  font-size: $large-body;
+}
+
+// ABOUT
+
+.about-section {
+  height: 160vh;
+}
+
+.about-title {
+  font-size: $subtitle;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+// FAQ
 
 .faq-section {
   clear: both;
   background: #d3d3d3;
 }
 
-.sponsors-section {
-  /* Placeholder */
-}
+// SPONSORS
 
 .sponsor {
   height: 20%;
