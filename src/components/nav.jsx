@@ -3,25 +3,25 @@ import Link from 'gatsby-link';
 
 const Nav = ({ siteTitle }) => (
   // TODO arrange links for mobile/smaller screens
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="container navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/">
       {siteTitle}
     </Link>
     <ul className="navbar-nav mr-auto">
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link className="nav-link" to="/stories/">
           Stories
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a className="nav-link" href="/sponsors/">
           Sponsors
         </a>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/projects/">
+        <a className="nav-link" href="https://projects.hackbeanpot.com/">
           Projects
-        </Link>
+        </a>
       </li>
     </ul>
   </nav>

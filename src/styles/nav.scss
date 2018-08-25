@@ -1,0 +1,19 @@
+.navbar {
+  background: $gray !important;
+  padding-top: 20px;
+}
+
+.navbar-brand {
+  font-family: $logo-font-family;
+  color: $navy !important;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0px 10px;
+}
+
+.nav-link {
+  color: $navy !important;
+  font-weight: 600;
+}

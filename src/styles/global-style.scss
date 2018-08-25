@@ -11,12 +11,16 @@
 
 // Import styles for components
 @import '../components/aboutItem/AboutItem.scss';
-
+@import '/nav.scss';
 @import '/footer.scss';
 
 * {
   font-family: $font-family;
   overflow-x: hidden;
+}
+
+body {
+  background-color: $gray;
 }
 
 // SECTIONS

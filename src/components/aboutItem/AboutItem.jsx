@@ -16,9 +16,9 @@ const AboutItem = props => {
     <div className="about-item">
       <img
         src={props.imgSrc}
-        className={`col-sm-4 align-${props.floatDirection}-img`}
+        className={`col-sm-5 align-${props.floatDirection}-img`}
       />
-      <div className="col-sm-7 about-item-content">
+      <div className={`offset-sm-1 col-sm-5 about-item-content align-${props.floatDirection}-text`}>
         <p className="about-item-title">{props.title}</p>
         <div dangerouslySetInnerHTML={{ __html: props.content }} />
         {button}

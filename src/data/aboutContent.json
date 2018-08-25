@@ -1,7 +1,7 @@
 [
   {
     "title": "The stories.",
-    "imgSrc": "https://hackbeanpot.com/img/wmud/IMG_0299.jpg",
+    "imgSrc": "https://bit.ly/2PFgbSD",
     "hasBtn": false,
     "floatDirection": "left",
     "content":
@@ -9,15 +9,20 @@
   },
   {
     "title": "The projects.",
-    "imgSrc": "https://hackbeanpot.com/img/wmud/IMG_0299.jpg",
-    "hasBtn": false,
+    "imgSrc": "https://bit.ly/2MzTTn9",
+    "hasBtn": true,
+    "btn": {
+      "text": "See past projects",
+      "url": "https://projects.hackbeanpot.com/",
+      "size": "md-btn"
+    },
     "floatDirection": "right",
     "content":
       "<p>Projects at HackBeanpot are about learning and exploration. In past years they’ve ranged from an IoT pill bottle (SecureStash) to a crowdsourced music playlist (CrowdDJ) to a scripting language made entirely of emojis (EmojiScript).</p>"
   },
   {
     "title": "The people.",
-    "imgSrc": "https://hackbeanpot.com/img/wmud/IMG_0299.jpg",
+    "imgSrc": "https://bit.ly/2wul4oO",
     "hasBtn": true,
     "btn": {
       "text": "Check out our Sponsors page",

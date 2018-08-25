@@ -1,3 +1,7 @@
+img {
+  padding: 0px !important;
+}
+
 .about-item-title {
   font-size: $subtitle;
   font-weight: 700;
@@ -6,7 +10,7 @@
 .about-item {
   clear: both;
   overflow:auto; 
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .align-left-img {

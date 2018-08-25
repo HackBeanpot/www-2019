@@ -17,7 +17,6 @@
 }
 
 // HEADER
-
 .header-title {
   font-size: 72px;
   font-weight: 700;
@@ -33,26 +32,23 @@
 }
 
 // ABOUT
-
 .about-section {
-  height: 160vh;
+  height: 200vh;
 }
 
 .about-title {
-  font-size: $subtitle;
+  font-size: $title;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
 // FAQ
-
 .faq-section {
   clear: both;
   background: #d3d3d3;
 }
 
 // SPONSORS
-
 .sponsor {
   height: 20%;
   width: 20%;
