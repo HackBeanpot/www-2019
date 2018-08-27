@@ -15,8 +15,15 @@
 @import '/footer.scss';
 
 * {
-  font-family: $font-family;
+  font-family: $nunito;
   overflow-x: hidden;
+  position: relative;
+  z-index: 20;
+}
+
+// NAVBAR
+.hbp-nav {
+  z-index: 50;
 }
 
 // SECTIONS
@@ -27,11 +34,13 @@
 .light-background {
   background-color: $gray;
   color: $navy;
+  overflow: hidden;
 }
 
 .dark-background {
   background-color: $navy;
   color: $gray;
+  overflow: hidden;
 }
 
 // BUTTONS
