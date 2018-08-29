@@ -1,43 +1,18 @@
-@import '/global-style.scss';
+// This file is only used to define any Constants for colors, fonts, etc
 
-* {
-  font-family: $font-family;
-  overflow-x: hidden;
-}
+// fonts
+$font-family: 'Nunito', sans-serif; //use on most of website
+$logo-font-family: 'Dosis', sans-serif; //use exclusively for logo type
 
-.logo-div {
-  font-family: $logo-font-family;
-}
+// colors
+$navy: #1b365d; //text color on light bg, secondary bg color
+$gray: #eeeeee; //text color on dark bg, primary bg color
+$light-blue: #a4dbe8; //details for dark background, illustrations
+$teal: #25c9d0; //details for light background, circuit illustrations
+$yellow: #fbdd40; //call to action button
 
-.light-background {
-  background-color: $gray;
-  color: $navy;
-}
-
-.dark-background {
-  background-color: $navy;
-  color: $gray;
-}
-
-.yellow-btn {
-  background-color: $yellow;
-  color: white;
-  border-style: none;
-  font-weight: 700;
-}
-
-.yellow-btn:hover {
-  color: white;
-}
-
-.lg-btn {
-  font-size: 20px;
-  padding: 10px 40px;
-  border-radius: 50px;
-}
-
-.md-btn {
-  font-size: 16px;
-  padding: 8px 20px;
-  border-radius: 50px;
-}
+// font sizes
+$title: 32px;
+$subtitle: 24px;
+$large-body: 20px;
+$small-body: 16px;
