@@ -65,15 +65,60 @@
 // SPONSORS
 
 .sponsors-section {
-  /* Placeholder */
-}
+  .sponsor-header {
+    font-size: 35px;
+    padding-top: 15px;
+  }
 
-.sponsor {
-  align-content: center;
-  transition-duration: 0.3s;
-}
+  .sponsor {
+    align-content: center;
+    transition-duration: 0.3s;
 
-.sponsor:hover {
-  transform: scale(1.05);
-}
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    @media (max-width: 992px) {
+      height: auto;
+    }
+  }
+
+  .sponsor-square {
+    height: 225px;
+    @media (max-width: 992px) {
+      height: auto;
+    }
+  }
+
+  .sponsor:hover {
+    transform: scale(1.05);
+  }
+
+  .intuitLogo {
+    height: 200px;
+    position: relative;
+    top: -50px;
+    @media (max-width: 992px) {
+      height: auto;
+      top: 0;
+    }
+  }
+
+  .sponsor-image {
+    height: 100px;
+    width: auto;
+    @media (max-width: 992px) {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .sponsor-square-image {
+    height: 200px;
+    @media (max-width: 992px) {
+      height: auto;
+    }
+  }
+}
