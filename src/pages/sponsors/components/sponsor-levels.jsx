@@ -38,11 +38,15 @@ class SponsorLevel extends React.Component {
   }
 
   render() {
-    return (
-      <div className="row">
-        {this.props.content.map(content => this.renderSponsorRow(content))}
-      </div>
-    );
+    if (this.props !== undefined && this.props.content !== undefined) {
+      return (
+        <div className="row">
+          {this.props.content.map(content => this.renderSponsorRow(content))}
+        </div>
+      );
+    } else {
+      return '';
+    }
   }
 }
 

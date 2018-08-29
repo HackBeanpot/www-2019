@@ -4,7 +4,7 @@ const Circuit3 = () => (
   <svg
     version="1.1"
     id="Layer_1"
-    className="circuit3"
+    className="common-image circuit3"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     x="0px"

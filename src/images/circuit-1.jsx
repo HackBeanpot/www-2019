@@ -3,7 +3,7 @@ import React from 'react';
 const Circuit1 = () => (
   <svg
     version="1.1"
-    className="circuit1"
+    className="common-image circuit1"
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
