@@ -1,8 +1,8 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 const mailchimpUrl = 'todo mailchimp url';
-const cocUrl = 'todo code of conduct url';
 
 const Footer = () => (
   <div className="dark-background footer">
@@ -43,7 +43,9 @@ const Footer = () => (
     <div className="center-text">
       <p>
         HackBeanpot, Inc. is a registered 501(c)(3) organization.
-        <a href="cocUrl">Code of Conduct</a>
+        <Link className="coc-link" to="/CodeOfConduct/">
+          Code of Conduct
+        </Link>
       </p>
     </div>
   </div>

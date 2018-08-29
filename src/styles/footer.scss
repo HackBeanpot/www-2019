@@ -1,4 +1,6 @@
-// Styles for the site footer
+@import './constants.scss';
+
+/* Styles for the site footer*/
 .footer {
   p {
     margin: 0;
@@ -14,4 +16,9 @@
   width: 50px;
   padding: 5px;
   vertical-align: center;
+}
+
+.coc-header {
+  margin: 25px 0;
+  font-size: $title;
 }
