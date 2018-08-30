@@ -6,17 +6,13 @@ import FacebookBoxIcon from 'mdi-react/FacebookBoxIcon';
 import SnapchatIcon from 'mdi-react/SnapchatIcon';
 import LinkedinBoxIcon from 'mdi-react/LinkedinBoxIcon';
 
-const mailchimpUrl = 'todo mailchimp url';
+const mailchimpUrl =
+  'https://hackbeanpot.us9.list-manage.com/subscribe?u=13bbeb925dd0787e5b3b9b8c3&id=ce1b65ecda';
 
 const Footer = () => (
   <div className="dark-background footer">
     <div className="row">
-      <div className="offset-sm-2 col-sm-2 center">
-        <img
-          className="logo-small"
-          src="https://hackbeanpot.com/img/solid_logo.png"
-        />
-      </div>
+      <div className="offset-sm-2 col-sm-2 center">{/* TODO: New logo */}</div>
       <div className="col-sm-3 center-h-v">
         <span>
           <h3>Stay Connected</h3>
