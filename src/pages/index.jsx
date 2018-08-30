@@ -1,6 +1,5 @@
 import React from 'react';
 import FAQItems from 'components/faq-items';
-import MailingListPrompt from 'components/MailingListPrompt';
 import AboutItem from 'components/aboutItem/AboutItem';
 import FAQs from 'data/FAQs.json';
 import AboutContent from 'data/aboutContent.json';
@@ -9,7 +8,7 @@ const App = () => {
   return (
     <div className="light-background">
       <section className="landing-section container">
-        <div class="row">
+        <div className="row">
           <img
             className="hero-logo col-4"
             src="https://hackbeanpot.com/img/solid_logo.png"

@@ -19,7 +19,11 @@ const Nav = ({ siteTitle }) => (
         </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="https://projects.hackbeanpot.com/">
+        <a
+          className="nav-link"
+          href="https://projects.hackbeanpot.com/"
+          target="_blank"
+        >
           Projects
         </a>
       </li>
