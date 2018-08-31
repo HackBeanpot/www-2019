@@ -1,12 +1,14 @@
 import React from 'react';
-import IntuitLogo from 'images/intuit';
 
 const SponsorLogos = () => (
   <div>
     <h2 className="sponsor-header">2018 Sponsors</h2>
     <div className="row">
       <a href="https://www.intuit.com/" className="sponsor col-12 text-center">
-        <IntuitLogo />
+        <img
+          className="intuit-logo"
+          src="https://www.intuit.com/content/dam/intuit/intuitcom/company/images/logo-intuit-preferred.png"
+        />
       </a>
     </div>
     <div className="row">
@@ -77,16 +79,16 @@ const SponsorLogos = () => (
     <div className="row">
       <a
         href="http://www.gtiproperties.com/"
-        className="sponsor col-md-6 text-center"
+        className="sponsor col-md-5 offset-md-2 text-center"
       >
         <img
-          className="sponsor-image"
+          className="sponsor-image sponsor-image-wide"
           src="https://hackbeanpot.com/img/sponsors/GTI_logo-840.png"
         />
       </a>
       <a
         href="http://www.roughdraft.vc/"
-        className="sponsor col-md-6 text-center"
+        className="sponsor col-md-3 text-center"
       >
         <img
           className="sponsor-image"
