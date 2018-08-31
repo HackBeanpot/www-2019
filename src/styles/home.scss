@@ -1,10 +1,4 @@
-@charset "UTF-8";
-
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
-@import '../pages/stories/stories.scss';
-@import '../pages/sponsors/sponsors.scss';
-@import '../components/aboutItem/AboutItem.scss';
-@import './constants.scss';
+// Styles for the home page
 
 .landing-section {
   height: 100vh;
@@ -53,16 +47,31 @@
 // FAQ
 
 .faq-section {
-  clear: both;
-  background: #d3d3d3;
+  /* Placeholder */
+}
+
+.faq-title {
+  font-size: $title;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .faq-masonry-element {
-  width: 500px;
-  padding: 10px 20px;
+  width: 48%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .faq-masonry-element {
+    width: 100%;
+  }
 }
 
-// SPONSORS
+.faq-element-question {
+  font-size: $subtitle;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 1.15em;
+}
 
 .sponsors-section {
   .sponsor-header {
@@ -127,4 +136,9 @@
       width: 80%;
     }
   }
+}
+
+.faq-element-answer {
+  font-size: $small-body;
+  margin: 0;
 }

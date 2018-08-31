@@ -1,10 +1,10 @@
 import React from 'react';
 import FAQItems from 'components/faq-items';
-import MailingListPrompt from 'components/MailingListPrompt';
+import MailingListPrompt from 'components/mailing-list-prompt';
+import AboutItem from 'components/aboutItem/about-item';
+import FAQs from 'data/faqs.json';
+import AboutContent from 'data/about-content.json';
 import SponsorLogos from 'components/sponsor-logos';
-import AboutItem from 'components/aboutItem/AboutItem';
-import FAQs from 'data/FAQs.json';
-import AboutContent from 'data/aboutContent.json';
 
 const App = () => {
   return (
@@ -52,8 +52,8 @@ const App = () => {
         ))}
       </section>
 
-      <section className="faq-section">
-        <h2>Frequently Asked Questions</h2>
+      <section className="faq-section container">
+        <p className="faq-title">Frequently Asked Questions</p>
         <FAQItems FAQs={FAQs} />
       </section>
 
