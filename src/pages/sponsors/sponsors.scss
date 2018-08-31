@@ -79,6 +79,12 @@
   color: $light-blue;
 }
 
+.sponsor-level-description {
+  @media (max-width: 1024px) {
+    padding-bottom: 30px;
+  }
+}
+
 // images
 .common-image {
   position: absolute;
@@ -96,7 +102,7 @@
 .circuit2 {
   transform: scaleX(-1);
   top: 150px;
-  left: -225px;
+  left: -250px;
 }
 
 .circuit3 {
