@@ -4,6 +4,7 @@ import MailingListPrompt from 'components/mailing-list-prompt';
 import AboutItem from 'components/aboutItem/about-item';
 import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
+import SponsorLogos from 'components/sponsor-logos';
 
 const App = () => {
   return (
@@ -51,27 +52,13 @@ const App = () => {
         ))}
       </section>
 
-      <section className="faq-section">
-        <h2>Frequently Asked Questions</h2>
+      <section className="faq-section container">
+        <p className="faq-title">Frequently Asked Questions</p>
         <FAQItems FAQs={FAQs} />
       </section>
 
-      <section className="sponsors-section">
-        <h2>2019 Sponsors</h2>
-        <div>
-          <img
-            className="sponsor"
-            src="https://www.freelogodesign.org/Content/img/logo-ex-5.png"
-          />
-          <img
-            className="sponsor"
-            src="https://www.freelogodesign.org/Content/img/logo-ex-5.png"
-          />
-          <img
-            className="sponsor"
-            src="https://www.freelogodesign.org/Content/img/logo-ex-5.png"
-          />
-        </div>
+      <section className="sponsors-section container">
+        <SponsorLogos />
       </section>
     </div>
   );

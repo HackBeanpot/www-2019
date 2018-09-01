@@ -1,0 +1,79 @@
+import React from 'react';
+
+const GrowIcon = () => (
+  <svg
+    version="1.1"
+    id="Layer_1"
+    className="grow-icon"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    x="0px"
+    y="0px"
+    width="89.97px"
+    height="87.384px"
+    viewBox="0 0 89.97 87.384"
+    enableBackground="new 0 0 89.97 87.384"
+    xmlSpace="preserve"
+  >
+    <g>
+      <path
+        fill="none"
+        stroke="#70E0A3"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        d="M52.713,44.814
+       c6.966-8.05,19.467-24.427,19.467-24.427"
+      />
+      <path
+        fill="none"
+        stroke="#70E0A3"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        d="M42.127,85.884V63.571
+       c0,0,0.08-4.546,5.293-10.872"
+      />
+      <path
+        fill="none"
+        stroke="#70E0A3"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        d="M39.275,61.037
+       c1.711,2.835,2.806,5.858,2.791,8.94"
+      />
+      <path
+        fill="none"
+        stroke="#70E0A3"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        d="M14.756,41.129
+       c0,0,9.379,5.27,16.018,12.747"
+      />
+      <path
+        fill="none"
+        stroke="#70E0A3"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        d="M50.331,49.644
+       c0,0-17.751-14.512-0.354-32.751C62.151,4.129,81.326,1.604,81.326,1.604s14.646,20.355,1.998,38.125
+       C75.468,50.771,66.442,57.206,50.331,49.644z"
+      />
+      <path
+        fill="none"
+        stroke="#70E0A3"
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeMiterlimit="10"
+        d="M35.908,58.728
+       c0,0,8.43-15.062-7.076-24.04c-15.506-8.979-26.905-1.862-26.905-1.862s-3.321,14.79,8.565,24.72
+       C22.38,67.478,35.908,58.728,35.908,58.728z"
+      />
+    </g>
+  </svg>
+);
+
+export default GrowIcon;

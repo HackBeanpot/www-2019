@@ -1,7 +1,7 @@
 @import '../../styles/constants.scss';
 
 .sponsor-welcome {
-  padding-bottom: 100px;
+  padding-bottom: 175px;
 }
 
 .sponsor-perks {
@@ -14,24 +14,35 @@
 
 .sponsor-cta {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   padding-left: 0;
   text-align: left;
-  font-size: 20px;
+  font-size: $large-body;
   color: $navy;
 }
 
 .sponsor-title {
   text-align: left;
-  font-size: 40px;
+  font-size: $title;
   font-weight: 600;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .sponsor-subtitle {
-  font-size: 25px;
+  font-size: $subtitle;
   font-weight: 600;
+  padding-bottom: 25px;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.sponsor-section-header {
+  text-align: center;
+  font-size: $title;
+  font-weight: 600;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .sponsor-button {
@@ -40,5 +51,79 @@
   padding: 10px 40px;
   border-radius: 33px;
   border-style: none;
-  font-size: 20px;
+  font-size: $large-body;
+}
+
+.sponsor-button-center {
+  margin: 0 auto;
+  display: block;
+}
+
+.sponsor-perk-cta {
+  text-align: center;
+  font-size: $large-body;
+  padding-bottom: 50px;
+}
+
+.sponsor-level {
+  padding-bottom: 50px;
+}
+
+.sponsor-level-row {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: $large-body;
+}
+
+.sponsor-level-quote {
+  color: $light-blue;
+}
+
+.sponsor-level-description {
+  @media (max-width: 1024px) {
+    padding-bottom: 30px;
+  }
+}
+
+// images
+.common-image {
+  position: absolute;
+  z-index: 10;
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.circuit1 {
+  right: 50px;
+  top: -100px;
+}
+
+.circuit2 {
+  transform: scaleX(-1);
+  top: 150px;
+  left: -250px;
+}
+
+.circuit3 {
+  transform: scaleX(-1);
+  transform: scaleY(-1);
+  top: 750px;
+  right: -225px;
+}
+
+.sponsor-blob-1 {
+  z-index: 9;
+  right: -250px;
+  top: -150px;
+}
+
+.sponsor-blob-2 {
+  left: -100px;
+  bottom: -75px;
+}
+
+.sponsor-blob-3 {
+  right: -100px;
+  bottom: -125px;
 }

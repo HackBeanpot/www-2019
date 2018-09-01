@@ -44,12 +44,98 @@
 
 // FAQ
 .faq-section {
-  clear: both;
-  background: #d3d3d3;
+  /* Placeholder */
 }
 
-// SPONSORS
-.sponsor {
-  height: 20%;
-  width: 20%;
+.faq-title {
+  font-size: $title;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.faq-masonry-element {
+  width: 48%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .faq-masonry-element {
+    width: 100%;
+  }
+}
+
+.faq-element-question {
+  font-size: $subtitle;
+  font-weight: 700;
+  margin-bottom: 5px;
+  line-height: 1.15em;
+}
+
+.sponsors-section {
+  .sponsor-header {
+    font-size: 35px;
+    padding-top: 15px;
+  }
+
+  .sponsor {
+    align-content: center;
+    transition-duration: 0.3s;
+
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @media (max-width: 992px) {
+      height: auto;
+    }
+  }
+
+  .sponsor-square {
+    height: 225px;
+    @media (max-width: 992px) {
+      height: auto;
+    }
+  }
+
+  .sponsor:hover {
+    transform: scale(1.05);
+  }
+
+  .intuit-logo {
+    height: 200px;
+    position: relative;
+    top: -50px;
+    @media (max-width: 992px) {
+      height: 130px;
+      top: 0;
+    }
+  }
+
+  .sponsor-image {
+    height: 100px;
+    width: auto;
+    @media (max-width: 992px) {
+      height: auto;
+      width: 80%;
+    }
+  }
+
+  .sponsor-image-wide {
+    height: auto;
+    width: 100%;
+  }
+
+  .sponsor-square-image {
+    height: 200px;
+    @media (max-width: 992px) {
+      height: auto;
+      width: 80%;
+    }
+  }
+}
+
+.faq-element-answer {
+  font-size: $small-body;
+  margin: 0;
 }
