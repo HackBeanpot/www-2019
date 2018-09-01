@@ -19,6 +19,16 @@
   vertical-align: middle;
 }
 
+.footer-heading {
+  color: $teal;
+  font-size: $subtitle;
+}
+
+a,
+a:hover {
+  color: $teal;
+}
+
 .coc-header {
   margin: 25px 0;
   font-size: $title;
