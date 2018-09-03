@@ -418,7 +418,7 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.273"
+            "version": "^1.9.277"
           },
           {
             "name": "gatsby-link",
@@ -433,6 +433,10 @@
             "version": "^1.1.3"
           },
           {
+            "name": "mdi-react",
+            "version": "^4.2.0"
+          },
+          {
             "name": "react",
             "version": "^16.4.1"
           },
@@ -443,6 +447,14 @@
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-mailchimp-subscribe",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "react-masonry-component",
+            "version": "^6.2.1"
           }
         ],
         "devDependencies": [
@@ -559,12 +571,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-07-24T16:34:45.005Z",
+      "buildTime": "2018-09-03T19:35:13.634Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f06512e325dc5deb7a1c911cc906295a",
+        "contentDigest": "292c413d84803e769ae537f597eed473",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -585,7 +597,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4ba1f5d4425a2c8d15542304678e8134",
+        "contentDigest": "67fb70cffc702dcf2a18a0493d221c2c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /codeOfConduct/": {
+      "layout": "index",
+      "jsonName": "code-of-conduct.json",
+      "internalComponentName": "ComponentCodeOfConduct",
+      "path": "/codeOfConduct/",
+      "component": "/home/circleci/project/src/pages/codeOfConduct/index.jsx",
+      "componentChunkName": "component---src-pages-code-of-conduct-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/codeOfConduct/index.jsx",
+      "id": "SitePage /codeOfConduct/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4b3cb70d26a6ea6b2e4b3f40b6db4063",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -606,7 +639,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4b08a8ef523cd5f661b5192550c83e83",
+        "contentDigest": "1175efd2e41e9244dea0ea2833b988d7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -627,7 +660,49 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b01f341e6110d4b69ab65fc730588967",
+        "contentDigest": "61bade3de908859f9374ca52ec69f790",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /sponsors/components/sponsor-levels/": {
+      "layout": "index",
+      "jsonName": "sponsors-components-sponsor-levels.json",
+      "internalComponentName": "ComponentSponsorsComponentsSponsorLevels",
+      "path": "/sponsors/components/sponsor-levels/",
+      "component": "/home/circleci/project/src/pages/sponsors/components/sponsor-levels.jsx",
+      "componentChunkName": "component---src-pages-sponsors-components-sponsor-levels-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/sponsors/components/sponsor-levels.jsx",
+      "id": "SitePage /sponsors/components/sponsor-levels/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d723a3195dabb2803894ce8ad2c3be54",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /sponsors/": {
+      "layout": "index",
+      "jsonName": "sponsors.json",
+      "internalComponentName": "ComponentSponsors",
+      "path": "/sponsors/",
+      "component": "/home/circleci/project/src/pages/sponsors/index.jsx",
+      "componentChunkName": "component---src-pages-sponsors-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/circleci/project/src/pages/sponsors/index.jsx",
+      "id": "SitePage /sponsors/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8cbeb9e8c064ce5b9419309e332a4b28",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -648,7 +723,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb8da96cbc427a47b6df0aaacec398a4",
+        "contentDigest": "7bad2bee0d057a8a2bd3bd7d41023f7a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -669,7 +744,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "acffa3c324b4ce4c0cb5bbda65309723",
+        "contentDigest": "dfb073887b8e979f30f52554695c2496",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -690,7 +765,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d3bcb00c6bb679868a6c48090d639b29",
+        "contentDigest": "a1d0015cd94248d3bb39ef63d80c464d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -711,7 +786,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5afa1e0b8d83032bf6e61a5ab163353e",
+        "contentDigest": "e5f301a8ed723e359c07318e82e92550",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -732,7 +807,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "481a4a04c5ab453d710a8260896cf9a5",
+        "contentDigest": "e6b11eefc9605b639d08a257ef52d1b0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -753,7 +828,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5c57a63d7c47e93b1f35cffd9578aee",
+        "contentDigest": "3024f068503a6fc0030e62f4b394ee28",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +836,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "2a016dfa882453b8e1230df44c184b7a"
+    "PLUGINS_HASH": "0b0be24b95eced74637fe61bcc3334db"
   },
   "componentDataDependencies": {
     "nodes": {},

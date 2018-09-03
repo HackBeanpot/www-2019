@@ -7,6 +7,13 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-code-of-conduct-index-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "code-of-conduct.json",
+        "path": "/codeOfConduct/"
+    },
+    {
         "componentChunkName": "component---src-pages-index-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
@@ -19,6 +26,20 @@
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
         "jsonName": "projects.json",
         "path": "/projects/"
+    },
+    {
+        "componentChunkName": "component---src-pages-sponsors-components-sponsor-levels-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "sponsors-components-sponsor-levels.json",
+        "path": "/sponsors/components/sponsor-levels/"
+    },
+    {
+        "componentChunkName": "component---src-pages-sponsors-index-jsx",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-jsx",
+        "jsonName": "sponsors.json",
+        "path": "/sponsors/"
     },
     {
         "componentChunkName": "component---src-pages-stories-components-featured-projects-jsx",
