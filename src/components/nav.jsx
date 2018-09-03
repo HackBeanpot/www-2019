@@ -1,11 +1,13 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Logo from 'images/icon@4x.png';
 
 const Nav = ({ siteTitle }) => (
   // TODO arrange links for mobile/smaller screens
   <nav className="container navbar navbar-expand-lg navbar-light bg-light hbp-nav">
     <Link className="navbar-brand" to="/">
-      {siteTitle}
+      {/* {siteTitle} */}
+      <img src={Logo} className="navbar-logo" />
     </Link>
     <ul className="navbar-nav mr-auto">
       {/* <li className="nav-item">
