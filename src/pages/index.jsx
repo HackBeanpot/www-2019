@@ -5,17 +5,17 @@ import AboutItem from 'components/aboutItem/about-item';
 import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
 import SponsorLogos from 'components/sponsor-logos';
+import Logo from 'images/logo-full.jsx';
 
 const App = () => {
   return (
     <div className="light-background">
       <section className="landing-section container">
         <div className="row">
-          <img
-            className="hero-logo col-4"
-            src="https://hackbeanpot.com/img/solid_logo.png"
-          />
-          <div className="offset-1 col-6">
+          <div className="hero-logo col-sm-5">
+            <Logo />
+          </div>
+          <div className="offset-1 col-sm-6">
             <div className="header-content">
               <div>
                 <p className="header-text">
