@@ -16,10 +16,11 @@ import HomeBlob6 from 'images/home-blob-6';
 import Circuit1 from 'images/circuit-1';
 import Circuit2 from 'images/circuit-2';
 import Circuit3 from 'images/circuit-3';
+import LogoWhite from 'images/logo-white.jsx';
 
 const App = () => {
   return (
-    <div className="light-background">
+    <div className="light-background home">
       <HomeBlob1 />
       <HomeBlob2 />
       <HomeBlob3 />
@@ -30,11 +31,10 @@ const App = () => {
       <Circuit2 />
       <section className="landing-section container">
         <div className="row">
-          <img
-            className="hero-logo col-md-4"
-            src="https://hackbeanpot.com/img/solid_logo.png"
-          />
-          <div className="offset-md-1 col-md-6 header">
+          <div className="col-md-5">
+            <LogoWhite />
+          </div>
+          <div className="col-md-7 header">
             <div className="header-content">
               <div>
                 <p className="header-text">

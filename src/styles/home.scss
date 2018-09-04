@@ -29,7 +29,7 @@
 .header-title {
   font-size: 72px;
   font-weight: 700;
-  padding: 15px 0px;
+  padding: 30px 0px;
   @media (max-width: 1024px) {
     font-size: 50px;
   }
@@ -179,58 +179,65 @@
   margin: 0;
 }
 
-// images
-.common-image {
-  position: absolute;
-  z-index: 10;
-  @media (max-width: 1024px) {
-    display: none;
+// home images
+.home {
+  .common-image {
+    position: absolute;
+    z-index: 10;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
-}
 
-//light blue blob 1
-.home-blob-1 {
-  right: -75px;
-  top: -150px;
-}
+  .logo-small {
+    background-color: $navy;
+    width: 100%;
+  }
 
-//bean blob 1
-.home-blob-2 {
-  left: -150px;
-  top: 150px;
-}
+  //light blue blob 1
+  .home-blob-1 {
+    right: -75px;
+    top: -150px;
+  }
 
-//green blob
-.home-blob-3 {
-  right: -225px;
-  top: 1000px;
-}
+  //bean blob 1
+  .home-blob-2 {
+    left: -150px;
+    top: 150px;
+  }
 
-//purple blob
-.home-blob-4 {
-  left: -100px;
-  top: 1650px;
-}
+  //green blob
+  .home-blob-3 {
+    right: -225px;
+    top: 1000px;
+  }
 
-//bean blob 2
-.home-blob-5 {
-  right: 0;
-  top: 2300px;
-}
+  //purple blob
+  .home-blob-4 {
+    left: -100px;
+    top: 1650px;
+  }
 
-//light blue blob 2
-.home-blob-6 {
-  right: -150px;
-  bottom: 1050px;
-}
+  //bean blob 2
+  .home-blob-5 {
+    right: 0;
+    top: 2300px;
+  }
 
-.circuit1 {
-  left: 300px;
-  top: 1750px;
-}
+  //light blue blob 2
+  .home-blob-6 {
+    right: -150px;
+    bottom: 1050px;
+  }
 
-.circuit2 {
-  transform: rotate(90deg) scaleX(-1);
-  left: 70%;
-  top: 250px;
+  .circuit1 {
+    left: 300px;
+    top: 1750px;
+  }
+
+  .circuit2 {
+    transform: rotate(90deg) scaleX(-1);
+    left: 70%;
+    top: 250px;
+  }
 }
