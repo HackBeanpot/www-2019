@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Masonry from 'react-masonry-component';
 
 const masonryOptions = {
-    gutter: 20 // Horizontal margin for masonry columns
+  gutter: 20 // Horizontal margin for masonry columns
 };
 
 class FAQItems extends Component {
@@ -11,14 +11,16 @@ class FAQItems extends Component {
   }
 
   render() {
-    const childElements = this.props.FAQs.map(FAQ => (
-      <div className="faq-masonry-element">
-        <p className="faq-element-question">{FAQ.question}</p>
-        <p className="faq-element-answer">{FAQ.answer}</p>
+    return (
+      <div className="row">
+        {this.props.FAQs.map(FAQ => (
+          <div className="col-md-6 faq-question">
+            <p className="faq-element-question">{FAQ.question}</p>
+            <p className="faq-element-answer light-background">{FAQ.answer}</p>
+          </div>
+        ))}
       </div>
-    ));
-
-    return <Masonry options={masonryOptions}>{childElements}</Masonry>;
+    );
   }
 }
 FAQItems.defaultProps = {

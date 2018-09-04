@@ -6,16 +6,35 @@ import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
 import SponsorLogos from 'components/sponsor-logos';
 
+import HomeBlob1 from 'images/home-blob-1';
+import HomeBlob2 from 'images/home-blob-2';
+import HomeBlob3 from 'images/home-blob-3';
+import HomeBlob4 from 'images/home-blob-4';
+import HomeBlob5 from 'images/home-blob-5';
+import HomeBlob6 from 'images/home-blob-6';
+
+import Circuit1 from 'images/circuit-1';
+import Circuit2 from 'images/circuit-2';
+import Circuit3 from 'images/circuit-3';
+
 const App = () => {
   return (
     <div className="light-background">
+      <HomeBlob1 />
+      <HomeBlob2 />
+      <HomeBlob3 />
+      <HomeBlob4 />
+      <HomeBlob5 />
+      <HomeBlob6 />
+      <Circuit1 />
+      <Circuit2 />
       <section className="landing-section container">
         <div className="row">
           <img
-            className="hero-logo col-4"
+            className="hero-logo col-md-4"
             src="https://hackbeanpot.com/img/solid_logo.png"
           />
-          <div className="offset-1 col-6">
+          <div className="offset-md-1 col-md-6 header">
             <div className="header-content">
               <div>
                 <p className="header-text">
@@ -37,7 +56,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
       <section className="about-section container">
         <p className="about-title">HackBeanpot is about...</p>
         {AboutContent.map(item => (
@@ -51,12 +69,21 @@ const App = () => {
           />
         ))}
       </section>
-
-      <section className="faq-section container">
-        <p className="faq-title">Frequently Asked Questions</p>
-        <FAQItems FAQs={FAQs} />
+      <section className="faq-section dark-background">
+        <div className="container">
+          <p className="faq-title">Frequently Asked Questions</p>
+          <FAQItems FAQs={FAQs} />
+          <div>
+            <div className="center-text faq-button-title">
+              Don't see your question?
+              <br />
+              <a role="button" class="btn yellow-btn lg-btn">
+                Email Us
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
-
       <section className="sponsors-section container">
         <SponsorLogos />
       </section>

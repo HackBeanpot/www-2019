@@ -2,6 +2,9 @@
 
 .sponsor-welcome {
   padding-bottom: 175px;
+  @media (max-width: 1024px) {
+    padding-bottom: 50px;
+  }
 }
 
 .sponsor-perks {
@@ -27,6 +30,9 @@
   font-weight: 600;
   padding-top: 100px;
   padding-bottom: 50px;
+  @media (max-width: 1024px) {
+    padding-top: 50px;
+  }
 }
 
 .sponsor-subtitle {
@@ -43,6 +49,9 @@
   font-weight: 600;
   padding-top: 100px;
   padding-bottom: 50px;
+  @media (max-width: 1024px) {
+    padding-top: 50px;
+  }
 }
 
 .sponsor-button {

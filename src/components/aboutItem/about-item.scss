@@ -5,24 +5,51 @@ img {
 .about-item-title {
   font-size: $subtitle;
   font-weight: 700;
+  @media (max-width: 1024px) {
+    margin-top: 1rem;
+  }
+}
+
+.about-item-description {
+  font-size: $large-body;
 }
 
 .about-item {
   clear: both;
-  overflow:auto; 
-  margin-bottom: 70px;
+  overflow: auto;
+  margin-bottom: 150px;
+  margin-top: 125px;
+  @media (max-width: 1024px) {
+    margin-bottom: 75px;
+    margin-top: 75px;
+  }
+}
+
+.about-image {
+  height: 300px;
+  width: auto;
+  @media (max-width: 1024px) {
+    height: auto;
+    width: 100%;
+  }
 }
 
 .align-left-img {
   float: left;
-  width: 100%;
 }
 
 .align-right-img {
   float: right;
-  width: 100%;
 }
 
 .about-item-content {
-  float: left;
+  text-align: left;
+  padding-left: 50px;
+  @media (max-width: 1024px) {
+    padding-left: 0;
+  }
+}
+
+.align-right-content {
+  padding-left: 0;
 }
