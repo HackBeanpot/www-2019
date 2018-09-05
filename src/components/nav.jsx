@@ -6,7 +6,6 @@ const Nav = ({ siteTitle }) => (
   // TODO arrange links for mobile/smaller screens
   <nav className="container navbar navbar-expand-lg navbar-light bg-light hbp-nav">
     <Link className="navbar-brand" to="/">
-      {/* {siteTitle} */}
       <img src={Logo} className="navbar-logo" />
     </Link>
     <ul className="navbar-nav mr-auto">
