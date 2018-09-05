@@ -16,11 +16,18 @@ const AboutItem = props => {
     <div className="about-item">
       <img
         src={props.imgSrc}
-        className={`col-sm-5 align-${props.floatDirection}-img`}
+        className={`col-md-5 about-image align-${props.floatDirection}-img`}
       />
-      <div className={`offset-sm-1 col-sm-5 about-item-content align-${props.floatDirection}-text`}>
+      <div
+        className={`col-md-7 about-item-content align-${
+          props.floatDirection
+        }-content`}
+      >
         <p className="about-item-title">{props.title}</p>
-        <div dangerouslySetInnerHTML={{ __html: props.content }} />
+        <div
+          className="about-item-description"
+          dangerouslySetInnerHTML={{ __html: props.content }}
+        />
         {button}
       </div>
     </div>
