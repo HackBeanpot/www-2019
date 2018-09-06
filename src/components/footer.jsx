@@ -1,33 +1,39 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import MailchimpSubscribe from 'react-mailchimp-subscribe';
 import InstagramIcon from 'mdi-react/InstagramIcon';
 import FacebookBoxIcon from 'mdi-react/FacebookBoxIcon';
-import SnapchatIcon from 'mdi-react/SnapchatIcon';
+import TwitterBoxIcon from 'mdi-react/TwitterBoxIcon';
 import LinkedinBoxIcon from 'mdi-react/LinkedinBoxIcon';
 import LogoWhite from 'images/logo-white.jsx';
-
-const mailchimpUrl =
-  'https://hackbeanpot.us9.list-manage.com/subscribe?u=13bbeb925dd0787e5b3b9b8c3&id=ce1b65ecda';
 
 const Footer = () => (
   <div className="dark-background footer">
     <div className="row">
-      <div className="offset-sm-2 col-sm-2 center">
+      <div className="offset-sm-2 col-sm-3 center-h-v">
+        <a href="http://eepurl.com/dFx_Cf" target="blank">
+          <h3 className="footer-heading">Join Our Mailing List</h3>
+        </a>
+      </div>
+      <div className="col-sm-2 center-h-v">
         <LogoWhite />
       </div>
       <div className="col-sm-3 center-h-v">
         <span>
-          <h3 className="footer-heading">Stay Connected</h3>
-          <MailchimpSubscribe url={mailchimpUrl} />
-        </span>
-      </div>
-      <div className="col-sm-3 center-h-v">
-        <span>
-          <InstagramIcon className="icon-small" />
-          <FacebookBoxIcon className="icon-small" />
-          <SnapchatIcon className="icon-small" />
-          <LinkedinBoxIcon className="icon-small" />
+          <a href="https://www.instagram.com/hackbeanpot" target="blank">
+            <InstagramIcon className="icon-small" />
+          </a>
+          <a href="https://www.facebook.com/hackbeanpot" target="blank">
+            <FacebookBoxIcon className="icon-small" />
+          </a>
+          <a href="https://twitter.com/hackbeanpot" target="blank">
+            <TwitterBoxIcon className="icon-small" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/hackbeanpot-inc/"
+            target="blank"
+          >
+            <LinkedinBoxIcon className="icon-small" />
+          </a>
         </span>
       </div>
     </div>
