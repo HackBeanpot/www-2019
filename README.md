@@ -23,6 +23,8 @@ All other branches are probably used for developing things. When you make one, t
 
 Once your PR is approved, select the **squash and merge** option. Commits can be merged unsquashed if you feel that they are meaningful (ie if they each fulfill their own purpose). The goal is to keep the commit history organized so that it is easy to find when certain changes are made. Remember to delete your personal branches after merging to keep the repo clean.
 
+**DO NOT SQUASH COMMITS WHEN MERGING INTO MASTER!!** This messes with the source history.
+
 ## Directory Structure
 
 New pages will be added to the `src/pages` folder, which also represents the url of each page. Each folder `x` in the pages folder will correspond to the url path `.../x`, which will render the `index.jsx` file for that path.
@@ -58,3 +60,4 @@ Forbidden magic. Basically. (Coming soon, Warren will write about it)
 * [React](https://reactjs.org/docs/hello-world.html)
 * [Gatsby Components](https://www.gatsbyjs.org/docs/building-with-components/)
 * [Prettier](https://prettier.io/)
+* [Icons](https://github.com/levrik/mdi-react)
