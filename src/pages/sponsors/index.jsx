@@ -19,7 +19,13 @@ class SponsorsPage extends React.Component {
           <div className="container sponsor-welcome">
             <div className="sponsor-title">{MainContent.title}</div>
             <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
-            <button className="sponsor-button">Get In Touch</button>
+            <a
+              href="mailto:team@hackbeanpot.com"
+              role="button"
+              className="yellow-btn lg-btn sponsor-button"
+            >
+              Get In Touch
+            </a>
           </div>
           <Circuit1 />
           <SponsorBlob1 />
@@ -34,9 +40,13 @@ class SponsorsPage extends React.Component {
             <div className="sponsor-section-header">
               Interested in learning about our full sponsorship packet?
             </div>
-            <button className="sponsor-button sponsor-button-center">
+            <a
+              href="mailto:team@hackbeanpot.com"
+              role="button"
+              className="yellow-btn lg-btn sponsor-button sponsor-button-center"
+            >
               Email Us
-            </button>
+            </a>
           </div>
           <Circuit2 />
           <Circuit3 />
