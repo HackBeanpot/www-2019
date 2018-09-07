@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
     <div className="center-text">
       <p>
-        HackBeanpot, Inc. is a registered 501(c)(3) organization.
+        HackBeanpot, Inc. is a registered 501(c)(3) organization.&nbsp;
         <Link className="coc-link" to="/CodeOfConduct/">
           Code of Conduct
         </Link>
