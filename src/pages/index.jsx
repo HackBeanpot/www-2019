@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import FAQItems from 'components/faq-items';
 import MailingListPrompt from 'components/mailing-list-prompt';
 import AboutItem from 'components/aboutItem/about-item';
@@ -50,9 +51,9 @@ const App = () => {
                 </strong>
               </p>
             </div>
-            <a href="/sponsors" role="button" className="yellow-btn lg-btn">
+            <Link to="/sponsors" role="button" className="yellow-btn lg-btn">
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
       </section>
