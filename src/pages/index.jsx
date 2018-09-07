@@ -31,11 +31,7 @@ const App = () => {
       <Circuit2 />
       <section className="landing-section container">
         <div className="row">
-          {/* <div className="hero-logo col-sm-5">
-            <Logo />
-          </div>
-          <div className="offset-1 col-sm-6"> */}
-          <div className="col-md-5">
+          <div className="hero-logo col-md-5">
             <Logo />
           </div>
           <div className="col-md-7 header">

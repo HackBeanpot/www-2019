@@ -1,5 +1,4 @@
-// Styles for the home page
-
+// HEADER
 .landing-section {
   height: fit-content;
   align-items: center;
@@ -15,23 +14,9 @@
 .hero-logo {
   width: 100%;
   height: 100%;
-  @media (max-width: 1024px) {
+  padding: 0 50px;
+  @media (max-width: 767px) {
     display: none;
-  }
-}
-
-.icon {
-  height: 50px;
-  width: 50px;
-}
-
-// HEADER
-.header-title {
-  font-size: 72px;
-  font-weight: 700;
-  padding: 30px 0px;
-  @media (max-width: 1024px) {
-    font-size: 50px;
   }
 }
 
@@ -41,11 +26,24 @@
 }
 
 .header-content {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.header-title {
+  font-size: 72px;
+  font-weight: 700;
+  padding: 30px 0px;
+  @media (max-width: 1024px) {
+    font-size: 50px;
+  }
 }
 
 .header-text {
+  width: 80%;
   font-size: $large-body;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
 }
 
 // ABOUT
@@ -60,9 +58,12 @@
 }
 
 .about-title {
-  font-size: $title;
+  font-size: $large-title;
   font-weight: 700;
   margin-bottom: 50px;
+  @media (max-width: 1024px) {
+    font-size: $med-title;
+  }
 }
 
 // FAQ
@@ -76,13 +77,13 @@
 }
 
 .faq-title {
-  font-size: $title;
+  font-size: $med-title;
   font-weight: 700;
   margin-bottom: 50px;
 }
 
 .faq-button-title {
-  font-size: $title;
+  font-size: $med-title;
   font-weight: 700;
   margin-bottom: 50px;
   line-height: 70px;

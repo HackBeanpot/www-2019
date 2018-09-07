@@ -1,6 +1,7 @@
 .navbar {
-  background: $gray !important;
+  background: transparent !important;
   padding-top: 20px;
+  z-index: 50;
 }
 
 .navbar-logo {
@@ -13,5 +14,11 @@
 
 .nav-link {
   color: $navy !important;
+  font-size: 18px;
   font-weight: 600;
+  transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+  transform: rotate(-7deg);
 }

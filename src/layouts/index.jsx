@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
         { name: 'keywords', content: 'Hack Beanpot' }
       ]}
     />
-    <Nav siteTitle={'HackBeanpot'} />
+    <Nav />
     <div>{children()}</div>
     <Footer />
   </div>

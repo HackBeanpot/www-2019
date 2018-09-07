@@ -24,12 +24,12 @@
   font-size: $subtitle;
 }
 
-a,
-a:hover {
+.footer a,
+.footer a:hover {
   color: $teal;
 }
 
 .coc-header {
   margin: 25px 0;
-  font-size: $title;
+  font-size: $med-title;
 }

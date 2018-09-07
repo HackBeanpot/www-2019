@@ -12,6 +12,9 @@ img {
 
 .about-item-description {
   font-size: $large-body;
+  @media (max-width: 1024px) {
+    font-size: $small-body;
+  }
 }
 
 .about-item {
@@ -32,6 +35,9 @@ img {
     height: auto;
     width: 100%;
   }
+  @media (max-width: 767px) {
+    margin-bottom: 35px;
+  }
 }
 
 .align-left-img {
@@ -45,11 +51,25 @@ img {
 .about-item-content {
   text-align: left;
   padding-left: 50px;
-  @media (max-width: 1024px) {
+  @media (max-width: 767px) {
+    text-align: center;
     padding-left: 0;
   }
 }
 
 .align-right-content {
   padding-left: 0;
+  padding-right: 50px;
+  @media (max-width: 767px) {
+    padding-right: 0;
+  }
+}
+
+.about-item-description a {
+  color: $purple;
+}
+
+.about-item-description a:hover {
+  opacity: 0.6;
+  text-decoration: none;
 }

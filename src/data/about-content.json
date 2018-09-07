@@ -18,7 +18,7 @@
     },
     "floatDirection": "right",
     "content":
-      "<p>Projects at HackBeanpot are about learning and exploration. In past years they’ve ranged from an IoT pill bottle (SecureStash) to a crowdsourced music playlist (CrowdDJ) to a scripting language made entirely of emojis (EmojiScript).</p>"
+      "<p>Projects at HackBeanpot are about learning and exploration. In past years they’ve ranged from a <a href='https://github.com/crowddj/crowddj-react/'>crowdsourced music playlist</a> to a <a href='https://github.com/dan3944/emojiscript/'>scripting language made entirely of emojis</a>.</p>"
   },
   {
     "title": "The people.",
