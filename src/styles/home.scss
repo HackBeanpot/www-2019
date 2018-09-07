@@ -108,10 +108,29 @@
   line-height: 1.15em;
 }
 
+.faq-element-answer {
+  font-size: $small-body;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 0;
+}
+
 .sponsors-section {
-  .sponsor-header {
-    font-size: 35px;
-    padding-top: 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @media (max-width: 1024px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .sponsors-title {
+    font-size: $large-title;
+    font-weight: 700;
+    margin-bottom: 50px;
+    @media (max-width: 1024px) {
+      font-size: $med-title;
+    }
   }
 
   .sponsor {
@@ -168,16 +187,14 @@
     height: 200px;
     @media (max-width: 992px) {
       height: auto;
-      width: 80%;
+      width: 50%;
     }
   }
-}
 
-.faq-element-answer {
-  font-size: $small-body;
-  padding: 15px 30px;
-  border-radius: 10px;
-  margin: 0;
+  .in-kind-sponsors {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 }
 
 // home images
@@ -228,7 +245,7 @@
   //light blue blob 2
   .home-blob-6 {
     right: -150px;
-    bottom: 1050px;
+    bottom: 1350px;
   }
 
   .circuit1 {

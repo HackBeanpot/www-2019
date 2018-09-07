@@ -86,6 +86,7 @@ const App = () => {
         </div>
       </section>
       <section className="sponsors-section container">
+        <p className="sponsors-title">2018 Sponsors</p>
         <SponsorLogos />
       </section>
     </div>

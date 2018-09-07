@@ -2,7 +2,6 @@ import React from 'react';
 
 const SponsorLogos = () => (
   <div>
-    <h2 className="sponsor-header">2018 Sponsors</h2>
     <div className="row">
       <a href="https://www.intuit.com/" className="sponsor col-12 text-center">
         <img
@@ -97,26 +96,31 @@ const SponsorLogos = () => (
       </a>
     </div>
 
-    <h2 className="sponsor-header">In-kind sponsors</h2>
-    <div className="row">
-      <a
-        href="http://unionsquaredonuts.com/"
-        className="sponsor sponsor-square col-md-6 text-center"
-      >
-        <img
-          className="sponsor-image sponsor-square-image"
-          src="http://static1.squarespace.com/static/51dacd5be4b0a4195e57886a/t/54622df0e4b0719cb5b6638a/1534606111839/"
-        />
-      </a>
-      <a
-        href="https://www.chipotle.com/"
-        className="sponsor sponsor-square col-md-6 text-center"
-      >
-        <img
-          className="sponsor-image sponsor-square-image"
-          src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/1200px-Chipotle_Mexican_Grill_logo.svg.png"
-        />
-      </a>
+    <div className="in-kind-sponsors">
+      <h2>
+        <strong>In-kind sponsors</strong>
+      </h2>
+
+      <div className="row">
+        <a
+          href="http://unionsquaredonuts.com/"
+          className="sponsor sponsor-square col-md-6 text-center"
+        >
+          <img
+            className="sponsor-image sponsor-square-image"
+            src="http://static1.squarespace.com/static/51dacd5be4b0a4195e57886a/t/54622df0e4b0719cb5b6638a/1534606111839/"
+          />
+        </a>
+        <a
+          href="https://www.chipotle.com/"
+          className="sponsor sponsor-square col-md-6 text-center"
+        >
+          <img
+            className="sponsor-image sponsor-square-image"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/1200px-Chipotle_Mexican_Grill_logo.svg.png"
+          />
+        </a>
+      </div>
     </div>
   </div>
 );
