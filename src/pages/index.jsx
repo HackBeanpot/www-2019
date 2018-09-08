@@ -1,6 +1,5 @@
 import React from 'react';
 import FAQItems from 'components/faq-items';
-import MailingListPrompt from 'components/mailing-list-prompt';
 import AboutItem from 'components/aboutItem/about-item';
 import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';

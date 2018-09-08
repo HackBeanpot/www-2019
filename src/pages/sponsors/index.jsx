@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 
 import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
+import SponsorLogos from 'components/sponsor-logos';
+
 import Circuit1 from 'images/circuit-1';
 import Circuit2 from 'images/circuit-2';
 import Circuit3 from 'images/circuit-3';
@@ -15,38 +17,42 @@ class SponsorsPage extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="light-background">
-          <div className="container sponsor-welcome">
-            <div className="sponsor-title">{MainContent.title}</div>
-            <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
-            <button className="sponsor-button">Get In Touch</button>
-          </div>
-          <Circuit1 />
-          <SponsorBlob1 />
-          <SponsorBlob2 />
-        </div>
-
-        <div className="dark-background">
-          <div className="container sponsor-perks">
-            <div className="sponsor-section-header">{MainContent.perks}</div>
-            <div className="sponsor-perk-cta">{MainContent.perksCta}</div>
-            <SponsorLevels content={LevelContent} />
-            <div className="sponsor-section-header">
-              Interested in learning about our full sponsorship packet?
+        <div className="sponsorship">
+          <div className="light-background">
+            <div className="container sponsor-welcome">
+              <div className="sponsor-title">{MainContent.title}</div>
+              <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
+              <button className="sponsor-button">Get In Touch</button>
             </div>
-            <button className="sponsor-button sponsor-button-center">
-              Email Us
-            </button>
+            <Circuit1 />
+            <SponsorBlob1 />
+            <SponsorBlob2 />
           </div>
-          <Circuit2 />
-          <Circuit3 />
-        </div>
 
-        <div className="light-background">
-          <div className="container sponsors">
-            <div className="sponsor-section-header">Past Sponsors</div>
+          <div className="dark-background">
+            <div className="container sponsor-perks">
+              <div className="sponsor-section-header">{MainContent.perks}</div>
+              <div className="sponsor-perk-cta">{MainContent.perksCta}</div>
+              <SponsorLevels content={LevelContent} />
+              <div className="sponsor-section-header">
+                Interested in learning about our full sponsorship packet?
+              </div>
+              <button className="sponsor-button sponsor-button-center">
+                Email Us
+              </button>
+            </div>
+            <Circuit2 />
+            <Circuit3 />
           </div>
-          <SponsorBlob3 />
+
+          <div className="light-background">
+            <div className="container sponsors">
+              <section className="sponsors-section container">
+                <SponsorLogos />
+              </section>
+            </div>
+            <SponsorBlob3 />
+          </div>
         </div>
       </Fragment>
     );

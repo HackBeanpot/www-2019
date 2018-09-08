@@ -11,18 +11,16 @@ class FAQItems extends Component {
   }
 
   render() {
-    return (
-      <div className="row">
-        {this.props.FAQs.map(FAQ => (
-          <div className="col-md-6 faq-question">
-            <p className="faq-element-question">{FAQ.question}</p>
-            <p className="faq-element-answer light-background">{FAQ.answer}</p>
-          </div>
-        ))}
+    const childElements = this.props.FAQs.map(FAQ => (
+      <div className="faq-masonry-element">
+        <p className="faq-element-question">{FAQ.question}</p>
+        <p className="faq-element-answer light-background">{FAQ.answer}</p>
       </div>
-    );
+    ));
+    return <Masonry options={masonryOptions}>{childElements}</Masonry>;
   }
 }
+
 FAQItems.defaultProps = {
   FAQs: [
     {

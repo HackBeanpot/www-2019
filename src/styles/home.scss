@@ -88,15 +88,11 @@
   line-height: 70px;
 }
 
-.faq-question {
-  max-height: 200px;
-  min-height: 75px;
-  margin-bottom: 30px;
-  @media (max-width: 1024px) {
-    max-height: 400px;
-    min-height: 75px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+.faq-masonry-element {
+  width: 48%;
+  margin-bottom: 20px;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
   }
 }
 
@@ -104,13 +100,16 @@
   font-size: $subtitle;
   font-weight: 700;
   margin-bottom: 5px;
-  line-height: 1.15em;
+  height: auto;
 }
 
 .sponsors-section {
+  margin-top: 50px;
+
   .sponsor-header {
     font-size: 35px;
     padding-top: 15px;
+    line-height: 1.5;
   }
 
   .sponsor {
@@ -174,6 +173,7 @@
 
 .faq-element-answer {
   font-size: $small-body;
+  height: auto;
   padding: 15px 30px;
   border-radius: 10px;
   margin: 0;
@@ -185,7 +185,7 @@
     position: absolute;
     z-index: 10;
     @media (max-width: 1024px) {
-      display: none;
+      width: 50vh;
     }
   }
 
@@ -198,46 +198,71 @@
   .home-blob-1 {
     right: -75px;
     top: -150px;
+    @media (max-width: 1024px) {
+      top: -200px;
+    }
   }
 
   //bean blob 1
   .home-blob-2 {
     left: -150px;
     top: 150px;
+    @media (max-width: 1024px) {
+      top: 200px;
+    }
   }
 
   //green blob
   .home-blob-3 {
     right: -225px;
     top: 1000px;
+    @media (max-width: 1024px) {
+      top: 1200px;
+    }
   }
 
   //purple blob
   .home-blob-4 {
     left: -100px;
     top: 1650px;
+    @media (max-width: 1024px) {
+      top: 2250px;
+      left: -200px;
+    }
   }
 
   //bean blob 2
   .home-blob-5 {
     right: 0;
-    top: 2300px;
+    top: 2400px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 
   //light blue blob 2
   .home-blob-6 {
     right: -150px;
     bottom: 1050px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 
   .circuit1 {
     left: 300px;
     top: 1750px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 
   .circuit2 {
     transform: rotate(90deg) scaleX(-1);
     left: 70%;
     top: 250px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
 }
