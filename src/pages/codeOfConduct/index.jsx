@@ -2,11 +2,11 @@ import React from 'react';
 import Logo from 'images/logo-full.jsx';
 
 const CodeOfConduct = () => (
-  <div className="container">
+  <div className="container coc">
     <div className="hero-logo offset-sm-4 col-md-4">
       <Logo />
     </div>
-    <div className="coc light-background">
+    <div className="light-background">
       <div className="offset-sm-2 col-sm-8">
         <h2 className="coc-header">HackBeanpot Code of Conduct</h2>
         <p>
