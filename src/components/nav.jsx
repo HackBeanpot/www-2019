@@ -23,6 +23,15 @@ const Nav = () => (
           Projects
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          className="nav-link"
+          href="https://hackbeanpot.wordpress.com/"
+          target="_blank"
+        >
+          Blog
+        </a>
+      </li>
     </ul>
   </nav>
 );

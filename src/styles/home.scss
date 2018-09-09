@@ -2,10 +2,10 @@
 .landing-section {
   height: fit-content;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 300px;
+  margin-top: 175px;
+  margin-bottom: 250px;
   @media (max-width: 1024px) {
-    margin-top: 75px;
+    margin-top: 175px;
     margin-bottom: 50px;
     padding-bottom: 20px;
   }
@@ -22,6 +22,7 @@
 
 .header {
   overflow: hidden;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
