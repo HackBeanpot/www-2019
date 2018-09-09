@@ -29,7 +29,19 @@
   color: $teal;
 }
 
+.coc {
+  margin-bottom: 75px;
+}
+
+.coc a {
+  color: $purple;
+}
+
+.coc ul {
+  list-style-type: disc;
+}
+
 .coc-header {
   margin: 25px 0;
-  font-size: $med-title;
+  font-size: $large-title;
 }
