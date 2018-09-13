@@ -76,7 +76,11 @@ const App = () => {
             <div className="center-text faq-button-title">
               Don't see your question?
               <br />
-              <a role="button" class="btn yellow-btn lg-btn">
+              <a
+                href="mailto:team@hackbeanpot.com"
+                role="button"
+                class="btn yellow-btn lg-btn"
+              >
                 Email Us
               </a>
             </div>
