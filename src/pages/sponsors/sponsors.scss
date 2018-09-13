@@ -12,10 +12,6 @@
   padding-bottom: 100px;
 }
 
-.sponsors {
-  height: 500px;
-}
-
 .sponsor-cta {
   padding-top: 20px;
   padding-bottom: 50px;
@@ -67,6 +63,8 @@
 .sponsor-button-center {
   margin: 0 auto;
   display: block;
+  width: 180px;
+  text-align: center;
 }
 
 .sponsor-perk-cta {
@@ -96,44 +94,58 @@
 }
 
 // images
-.common-image {
-  position: absolute;
-  z-index: 10;
-  @media (max-width: 1024px) {
-    display: none;
+.sponsorship {
+  .common-image {
+    position: absolute;
+    z-index: 10;
+    @media (max-width: 1024px) {
+      width: 75vh;
+    }
   }
-}
 
-.circuit1 {
-  right: 50px;
-  top: -100px;
-}
+  .circuit1 {
+    right: 50px;
+    top: -100px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
 
-.circuit2 {
-  transform: scaleX(-1);
-  top: 150px;
-  left: -250px;
-}
+  .circuit2 {
+    transform: scaleX(-1);
+    top: 150px;
+    left: -250px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
 
-.circuit3 {
-  transform: scaleX(-1);
-  transform: scaleY(-1);
-  top: 750px;
-  right: -225px;
-}
+  .circuit3 {
+    transform: scaleX(-1);
+    transform: scaleY(-1);
+    top: 750px;
+    right: -225px;
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
 
-.sponsor-blob-1 {
-  z-index: 9;
-  right: -250px;
-  top: -150px;
-}
+  .sponsor-blob-1 {
+    z-index: 9;
+    right: -250px;
+    top: -150px;
+  }
 
-.sponsor-blob-2 {
-  left: -100px;
-  bottom: -75px;
-}
+  .sponsor-blob-2 {
+    left: -100px;
+    bottom: -75px;
+    @media (max-width: 1024px) {
+      bottom: -150px;
+    }
+  }
 
-.sponsor-blob-3 {
-  right: -100px;
-  bottom: -125px;
+  .sponsor-blob-3 {
+    right: -100px;
+    bottom: -125px;
+  }
 }

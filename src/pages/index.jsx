@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import FAQItems from 'components/faq-items';
-import MailingListPrompt from 'components/mailing-list-prompt';
 import AboutItem from 'components/aboutItem/about-item';
 import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
@@ -78,7 +77,11 @@ const App = () => {
             <div className="center-text faq-button-title">
               Don't see your question?
               <br />
-              <a role="button" class="btn yellow-btn lg-btn">
+              <a
+                href="mailto:team@hackbeanpot.com"
+                role="button"
+                class="btn yellow-btn lg-btn"
+              >
                 Email Us
               </a>
             </div>
