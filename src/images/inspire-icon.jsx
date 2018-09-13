@@ -2,97 +2,36 @@ import React from 'react';
 
 const InspireIcon = () => (
   <svg
-    version="1.1"
     id="Layer_1"
     className="inspire-icon"
+    dataName="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    x="0px"
-    y="0px"
-    width="69.938px"
-    height="108.112px"
-    viewBox="0 0 69.938 108.112"
-    enableBackground="new 0 0 69.938 108.112"
-    xmlSpace="preserve"
+    viewBox="0 0 110 110"
   >
-    <g>
-      <line
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        x1="29.084"
-        y1="106.612"
-        x2="40.343"
-        y2="106.612"
-      />
-      <line
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        x1="23.746"
-        y1="100.261"
-        x2="44.819"
-        y2="100.261"
-      />
-      <line
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        x1="23.746"
-        y1="94.199"
-        x2="44.819"
-        y2="94.199"
-      />
-      <path
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        d="M47.124,88.136c0,0,2.566-3.287,2.184-9.121
-       c-0.382-5.833,1.926-8.942,3.539-11.476c2.503-3.929,7.363-10.932,7.361-21.42c-0.001-4.305-2.051-24.576-25.495-24.576"
-      />
-      <line
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        x1="1.151"
-        y1="12.394"
-        x2="8.796"
-        y2="21.544"
-      />
-      <line
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        x1="34.713"
-        y1="0"
-        x2="34.713"
-        y2="11.471"
-      />
-      <line
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        x1="68.821"
-        y1="11.471"
-        x2="60.63"
-        y2="20.619"
-      />
-      <path
-        fill="none"
-        stroke="#FF6D6A"
-        strokeWidth="3"
-        strokeMiterlimit="10"
-        d="M22.302,88.136c0,0-2.565-3.287-2.182-9.121
-       c0.381-5.833-1.927-8.942-3.54-11.476c-2.503-3.929-7.363-10.932-7.361-21.42c0-4.305,2.051-24.576,25.495-24.576"
-      />
-    </g>
+    <title>Inspire Square</title>
+    <rect
+      className="cls-1"
+      x="10"
+      y="10.42"
+      width="90"
+      height="90"
+      rx="12"
+      ry="12"
+    />
+    <line className="cls-2" x1="50.86" y1="92.77" x2="58.75" y2="92.77" />
+    <line className="cls-2" x1="47.12" y1="88.32" x2="61.89" y2="88.32" />
+    <line className="cls-2" x1="47.12" y1="84.07" x2="61.89" y2="84.07" />
+    <path
+      className="cls-2"
+      d="M63.5,79.83A9.85,9.85,0,0,0,65,73.44c-.26-4.09,1.35-6.27,2.48-8,1.76-2.76,5.16-7.66,5.16-15,0-3-1.44-17.22-17.86-17.22"
+    />
+    <line className="cls-2" x1="31.29" y1="26.76" x2="36.65" y2="33.17" />
+    <line className="cls-2" x1="54.81" y1="18.07" x2="54.81" y2="26.11" />
+    <line className="cls-2" x1="78.71" y1="26.11" x2="72.97" y2="32.52" />
+    <path
+      className="cls-2"
+      d="M46.11,79.83a9.92,9.92,0,0,1-1.53-6.39c.27-4.09-1.35-6.27-2.48-8-1.75-2.76-5.16-7.66-5.15-15,0-3,1.43-17.22,17.86-17.22"
+    />
   </svg>
 );
 

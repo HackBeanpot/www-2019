@@ -97,7 +97,7 @@ const SponsorLogos = () => (
     </div>
 
     <div className="in-kind-sponsors">
-      <h2>
+      <h2 className="in-kind-heading">
         <strong>In-kind sponsors</strong>
       </h2>
 

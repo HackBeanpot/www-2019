@@ -32,7 +32,8 @@
 .header-title {
   font-size: 72px;
   font-weight: 700;
-  padding: 30px 0px;
+  // padding: 30px 0px;
+  line-height: 1.5;
   @media (max-width: 1024px) {
     font-size: 60px;
   }
@@ -77,21 +78,28 @@
 }
 
 .faq-title {
-  font-size: $med-title;
+  font-size: $large-title;
+  padding-left: 1%;
   font-weight: 700;
   margin-bottom: 50px;
+  @media only screen and (max-width: 600px) {
+  }
 }
 
 .faq-button-title {
   font-size: $med-title;
   font-weight: 700;
+  margin-top: 50px;
   margin-bottom: 50px;
   line-height: 70px;
 }
 
 .faq-masonry-element {
   width: 48%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  padding-left: 1%;
+  padding-right: 1%;
+
   @media only screen and (max-width: 600px) {
     width: 100%;
   }
@@ -198,6 +206,10 @@
     margin-top: 50px;
     margin-bottom: 30px;
   }
+
+  .in-kind-heading {
+    line-height: 1.5;
+  }
 }
 
 // home images
@@ -272,7 +284,7 @@
   }
 
   .circuit1 {
-    left: 300px;
+    left: 15%;
     top: 1750px;
     @media (max-width: 1024px) {
       display: none;
@@ -282,7 +294,7 @@
   .circuit2 {
     transform: rotate(90deg) scaleX(-1);
     left: 70%;
-    top: 250px;
+    top: 450px;
     @media (max-width: 1024px) {
       display: none;
     }

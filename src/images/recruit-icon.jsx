@@ -2,46 +2,28 @@ import React from 'react';
 
 const InspireIcon = () => (
   <svg
-    version="1.1"
     id="Layer_1"
+    dataName="Layer 1"
     className="recruit-icon"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    x="0px"
-    y="0px"
-    width="72.929px"
-    height="95.822px"
-    viewBox="0 0 72.929 95.822"
-    enableBackground="new 0 0 72.929 95.822"
-    xmlSpace="preserve"
+    viewBox="0 0 110 110"
   >
-    <g>
-      <path
-        fill="none"
-        stroke="#5461C8"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeMiterlimit="10"
-        d="
-       M15.663,91.091l7.339,3.231l7.38-16.762l11.784-26.766c11.044,2.004,22.43-3.717,27.151-14.44
-       C74.844,23.799,69.148,9.14,56.593,3.612C44.037-1.916,29.379,3.78,23.851,16.334c-4.979,11.312-0.853,24.328,9.193,30.84
-       l-0.021,0.033l-6.022,13.674l-9.784-4.309l-3.683,8.363l9.786,4.309l-3.801,8.629l-14.602-6.43L1.5,79.2l14.605,6.43l-2.086,4.737
-       L15.663,91.091z"
-      />
-
-      <circle
-        fill="none"
-        stroke="#5461C8"
-        strokeWidth="3"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeMiterlimit="10"
-        cx="46.7"
-        cy="26.081"
-        r="13.495"
-      />
-    </g>
+    <defs />
+    <title>Recruitment Square</title>
+    <rect
+      className="cls-1"
+      x="10.91"
+      y="11.04"
+      width="90"
+      height="90"
+      rx="12"
+      ry="12"
+    />
+    <path
+      className="cls-2"
+      d="M39.57,90l5.76,2.54,5.8-13.17,9.26-21a19.53,19.53,0,1,0-7.17-2.85l0,0L48.48,66.23l-7.69-3.38L37.9,69.42l7.68,3.38-3,6.78-11.47-5-2.69,6.09,11.48,5-1.64,3.72Z"
+    />
+    <circle className="cls-2" cx="63.95" cy="38.9" r="10.6" />
   </svg>
 );
 

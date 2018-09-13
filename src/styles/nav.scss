@@ -10,12 +10,17 @@
   }
 }
 
+.navbar-nav {
+  overflow: visible;
+}
+
 .navbar-logo {
   width: 50px;
 }
 
 .nav-item {
   padding: 0 10px;
+  overflow: visible;
 }
 
 .nav-link {

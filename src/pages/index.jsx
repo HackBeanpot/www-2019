@@ -45,13 +45,16 @@ const App = () => {
               <h1 className="logo-div header-title">HackBeanpot</h1>
               <p className="header-text">
                 <strong>
-                  We are currently looking for companies to sponsor HackBeanpot
-                  2019!
+                  HackBeanpot is a celebration of the Boston tech scene 🎉 Our
+                  nonprofit organization throws an annual hackathon for the most
+                  creative minds in town to dream up tomorrow’s technology. Tech
+                  companies, organizers, and students come together to expand
+                  their networks and build lasting relationships.
                 </strong>
               </p>
             </div>
             <Link to="/sponsors" role="button" className="yellow-btn lg-btn">
-              Learn more
+              Get involved!
             </Link>
           </div>
         </div>

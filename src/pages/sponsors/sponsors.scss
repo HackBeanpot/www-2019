@@ -3,6 +3,7 @@
 .sponsor-welcome {
   margin-top: 100px;
   margin-bottom: 175px;
+  overflow: visible;
   @media (max-width: 1024px) {
     margin-bottom: 100px;
   }
@@ -100,6 +101,48 @@
     z-index: 10;
     @media (max-width: 1024px) {
       width: 75vh;
+    }
+  }
+
+  .inspire-icon {
+    height: 108px;
+    .cls-1 {
+      fill: #fbdd40;
+    }
+    .cls-2 {
+      fill: none;
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+      stroke-width: 2px;
+    }
+  }
+
+  .grow-icon {
+    height: 108px;
+    .cls-1 {
+      fill: #70e0a3;
+    }
+    .cls-2 {
+      fill: none;
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+      stroke-width: 1.89px;
+    }
+  }
+
+  .recruit-icon {
+    height: 108px;
+    .cls-1 {
+      fill: #25c9d0;
+    }
+    .cls-2 {
+      fill: none;
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 2px;
     }
   }
 
