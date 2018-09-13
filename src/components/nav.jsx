@@ -4,7 +4,7 @@ import Logo from 'images/icon@4x.png';
 
 const Nav = () => (
   // TODO arrange links for mobile/smaller screens
-  <nav className="container navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="container navbar navbar-expand navbar-light bg-light">
     <Link className="navbar-brand" to="/">
       <img src={Logo} className="navbar-logo" />
     </Link>

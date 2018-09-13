@@ -1,9 +1,13 @@
 .navbar {
   background: transparent !important;
   padding-top: 20px;
-  padding-left: 50px;
   z-index: 50;
   position: absolute;
+  flex-flow: row nowrap !important;
+  justify-content: flex-start !important;
+  @media (min-width: 576px) {
+    padding-left: 50px;
+  }
 }
 
 .navbar-logo {
