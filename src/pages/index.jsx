@@ -39,18 +39,17 @@ const App = () => {
               <div>
                 <p className="header-text">
                   An independently-run Boston hackathon for curious students,
-                  hackers, makers, and beginners.
+                  hackers, makers, and beginners. 🎉
                 </p>
               </div>
               <h1 className="logo-div header-title">HackBeanpot</h1>
               <p className="header-text">
-                <strong>
-                  HackBeanpot is a celebration of the Boston tech scene 🎉 Our
-                  nonprofit organization throws an annual hackathon for the most
-                  creative minds in town to dream up tomorrow’s technology. Tech
-                  companies, organizers, and students come together to expand
-                  their networks and build lasting relationships.
-                </strong>
+                <strong>We are here to celebrate the Boston tech scene.</strong>
+                <br />
+                Our nonprofit organization throws an annual hackathon for the
+                most creative minds in town to dream up tomorrow’s technology.
+                Tech companies, organizers, and students come together to expand
+                their networks and build lasting relationships.
               </p>
             </div>
             <Link to="/sponsors" role="button" className="yellow-btn lg-btn">
