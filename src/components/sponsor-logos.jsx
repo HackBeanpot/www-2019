@@ -6,7 +6,7 @@ const SponsorLogos = () => (
       <a href="https://www.intuit.com/" className="sponsor col-12 text-center">
         <img
           className="intuit-logo"
-          src="https://www.intuit.com/content/dam/intuit/intuitcom/company/images/logo-intuit-preferred.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/intuit_1016px.png"
         />
       </a>
     </div>
@@ -17,7 +17,7 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/genuine-840.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/genuine_841px.png"
         />
       </a>
       <a
@@ -26,7 +26,7 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/jack-morton-logo.jpg"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/jackmorton_1044px.jpg"
         />
       </a>
     </div>
@@ -37,7 +37,7 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/PowerAdvocate-500.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/poweradvocate_1000px.png"
         />
       </a>
     </div>
@@ -45,7 +45,7 @@ const SponsorLogos = () => (
       <a href="https://www.trinetx.com/" className="sponsor col-12 text-center">
         <img
           className="sponsor-image"
-          src="https://www.trinetx.com/wp-content/uploads/2017/01/TriNetX-Logo-Horizontal-BK.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/trinetx_360px.png"
         />
       </a>
     </div>
@@ -56,13 +56,13 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/pan-neu-500.jpg"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/panneu_1000px.jpg"
         />
       </a>
-      <a href="https://drift.com//" className="sponsor col-md-4 text-center">
+      <a href="https://drift.com/" className="sponsor col-md-4 text-center">
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/DriftLogo-300.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/drift_491px.png"
         />
       </a>
       <a
@@ -71,7 +71,7 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/bookbub-428.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/bookbub_856px.png"
         />
       </a>
     </div>
@@ -82,7 +82,7 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image sponsor-image-wide"
-          src="https://hackbeanpot.com/img/sponsors/GTI_logo-840.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/gti_840px.png"
         />
       </a>
       <a
@@ -91,7 +91,7 @@ const SponsorLogos = () => (
       >
         <img
           className="sponsor-image"
-          src="https://hackbeanpot.com/img/sponsors/rdv-logo-150.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/rdv_300px.png"
         />
       </a>
     </div>
@@ -108,7 +108,7 @@ const SponsorLogos = () => (
         >
           <img
             className="sponsor-image sponsor-square-image"
-            src="http://static1.squarespace.com/static/51dacd5be4b0a4195e57886a/t/54622df0e4b0719cb5b6638a/1534606111839/"
+            src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/unionsquaredonuts_468px.png"
           />
         </a>
         <a
@@ -117,7 +117,7 @@ const SponsorLogos = () => (
         >
           <img
             className="sponsor-image sponsor-square-image"
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Chipotle_Mexican_Grill_logo.svg/1200px-Chipotle_Mexican_Grill_logo.svg.png"
+            src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/chipotle_1200px.png"
           />
         </a>
       </div>
