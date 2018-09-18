@@ -14,7 +14,10 @@ class FAQItems extends Component {
     const childElements = this.props.FAQs.map(FAQ => (
       <div className="faq-masonry-element">
         <p className="faq-element-question">{FAQ.question}</p>
-        <p className="faq-element-answer light-background">{FAQ.answer}</p>
+        <p
+          className="faq-element-answer light-background"
+          dangerouslySetInnerHTML={{ __html: FAQ.answer }}
+        />
       </div>
     ));
     return <Masonry options={masonryOptions}>{childElements}</Masonry>;

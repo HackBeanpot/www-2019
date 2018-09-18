@@ -118,6 +118,11 @@
   padding: 15px 30px;
   border-radius: 10px;
   margin: 0;
+
+  a {
+    color: $teal;
+    text-decoration: none;
+  }
 }
 
 .sponsors-section {
