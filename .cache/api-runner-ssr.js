@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('/home/circleci/project/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/home/circleci/project/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

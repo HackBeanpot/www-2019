@@ -196,7 +196,7 @@
       "resolve": "/home/circleci/project/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "pluginOptions": {
         "plugins": []
       },
@@ -209,7 +209,7 @@
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "2.0.10",
+        "version": "2.0.11",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -264,7 +264,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d18cf0bd042603009c7310ee9ee22fc7",
+        "contentDigest": "df930f004acbceef69cd55e867dfce01",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -394,11 +394,81 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/home/circleci/project/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "1.2.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/circleci/project/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "1.2.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fb2e4ea596f8ed1f138421ef183376e9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/home/circleci/project",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "0fbad321ff7e108657f22f2a1b2d9b42",
+      "version": "211736b32a33c848f8c09009a3fe3373",
       "pluginOptions": {
         "plugins": []
       },
@@ -426,11 +496,15 @@
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^2.0.10"
+            "version": "^2.0.11"
           },
           {
             "name": "gatsby-plugin-resolve-src",
             "version": "^1.1.3"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.25"
           },
           {
             "name": "mdi-react",
@@ -474,7 +548,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d19060524e35cc9019b51f5c8948650f",
+        "contentDigest": "989569de4ecdc2014bfc1b869af72b9b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -563,16 +637,17 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "HackBeanpot 2019 - Come together to build and learn this Spring"
+        "title": "HackBeanpot 2018",
+        "siteUrl": "https://hackbeanpot.com/"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-09-14T00:05:18.236Z",
+      "buildTime": "2018-09-18T04:01:35.629Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "771e8093e0a3dfa497dff8cccf6b8b64",
+        "contentDigest": "5dadc41b961abe4ad6cd43a32c5f9433",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -593,7 +668,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e59cd8320f4dc15f8b4b2acfeabadf59",
+        "contentDigest": "ef77655ba0b1c7d43ae7e87345262453",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -614,7 +689,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "320dfc998d171092b13df665e460a764",
+        "contentDigest": "9d59cd8ef8d0e11b2c457e8c6956b5ac",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -635,7 +710,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6263c2a7308038249a61ce6e8ea6c41e",
+        "contentDigest": "4ee275b3cacc4072e408fc69cc3e9ebb",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -656,7 +731,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f49821f46f4e6c3bad5261b5526a6d2d",
+        "contentDigest": "61b4eb42ed93f0846767698fe2fd3bf9",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -677,7 +752,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1637b0cb65d9c42349fa6a91bdf2f1b6",
+        "contentDigest": "b92a852718f69824388cc0dd75b89c56",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -698,7 +773,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bec1bf36a300ca183a77abf91d769429",
+        "contentDigest": "6c3f31a07959acd987a6ce36a5017bf3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -719,7 +794,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "86351b5243dab9ed053b1693ef9033f8",
+        "contentDigest": "65c2c3fd3019e7ebe261e5105dc1e89c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -740,7 +815,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2e12d0ac60d1b1cd1c8fda70684c5d76",
+        "contentDigest": "bf88401378b44f4c13c2759f14af5ca1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +836,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d561795ceb7ed70b073d67fbf8c11a6",
+        "contentDigest": "5b3b49c07a5659fd746e2b245a6d6e10",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -782,7 +857,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "faaf6a0ddfbae88e07b801cc325e458f",
+        "contentDigest": "c439a12731c4f80e9b9c4f64ad82cc5d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -803,7 +878,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f69d21beff30451943ee7cdc5836ea00",
+        "contentDigest": "1c9c6331d24e2ff5f3560343e0487e5a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -824,7 +899,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "59c46141760e86384c4c97ef0f3fe2ce",
+        "contentDigest": "3e628f1deabff36e6d62c5f9f0d40fb5",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -832,7 +907,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6dda76fb5400e6ec94242803b536f44e"
+    "PLUGINS_HASH": "17392acfa43c9ff24e8022b12eafb977"
   },
   "componentDataDependencies": {
     "nodes": {},
