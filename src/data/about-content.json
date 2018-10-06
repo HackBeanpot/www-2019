@@ -1,7 +1,7 @@
 [
   {
     "title": "The stories.",
-    "imgSrc": "https://bit.ly/2PFgbSD",
+    "imgSrc": "http://tools.hackbeanpot.com/assets/images/2018-hbp-candid.jpg",
     "hasBtn": false,
     "floatDirection": "left",
     "content":
@@ -9,7 +9,7 @@
   },
   {
     "title": "The projects.",
-    "imgSrc": "https://bit.ly/2MzTTn9",
+    "imgSrc": "http://tools.hackbeanpot.com/assets/images/2017-hbp-demo.jpg",
     "hasBtn": true,
     "btn": {
       "text": "See past projects",
@@ -22,7 +22,7 @@
   },
   {
     "title": "The people.",
-    "imgSrc": "https://bit.ly/2wul4oO",
+    "imgSrc": "http://tools.hackbeanpot.com/assets/images/2018-hbp-group.jpg",
     "hasBtn": true,
     "btn": {
       "text": "Check out our Sponsors page",
