@@ -34,7 +34,7 @@
 }
 
 .sponsor-subtitle {
-  font-size: $subtitle;
+  font-size: $med-title;
   font-weight: 600;
   padding-bottom: 25px;
   display: inline-block;
@@ -96,6 +96,10 @@
 
 // images
 .sponsorship {
+  .yellow-btn {
+    margin-bottom: 30px;
+  }
+
   .common-image {
     position: absolute;
     z-index: 10;
@@ -105,7 +109,7 @@
   }
 
   .inspire-icon {
-    height: 108px;
+    height: 90px;
     .cls-1 {
       fill: #fbdd40;
     }
@@ -119,7 +123,7 @@
   }
 
   .grow-icon {
-    height: 108px;
+    height: 90px;
     .cls-1 {
       fill: #70e0a3;
     }
@@ -133,7 +137,7 @@
   }
 
   .recruit-icon {
-    height: 108px;
+    height: 90px;
     .cls-1 {
       fill: #25c9d0;
     }

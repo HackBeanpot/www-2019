@@ -21,6 +21,20 @@
   z-index: 20;
 }
 
+a {
+  color: $teal;
+}
+
+a:hover {
+  color: $teal;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 7px;
+}
+
 body {
   background-color: $gray;
 }
@@ -52,7 +66,7 @@ body {
 
 .yellow-btn:hover {
   color: white;
-  background-color: #fad20a;
+  opacity: 1;
   text-decoration: none;
 }
 

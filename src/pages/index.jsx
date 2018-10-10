@@ -25,14 +25,23 @@ const App = () => {
   return (
     <div>
       <Helmet
-        title='HackBeanpot 2018'
+        title="HackBeanpot 2019"
         meta={[
-          { name: 'description', content: 'An independently-run Boston hackathon for curious students, hackers, makers, and beginners.' },
-          { name: 'keywords', content: 'hackathon, boston, students, hackers, makers, beginners' },
+          {
+            name: 'description',
+            content:
+              'An independently-run Boston hackathon for curious students, hackers, makers, and beginners.'
+          },
+          {
+            name: 'keywords',
+            content: 'hackathon, boston, students, hackers, makers, beginners'
+          },
+          {
+            name: 'theme-color',
+            content: '#db5945'
+          }
         ]}
-        link={[
-          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-        ]}
+        link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
       />
 
       <div className="light-background home">
@@ -59,12 +68,14 @@ const App = () => {
                 </div>
                 <h1 className="logo-div header-title">HackBeanpot</h1>
                 <p className="header-text">
-                  <strong>We are here to celebrate the Boston tech scene.</strong>
+                  <strong>
+                    We are here to celebrate the Boston tech scene.
+                  </strong>
                   <br />
                   Our nonprofit organization throws an annual hackathon for the
                   most creative minds in town to dream up tomorrow’s technology.
-                  Tech companies, organizers, and students come together to expand
-                  their networks and build lasting relationships.
+                  Tech companies, organizers, and students come together to
+                  expand their networks and build lasting relationships.
                 </p>
               </div>
               <Link to="/sponsors" role="button" className="yellow-btn lg-btn">

@@ -1,16 +1,25 @@
 [
   {
+    "question": "When and where is HackBeanpot 2019?",
+    "answer":
+      "HackBeanpot 2019 is February 8-10th at Catalant Technologies in the Seaport district of Boston"
+  },
+  {
     "question": "When will tickets be released?",
     "answer":
-    "Tickets for HackBeanpot 2019 will be released mid-January via Eventbrite. Join our mailing list and we'll let you know when!"
+      "Tickets for HackBeanpot 2019 will be released mid-January via Eventbrite. Join our mailing list and we'll let you know when!"
   },
   {
-    "question": "I don't have a lot of programming experience. Are hackathons for me?",
-    "answer": "Yes! People of all levels of experience attend HackBeanpot. If you get stuck, we have mentors to provide assistance. We care much more about fostering a fun environment where you can learn rather than an environment that only attracts elite hackers. Our blog advice for first-time hackers can be found <a href=\"https://hackbeanpot.wordpress.com/2017/12/27/first-blog-post/\" target=\"blank\">here</a> and <a href=\"https://hackbeanpot.wordpress.com/2017/12/27/more-advice-for-first-time-hackers/\" target=\"blank\">here</a>."
+    "question":
+      "I don't have a lot of programming experience. Are hackathons for me?",
+    "answer":
+      "Yes! People of all levels of experience attend HackBeanpot. If you get stuck, we have mentors to provide assistance. We care much more about fostering a fun environment where you can learn rather than an environment that only attracts elite hackers. Our blog advice for first-time hackers can be found <a href=\"https://hackbeanpot.wordpress.com/2017/12/27/first-blog-post/\" target=\"blank\">here</a> and <a href=\"https://hackbeanpot.wordpress.com/2017/12/27/more-advice-for-first-time-hackers/\" target=\"blank\">here</a>."
   },
   {
-    "question": "I am a student from ____. Is this hackathon open to students from my school?",
-    "answer": "Yes! HackBeanpot is open to anyone who is at least 16 years old. If you will be under 18 at the start of the event, please contact team@hackbeanpot.com to fill out extra paperwork before the event."
+    "question":
+      "I am a student from ____. Is this hackathon open to students from my school?",
+    "answer":
+      "Yes! HackBeanpot is open to anyone who is at least 16 years old. If you will be under 18 at the start of the event, please contact team@hackbeanpot.com to fill out extra paperwork before the event."
   },
   {
     "question": "Do you provide travel reimbursements?",
@@ -18,15 +27,18 @@
   },
   {
     "question": "Are there limits on team size?",
-    "answer": "No limits! However because prizes are budgeted for teams of 5 and under, we recommend max 5 members per team."
+    "answer":
+      "No limits! However because prizes are budgeted for teams of 5 and under, we recommend max 5 members per team."
   },
   {
     "question": "Should I bring my resume?",
-    "answer": "If you want to, sure! You can also upload your resume here and we'll pass it along to sponsoring companies."
+    "answer":
+      "If you want to, sure! You can also upload your resume here and we'll pass it along to sponsoring companies."
   },
   {
     "question": "Can I work on an old project?",
-    "answer": "Working on an existing project is ok, but you won't be eligible for prizes."
+    "answer":
+      "Working on an existing project is ok, but you won't be eligible for prizes."
   },
   {
     "question": "Will food be provided?",
@@ -34,10 +46,12 @@
   },
   {
     "question": "What should I bring?",
-    "answer": "HackBeanpot is an overnight hackathon, so we recommend bringing a laptop, charger, phone, toothbrush, and anything else you'd normally bring to an overnight event. We also wrote a <a href=\"https://hackbeanpot.wordpress.com/2018/01/23/what-to-bring-to-hackbeanpot-2018/\" target=\"blank\">blog post</a> about what to bring."
+    "answer":
+      "HackBeanpot is an overnight hackathon, so we recommend bringing a laptop, charger, phone, toothbrush, and anything else you'd normally bring to an overnight event. We also wrote a <a href=\"https://hackbeanpot.wordpress.com/2018/01/23/what-to-bring-to-hackbeanpot-2018/\" target=\"blank\">blog post</a> about what to bring."
   },
   {
     "question": "I have a dietary restriction. Will there be food for me?",
-    "answer": "Yes! Just make a note about your dietary restriction on the registration form; we'll make sure you're covered."
+    "answer":
+      "Yes! Just make a note about your dietary restriction on the registration form; we'll make sure you're covered."
   }
 ]

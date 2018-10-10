@@ -60,8 +60,19 @@ class SponsorsPage extends React.Component {
           <div className="light-background">
             <div className="container sponsors">
               <section className="sponsors-section container">
+                <p className="sponsors-title">2018 Sponsors</p>
                 <SponsorLogos />
               </section>
+              <div class="sponsor-section-header">
+                Interested in getting involved?
+              </div>
+              <a
+                href="mailto:team@hackbeanpot.com"
+                role="button"
+                class="yellow-btn lg-btn sponsor-button sponsor-button-center"
+              >
+                Email Us
+              </a>
             </div>
             <SponsorBlob3 />
           </div>

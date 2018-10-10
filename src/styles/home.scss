@@ -125,6 +125,10 @@
   }
 }
 
+.sponsor {
+  margin-bottom: 40px;
+}
+
 .sponsors-section {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -172,7 +176,9 @@
   }
 
   .sponsor:hover {
-    transform: scale(1.05);
+    @media (min-width: 992px) {
+      transform: scale(1.02);
+    }
   }
 
   .intuit-logo {
