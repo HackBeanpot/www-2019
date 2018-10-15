@@ -25,14 +25,19 @@ const App = () => {
   return (
     <div>
       <Helmet
-        title='HackBeanpot 2018'
+        title="HackBeanpot 2018"
         meta={[
-          { name: 'description', content: 'An independently-run Boston hackathon for curious students, hackers, makers, and beginners.' },
-          { name: 'keywords', content: 'hackathon, boston, students, hackers, makers, beginners' },
+          {
+            name: 'description',
+            content:
+              'An independently-run Boston hackathon for curious students, hackers, makers, and beginners.'
+          },
+          {
+            name: 'keywords',
+            content: 'hackathon, boston, students, hackers, makers, beginners'
+          }
         ]}
-        link={[
-          { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-        ]}
+        link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
       />
 
       <div className="light-background home">
@@ -51,20 +56,25 @@ const App = () => {
             </div>
             <div className="col-md-7 header">
               <div className="header-content">
-                <div>
-                  <p className="header-text">
-                    An independently-run Boston hackathon for curious students,
-                    hackers, makers, and beginners. 🎉
-                  </p>
-                </div>
-                <h1 className="logo-div header-title">HackBeanpot</h1>
                 <p className="header-text">
-                  <strong>We are here to celebrate the Boston tech scene.</strong>
+                  An independently-run Boston hackathon for curious students,
+                  hackers, makers, and beginners. 🎉
+                </p>
+                <div className="logo-div">
+                  <div className="mobile-logo">
+                    <Logo />
+                  </div>
+                  <h1 className="header-title">HackBeanpot</h1>
+                </div>
+                <p className="header-text">
+                  <strong>
+                    We are here to celebrate the Boston tech scene.
+                  </strong>
                   <br />
                   Our nonprofit organization throws an annual hackathon for the
                   most creative minds in town to dream up tomorrow’s technology.
-                  Tech companies, organizers, and students come together to expand
-                  their networks and build lasting relationships.
+                  Tech companies, organizers, and students come together to
+                  expand their networks and build lasting relationships.
                 </p>
               </div>
               <Link to="/sponsors" role="button" className="yellow-btn lg-btn">
