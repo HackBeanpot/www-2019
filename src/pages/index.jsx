@@ -60,13 +60,16 @@ const App = () => {
             </div>
             <div className="col-md-7 header">
               <div className="header-content">
-                <div>
-                  <p className="header-text">
-                    An independently-run Boston hackathon for curious students,
-                    hackers, makers, and beginners. 🎉
-                  </p>
+                <p className="header-text">
+                  An independently-run Boston hackathon for curious students,
+                  hackers, makers, and beginners. 🎉
+                </p>
+                <div className="logo-div">
+                  <div className="mobile-logo">
+                    <Logo />
+                  </div>
+                  <h1 className="header-title">HackBeanpot</h1>
                 </div>
-                <h1 className="logo-div header-title">HackBeanpot</h1>
                 <p className="header-text">
                   <strong>
                     We are here to celebrate the Boston tech scene.

@@ -26,7 +26,7 @@ const Nav = () => (
       <li className="nav-item">
         <a
           className="nav-link"
-          href="https://hackbeanpot.wordpress.com/"
+          href="https://medium.com/hackbeanblog"
           target="_blank"
         >
           Blog
