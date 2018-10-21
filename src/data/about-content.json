@@ -2,7 +2,11 @@
   {
     "title": "The stories.",
     "imgSrc": "http://tools.hackbeanpot.com/assets/images/2018-hbp-candid.jpg",
-    "hasBtn": false,
+    "btn": {
+      "text": "Read our stories",
+      "url": "https://medium.com/hackbeanblog",
+      "size": "lg-btn"
+    },
     "floatDirection": "left",
     "content":
       "<p>Memorable stories from HackBeanpot are just one of the things that make us unique. Our attendees range from CS graduate students to beginner designers who have never written a line of code before.</p>"
@@ -10,27 +14,25 @@
   {
     "title": "The projects.",
     "imgSrc": "http://tools.hackbeanpot.com/assets/images/2017-hbp-demo.jpg",
-    "hasBtn": true,
     "btn": {
       "text": "See past projects",
       "url": "https://projects.hackbeanpot.com/",
-      "size": "md-btn"
+      "size": "lg-btn"
     },
     "floatDirection": "right",
     "content":
-      "<p>Projects at HackBeanpot are about learning and exploration. In past years they’ve ranged from a <a href='https://github.com/crowddj/crowddj-react/'>crowdsourced music playlist</a> to a <a href='https://github.com/dan3944/emojiscript/'>scripting language made entirely of emojis</a>.</p>"
+      "<p>Projects at HackBeanpot are about learning and exploration. In past years they’ve ranged from a <a href='https://github.com/crowddj/crowddj-react/' target='_blank'>crowdsourced music playlist</a> to a <a href='https://github.com/dan3944/emojiscript/' target='_blank'>scripting language made entirely of emojis</a>.</p>"
   },
   {
     "title": "The people.",
     "imgSrc": "http://tools.hackbeanpot.com/assets/images/2018-hbp-group.jpg",
-    "hasBtn": true,
     "btn": {
       "text": "Check out our Sponsors page",
       "url": "/sponsors",
-      "size": "md-btn"
+      "size": "lg-btn"
     },
     "floatDirection": "left",
     "content":
-      "<p>Every year HackBeanpot looks forward to hosting 150+ curious students, experienced hackers, and hi-tech sponsors at the Genuine HQ in Boston. The only person we’re missing is you!</br></br><strong>Interested in sponsoring HackBeanpot?</strong></p>"
+      "<p>Every year HackBeanpot looks forward to hosting 150+ curious students, experienced hackers, and hi-tech sponsors in Boston. The only person we’re missing is you!</br></br><strong>Interested in sponsoring HackBeanpot?</strong></p>"
   }
 ]

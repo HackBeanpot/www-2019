@@ -55,7 +55,9 @@ const CodeOfConduct = () => (
           </li>
           <li>
             via Twitter:{' '}
-            <a href="https://www.twitter.com/hackbeanpot">@HackBeanpot</a>
+            <a href="https://www.twitter.com/hackbeanpot" target="_blank">
+              @HackBeanpot
+            </a>
           </li>
         </ul>
       </div>

@@ -62,12 +62,14 @@ body {
   background-color: $yellow;
   border-style: none;
   font-weight: 700;
+  transition-duration: 0.3s;
 }
 
 .yellow-btn:hover {
   color: white;
   opacity: 1;
   text-decoration: none;
+  background-color: #f9de57;
 }
 
 .lg-btn {

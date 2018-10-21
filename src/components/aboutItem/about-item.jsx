@@ -2,12 +2,13 @@ import React from 'react';
 
 const AboutItem = props => {
   let button;
-  if (props.hasBtn)
+  if (props.btn)
     button = (
       <a
         href={props.btn.url}
         role="button"
         className={`btn yellow-btn ${props.btn.size}`}
+        target="_blank"
       >
         {props.btn.text}
       </a>

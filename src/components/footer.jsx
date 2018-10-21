@@ -10,7 +10,7 @@ const Footer = () => (
   <div className="dark-background footer">
     <div className="row">
       <div className="offset-sm-2 col-sm-3 center-h-v">
-        <a href="http://eepurl.com/dFx_Cf" target="blank">
+        <a href="http://eepurl.com/dFx_Cf" target="_blank">
           <h3 className="footer-heading">Join Our Mailing List</h3>
         </a>
       </div>
@@ -19,18 +19,18 @@ const Footer = () => (
       </div>
       <div className="col-sm-3 center-h-v">
         <span>
-          <a href="https://www.instagram.com/hackbeanpot" target="blank">
+          <a href="https://www.instagram.com/hackbeanpot" target="_blank">
             <InstagramIcon className="icon-small" />
           </a>
-          <a href="https://www.facebook.com/hackbeanpot" target="blank">
+          <a href="https://www.facebook.com/hackbeanpot" target="_blank">
             <FacebookBoxIcon className="icon-small" />
           </a>
-          <a href="https://twitter.com/hackbeanpot" target="blank">
+          <a href="https://twitter.com/hackbeanpot" target="_blank">
             <TwitterBoxIcon className="icon-small" />
           </a>
           <a
             href="https://www.linkedin.com/company/hackbeanpot-inc/"
-            target="blank"
+            target="_blank"
           >
             <LinkedinBoxIcon className="icon-small" />
           </a>

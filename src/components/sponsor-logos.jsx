@@ -3,7 +3,11 @@ import React from 'react';
 const SponsorLogos = () => (
   <div>
     <div className="row">
-      <a href="https://www.intuit.com/" className="sponsor col-12 text-center">
+      <a
+        href="https://www.intuit.com/"
+        className="sponsor col-12 text-center"
+        target="_blank"
+      >
         <img
           className="intuit-logo"
           src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/intuit_1016px.png"
@@ -14,6 +18,7 @@ const SponsorLogos = () => (
       <a
         href="https://wearegenuine.com/"
         className="sponsor col-md-6 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image"
@@ -23,6 +28,7 @@ const SponsorLogos = () => (
       <a
         href="http://www.jackmorton.com/"
         className="sponsor col-md-6 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image"
@@ -32,8 +38,9 @@ const SponsorLogos = () => (
     </div>
     <div className="row">
       <a
-        href="https://marketing.poweradvocate.com/"
+        href="http://marketing.poweradvocate.com/"
         className="sponsor col-12 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image"
@@ -42,7 +49,11 @@ const SponsorLogos = () => (
       </a>
     </div>
     <div className="row">
-      <a href="https://www.trinetx.com/" className="sponsor col-12 text-center">
+      <a
+        href="https://www.trinetx.com/"
+        className="sponsor col-12 text-center"
+        target="_blank"
+      >
         <img
           className="sponsor-image"
           src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/trinetx_360px.png"
@@ -53,13 +64,18 @@ const SponsorLogos = () => (
       <a
         href="https://www.northeastern.edu/pan/"
         className="sponsor col-md-4 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image"
           src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/panneu_1000px.jpg"
         />
       </a>
-      <a href="https://drift.com/" className="sponsor col-md-4 text-center">
+      <a
+        href="https://drift.com/"
+        className="sponsor col-md-4 text-center"
+        target="_blank"
+      >
         <img
           className="sponsor-image"
           src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/drift_491px.png"
@@ -68,6 +84,7 @@ const SponsorLogos = () => (
       <a
         href="https://www.bookbub.com/careers"
         className="sponsor col-md-4 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image"
@@ -79,6 +96,7 @@ const SponsorLogos = () => (
       <a
         href="http://www.gtiproperties.com/"
         className="sponsor col-md-5 offset-md-2 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image sponsor-image-wide"
@@ -88,6 +106,7 @@ const SponsorLogos = () => (
       <a
         href="http://www.roughdraft.vc/"
         className="sponsor col-md-3 text-center"
+        target="_blank"
       >
         <img
           className="sponsor-image"
@@ -105,6 +124,7 @@ const SponsorLogos = () => (
         <a
           href="http://unionsquaredonuts.com/"
           className="sponsor sponsor-square col-md-6 text-center"
+          target="_blank"
         >
           <img
             className="sponsor-image sponsor-square-image"
@@ -114,6 +134,7 @@ const SponsorLogos = () => (
         <a
           href="https://www.chipotle.com/"
           className="sponsor sponsor-square col-md-6 text-center"
+          target="_blank"
         >
           <img
             className="sponsor-image sponsor-square-image"
