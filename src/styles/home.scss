@@ -239,6 +239,11 @@
     width: 100%;
   }
 
+  .sponsor-image-tall {
+    height: 100px;
+    width: auto;
+  }
+
   .sponsor-square-image {
     height: 200px;
     @media (max-width: 992px) {

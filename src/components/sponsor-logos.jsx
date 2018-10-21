@@ -109,7 +109,7 @@ const SponsorLogos = () => (
         target="_blank"
       >
         <img
-          className="sponsor-image"
+          className="sponsor-image sponsor-image-tall"
           src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/rdv_300px.png"
         />
       </a>
