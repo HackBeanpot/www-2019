@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Link from 'gatsby-link';
 import InstagramIcon from 'mdi-react/InstagramIcon';
 import FacebookBoxIcon from 'mdi-react/FacebookBoxIcon';
@@ -7,18 +7,12 @@ import LinkedinBoxIcon from 'mdi-react/LinkedinBoxIcon';
 import LogoWhite from 'images/logo-white.jsx';
 
 const Footer = () => (
-  <div className="dark-background footer">
+  <Fragment>
+  <div className="light-blue-background footer">
     <div className="row">
-      <div className="offset-sm-2 col-sm-3 center-h-v">
-        <a href="http://eepurl.com/dFx_Cf" target="blank">
-          <h3 className="footer-heading">Join Our Mailing List</h3>
-        </a>
-      </div>
-      <div className="col-sm-2 center-h-v">
-        <LogoWhite />
-      </div>
-      <div className="col-sm-3 center-h-v">
+    <div className="offset-sm-3 col-sm-3 center-h-v">
         <span>
+          <h3>Stay up to date!</h3>
           <a href="https://www.instagram.com/hackbeanpot" target="blank">
             <InstagramIcon className="icon-small" />
           </a>
@@ -35,6 +29,24 @@ const Footer = () => (
             <LinkedinBoxIcon className="icon-small" />
           </a>
         </span>
+    </div>
+
+    <div className="col-sm-3 center-h-v">
+    <a
+      href="http://eepurl.com/dFx_Cf"
+      target="blank"
+      role="button"
+      class="btn yellow-btn lg-btn"
+    >
+      Join our mailing list!
+    </a>
+    </div>
+  </div>
+  </div>
+  <div className="dark-background footer">
+    <div className="row">
+      <div className="offset-sm-5 col-sm-2 center-h-v">
+        <LogoWhite />
       </div>
     </div>
     <div className="center-text">
@@ -46,6 +58,7 @@ const Footer = () => (
       </p>
     </div>
   </div>
+  </Fragment>
 );
 
 export default Footer;

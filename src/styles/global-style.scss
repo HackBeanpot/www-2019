@@ -50,6 +50,12 @@ body {
   overflow: hidden;
 }
 
+.light-blue-background {
+  background-color: $light-blue;
+  color: $navy;
+  overflow: hidden;
+}
+
 .dark-background {
   background-color: $navy;
   color: $gray;
