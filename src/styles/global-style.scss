@@ -56,6 +56,12 @@ body {
   overflow: hidden;
 }
 
+.teal-background {
+  background-color: $teal;
+  color: $navy;
+  overflow: hidden;
+}
+
 .dark-background {
   background-color: $navy;
   color: $gray;

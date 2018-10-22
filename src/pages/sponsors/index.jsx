@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import Footer from 'components/footer';
 
 import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
 import SponsorLogos from 'components/sponsor-logos';
@@ -77,6 +78,7 @@ class SponsorsPage extends React.Component {
             <SponsorBlob3 />
           </div>
         </div>
+        <Footer firstBackgroundColor="teal" />
       </Fragment>
     );
   }

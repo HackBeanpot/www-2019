@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Link from 'gatsby-link';
+import Footer from 'components/footer';
 
 const Projects = () => (
-  <div>
+  <Fragment>
     <h1>Browse Projects</h1>
     <Link to="/">Go back to the homepage</Link>
-  </div>
+    <Footer firstBackgroundColor="light-blue" />
+  </Fragment>
 );
 
 export default Projects;

@@ -7,6 +7,7 @@ import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
 import SponsorLogos from 'components/sponsor-logos';
 import Logo from 'images/logo-full.jsx';
+import Footer from 'components/footer';
 
 import HomeBlob1 from 'images/home-blob-1';
 import HomeBlob2 from 'images/home-blob-2';
@@ -124,6 +125,7 @@ const App = () => {
           <SponsorLogos />
         </section>
       </div>
+      <Footer firstBackgroundColor="light-blue"/>
     </div>
   );
 };

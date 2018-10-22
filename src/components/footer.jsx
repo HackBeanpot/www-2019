@@ -6,9 +6,9 @@ import TwitterBoxIcon from 'mdi-react/TwitterBoxIcon';
 import LinkedinBoxIcon from 'mdi-react/LinkedinBoxIcon';
 import LogoWhite from 'images/logo-white.jsx';
 
-const Footer = () => (
+const Footer = props => (
   <Fragment>
-    <div className="light-blue-background footer">
+    <div className={'footer ' + props.firstBackgroundColor + '-background'}>
       <div className="row">
         <div className="offset-sm-3 col-sm-3 center-h-v">
           <span>
@@ -60,5 +60,9 @@ const Footer = () => (
     </div>
   </Fragment>
 );
+
+Footer.defaultProps = {
+  firstBackgroundColor: 'light-blue'
+};
 
 export default Footer;
