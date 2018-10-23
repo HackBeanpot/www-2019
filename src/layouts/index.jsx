@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+import StaticFooter from "../components/static-footer";
 import Nav from 'components/nav';
 import 'styles/global-style.scss';
 
@@ -17,6 +18,7 @@ const Layout = ({ children }) => (
     />
     <Nav />
     <div>{children()}</div>
+    <StaticFooter />
   </div>
 );
 
