@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 
+import DynamicFooter from 'components/dynamic-footer';
 import Stories from 'pages/stories/components/stories';
 import FeaturedProjects from 'pages/stories/components/featured-projects';
 
@@ -17,6 +18,7 @@ class StoriesPage extends React.Component {
 
         {/* TODO: Feed in projects data */}
         <FeaturedProjects />
+        <DynamicFooter firstBackgroundColor="light-blue" />
       </Fragment>
     );
   }

@@ -10,7 +10,7 @@
 }
 
 .sponsor-perks {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .sponsor-cta {
@@ -42,8 +42,7 @@
 }
 
 .sponsor-section-header {
-  text-align: center;
-  font-size: $med-title;
+  font-size: $large-title;
   font-weight: 600;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -69,7 +68,6 @@
 }
 
 .sponsor-perk-cta {
-  text-align: center;
   font-size: $large-body;
   padding-bottom: 50px;
 }
@@ -86,6 +84,15 @@
 
 .sponsor-level-quote {
   color: $light-blue;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.sponsor-level-credit {
+  font-weight: bold;
+  text-align: right;
 }
 
 .sponsor-level-description {
@@ -162,6 +169,7 @@
     transform: scaleX(-1);
     top: 150px;
     left: -250px;
+    opacity: 0.5;
     @media (max-width: 1024px) {
       display: none;
     }
@@ -172,6 +180,7 @@
     transform: scaleY(-1);
     top: 750px;
     right: -225px;
+    opacity: 0.5;
     @media (max-width: 1024px) {
       display: none;
     }
@@ -193,6 +202,6 @@
 
   .sponsor-blob-3 {
     right: -100px;
-    bottom: -140px;
+    bottom: -170px;
   }
 }

@@ -5,7 +5,13 @@
   p {
     margin: 0;
   }
-  padding: 25px 0;
+  padding: 50px 0;
+}
+
+.footer-cta {
+  @media (max-width: 1024px) {
+    margin-top: 30px;
+  }
 }
 
 .logo-small {
@@ -13,6 +19,7 @@
 }
 
 .icon-small {
+  color: white;
   width: 50px;
   height: 50px;
   padding: 5px;
@@ -25,18 +32,9 @@
   overflow: hidden;
 }
 
-.footer a,
-.footer a:hover {
-  color: $teal;
-}
-
 .coc {
   margin-top: 150px;
   margin-bottom: 75px;
-}
-
-.coc a {
-  color: $purple;
 }
 
 .coc ul {

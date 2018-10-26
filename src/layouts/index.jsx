@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
+import StaticFooter from "../components/static-footer";
 import Nav from 'components/nav';
-import Footer from 'components/footer';
 import 'styles/global-style.scss';
 
 // Shows the header and footer on every page
@@ -18,7 +18,7 @@ const Layout = ({ children }) => (
     />
     <Nav />
     <div>{children()}</div>
-    <Footer />
+    <StaticFooter />
   </div>
 );
 

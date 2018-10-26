@@ -30,7 +30,7 @@ class SponsorLevel extends React.Component {
           <div className="col-md-6">
             <div className="sponsor-level-quote">"{levelContent.quote}"</div>
             <br />
-            - {levelContent.credit}
+            <p class="sponsor-level-credit">{levelContent.credit}</p>
           </div>
         </div>
       </div>

@@ -32,7 +32,7 @@ a:hover {
 }
 
 img {
-  border-radius: 7px;
+  border-radius: 10px;
 }
 
 body {
@@ -46,6 +46,18 @@ body {
 
 .light-background {
   background-color: $gray;
+  color: $navy;
+  overflow: hidden;
+}
+
+.light-blue-background {
+  background-color: $light-blue;
+  color: $navy;
+  overflow: hidden;
+}
+
+.teal-background {
+  background-color: $teal;
   color: $navy;
   overflow: hidden;
 }
