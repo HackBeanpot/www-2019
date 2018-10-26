@@ -122,6 +122,13 @@ const App = () => {
         <section className="sponsors-section container">
           <p className="sponsors-title">2018 Sponsors</p>
           <SponsorLogos />
+          <a
+            href="/sponsors"
+            role="button"
+            class="yellow-btn lg-btn ponsor-button sponsor-button-center"
+          >
+            Become a sponsor
+          </a>
         </section>
       </div>
     </div>
