@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import FAQItems from 'components/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
+import CountdownClock from 'components/countdownClock/countdown-clock';
 import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
 import SponsorLogos from 'components/sponsor-logos';
@@ -81,6 +82,8 @@ const App = () => {
                   Catalant Technologies
                   <br />
                   Seaport District
+
+                  <CountdownClock />
                 </p>
               </div>
               <a href="https://docs.google.com/forms/u/2/d/1cdtsey9QeY5YiIELzRpcNxlk60qs8k-ppmuTfMBeG4c/edit?usp=drive_web" role="button" className="yellow-btn lg-btn">

@@ -1,0 +1,47 @@
+.days {
+  display: inline-block;
+}
+.days:after {
+  font-size: 2rem;
+  content: 'Days';
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.hours {
+  display: inline-block;
+}
+.hours:after {
+  font-size: 2rem;
+  content: 'Hours';
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.minutes {
+  display: inline-block;
+}
+.minutes:after {
+  font-size: 2rem;
+  content: 'Minutes';
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.seconds {
+  display: inline-block;
+}
+.seconds:after {
+  font-size: 2rem;
+  content: 'Seconds';
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+  display: block;
+}
