@@ -1,1 +1,51 @@
 @import '../styles/constants.scss';
+@import '../../styles/image-style.scss';
+
+.stories-title {
+  text-align: left;
+  font-size: $large-title;
+  font-weight: 600;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  @media (max-width: 1024px) {
+    padding-top: 50px;
+  }
+}
+
+.stories-section-header {
+  font-size: $large-title;
+  font-weight: 600;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  @media (max-width: 1024px) {
+    padding-top: 50px;
+  }
+}
+
+.stories-tell {
+  margin-bottom: 150px;
+}
+
+.stories-tell-quote {
+  padding-top: 50px;
+}
+
+.stories-cta {
+  text-align: left;
+  font-size: $large-body;
+  margin-bottom: 75px;
+}
+
+.stories-quote {
+  padding-top: 50px;
+  font-size: $large-body;
+}
+
+.stories-round-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-color: red;
+  border-radius: 300px;
+  border-style: none;
+}

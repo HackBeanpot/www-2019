@@ -19,7 +19,6 @@ import HomeBlob6 from 'images/home-blob-6';
 
 import Circuit1 from 'images/circuit-1';
 import Circuit2 from 'images/circuit-2';
-import Circuit3 from 'images/circuit-3';
 
 import favicon from './favicon.png';
 

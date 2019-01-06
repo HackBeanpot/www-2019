@@ -2,7 +2,10 @@ import React, { Fragment } from 'react';
 
 import DynamicFooter from 'components/dynamic-footer';
 import Stories from 'pages/stories/components/stories';
-import FeaturedProjects from 'pages/stories/components/featured-projects';
+
+import Circuit2 from 'images/circuit-2';
+import Circuit3 from 'images/circuit-3';
+import SponsorBlob3 from 'images/sponsor-blob-3';
 
 class StoriesPage extends React.Component {
   render() {
@@ -11,13 +14,49 @@ class StoriesPage extends React.Component {
         {/* TODO: Feed in stories data */}
         <Stories />
 
-        <div className="stories-future">
-          <h2>Our Future</h2>
-          <p>{/* TODO: Come up with content for this */}</p>
+        <div className="dark-background">
+          <div className="container stories-tell">
+            <div className="stories-section-header">
+              ... And we've got a story to tell.
+            </div>
+
+            <div className="row">
+              <div className="col-md-8 stories-cta">
+                Whether you're an attendee, mentor, or an organizer, you'll come
+                to HackBeanpot with a story to tell. <br /> Here's a collection
+                of stories of previous attendees. Our hackers are our priority
+                and we aim to have everyone walk out with stories as unique and
+                inspiring as these!
+              </div>
+            </div>
+            <div className="row stories-tell-quote">
+              <div className="offset-md-2 col-md-5 stories-quote">
+                <i>"Wow HackBeanpot is great wow i love"</i>
+                <div>- A Person, A Company</div>
+              </div>
+              <div className="stories-round-image">
+                Picture here Picture here Picture here Picture here Picture here
+                Picture here Picture here Picture here Picture here Picture here
+                Picture here Picture here Picture here Picture here Picture here
+                Picture here Picture here Picture here Picture here Picture here
+              </div>
+            </div>
+            <div className="row stories-tell-quote">
+              <div className="offset-md-2" />
+              <div className="stories-round-image">
+                Picture here Picture here Picture here Picture here Picture here
+                Picture here Picture here Picture here Picture here Picture here
+                Picture here Picture here Picture here Picture here Picture here
+                Picture here Picture here Picture here Picture here Picture here
+              </div>
+              <div className="col-md-5 stories-quote">
+                <i>"Wow HackBeanpot is great wow i love"</i>
+                <div>- Another Person, Another Company</div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* TODO: Feed in projects data */}
-        <FeaturedProjects />
         <DynamicFooter firstBackgroundColor="light-blue" />
       </Fragment>
     );
