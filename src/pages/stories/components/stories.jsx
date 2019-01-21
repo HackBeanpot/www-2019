@@ -7,7 +7,35 @@ import SponsorBlob2 from 'images/sponsor-blob-2';
 class Stories extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { quote: 'placeholder quote', author: 'Someone', from: 'NEU' };
+    this.state = {
+      quotes: [
+        {
+          content: 'Wow HackBeanpot is great wow i love',
+          author: 'an author',
+          company: 'company'
+        },
+        {
+          content: 'Wow HackBeanpot is great wow i love',
+          author: 'an author',
+          company: 'company'
+        },
+        {
+          content: 'Wow HackBeanpot is great wow i love',
+          author: 'an author',
+          company: 'company'
+        }
+      ]
+    };
+  }
+
+  renderAttendeeQuotes() {
+    return this.state.quotes.map((quote, index) => (
+      <Quote
+        floatDirection={index % 2 == 0 ? 'right' : 'left'}
+        quote={quote}
+        imgSrc="http://tools.hackbeanpot.com/assets/images/2018-hbp-candid.jpg"
+      />
+    ));
   }
 
   render() {
@@ -24,12 +52,7 @@ class Stories extends React.Component {
               as these!
             </div>
           </div>
-
-          <Quote
-            quote={this.state.quote}
-            author={this.state.author}
-            from={this.state.from}
-          />
+          {this.renderAttendeeQuotes()}
         </div>
         <Circuit1 />
         <SponsorBlob1 />

@@ -3,10 +3,6 @@ import React, { Fragment } from 'react';
 import DynamicFooter from 'components/dynamic-footer';
 import Stories from 'pages/stories/components/stories';
 
-import Circuit2 from 'images/circuit-2';
-import Circuit3 from 'images/circuit-3';
-import SponsorBlob3 from 'images/sponsor-blob-3';
-
 class StoriesPage extends React.Component {
   render() {
     return (
@@ -53,6 +49,18 @@ class StoriesPage extends React.Component {
                 <i>"Wow HackBeanpot is great wow i love"</i>
                 <div>- Another Person, Another Company</div>
               </div>
+            </div>
+            <div className="center-text stories-button-title">
+              Share your story with us!
+              <br />
+              <br />
+              <a
+                href="mailto:team@hackbeanpot.com"
+                role="button"
+                class="btn yellow-btn lg-btn"
+              >
+                Get Involved
+              </a>
             </div>
           </div>
         </div>
