@@ -83,7 +83,10 @@ const App = () => {
                   <br />
                   Seaport District
 
-                  <CountdownClock />
+                  <CountdownClock
+                    eventStartDate={new Date('February 8, 2019 00:00:01')}
+                    hackingEndDate={new Date('February 10, 2019 00:00:01')}
+                  />
                 </p>
               </div>
               <a href="https://docs.google.com/forms/u/2/d/1cdtsey9QeY5YiIELzRpcNxlk60qs8k-ppmuTfMBeG4c/edit?usp=drive_web" role="button" className="yellow-btn lg-btn">
