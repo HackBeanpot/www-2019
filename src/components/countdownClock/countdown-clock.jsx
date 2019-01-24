@@ -3,9 +3,6 @@ import React, { Component, Fragment } from 'react';
 class CountdownClock extends Component {
 
   componentWillMount() {
-    console.log("Hello will mount");
-    console.log(this.props.eventStartDate);
-
     this.updateClock();
   }
 
@@ -18,21 +15,30 @@ class CountdownClock extends Component {
   }
 
   updateClock() {
-    let t = Date.parse(this.props.eventStartDate) - Date.parse(new Date()); // microseconds until event
-    let seconds = Math.floor((t / 1000) % 60);
-    let minutes = Math.floor((t / 1000 / 60) % 60);
-    let hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-    let days = Math.floor((t / (1000 * 60 * 60 * 24)));
+    if (Date.parse(this.props.eventStartDate) <= Date.parse(new Date())) { // if HBP event start date has passed, calculate countdown for time left to hack
+      let t = Date.parse(this.props.hackingEndDate) - Date.parse(new Date()); // microseconds until hacking ends
+      let seconds = Math.floor((t / 1000) % 60);
+      let minutes = Math.floor((t / 1000 / 60) % 60);
+      let hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      let days = Math.floor((t / (1000 * 60 * 60 * 24)));
 
-    this.setState({currentDate: Date.parse(new Date('February 3, 2019 10:00:01')), seconds: seconds, minutes: minutes, hours: hours, days: days});
+      this.setState({currentDate: Date.parse(new Date()), seconds: seconds, minutes: minutes, hours: hours, days: days});
+    }
+
+    else { // else calculate countdown for time left until event
+      let t = Date.parse(this.props.eventStartDate) - Date.parse(new Date()); // microseconds until event
+      let seconds = Math.floor((t / 1000) % 60);
+      let minutes = Math.floor((t / 1000 / 60) % 60);
+      let hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      let days = Math.floor((t / (1000 * 60 * 60 * 24)));
+
+      this.setState({currentDate: Date.parse(new Date()), seconds: seconds, minutes: minutes, hours: hours, days: days});
+    }
+
+
   }
 
   render() {
-
-    // console.log(this.state.currentDate);
-    // console.log(Date.parse(this.props.hackingEndDate));
-    // console.log(Date.parse('February 12, 2019 10:00:01'));
-
     if (Date.parse(this.props.hackingEndDate) <= this.state.currentDate) { // if HBP event has passed, render message saying event has passed
       return (
         <Fragment>
