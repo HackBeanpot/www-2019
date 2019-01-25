@@ -1,48 +1,37 @@
-.days {
-  display: inline-block;
-  font-size: 2rem; // TODO: Style these
+#clock {
+  margin-top: 7px;
 }
-.days:after {
-  font-size: 2rem;
-  content: 'Days';
-  text-align: left;
+
+.countdown-block {
+  display: inline-block;
+  width: 20%;
+}
+
+.countdown-num {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  background: #70E0A3;
+  font-size: 56px; // TODO: Style these
+  width: 100%;
+}
+
+.countdown-text {
+  font-size: 18px;
+  color: #1B365D;
+  text-align: center;
   position: relative;
   margin-bottom: 10px;
   display: block;
 }
 
-.hours {
+.countdown-colon {
   display: inline-block;
-}
-.hours:after {
-  font-size: 2rem;
-  content: 'Hours';
-  text-align: left;
-  position: relative;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.minutes {
-  display: inline-block;
-}
-.minutes:after {
-  font-size: 2rem;
-  content: 'Minutes';
-  text-align: left;
-  position: relative;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.seconds {
-  display: inline-block;
-}
-.seconds:after {
-  font-size: 2rem;
-  content: 'Seconds';
-  text-align: left;
-  position: relative;
-  margin-bottom: 10px;
-  display: block;
+  //width: 100%;
+  font-size: 40px;
+  font-weight: 800;
+  bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

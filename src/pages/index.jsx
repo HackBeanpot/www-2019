@@ -89,9 +89,6 @@ const App = () => {
                   />
                 </p>
               </div>
-              <a href="https://docs.google.com/forms/u/2/d/1cdtsey9QeY5YiIELzRpcNxlk60qs8k-ppmuTfMBeG4c/edit?usp=drive_web" role="button" className="yellow-btn lg-btn">
-                Apply today!
-              </a>
             </div>
           </div>
         </section>

@@ -34,8 +34,6 @@ class CountdownClock extends Component {
 
       this.setState({currentDate: Date.parse(new Date()), seconds: seconds, minutes: minutes, hours: hours, days: days});
     }
-
-
   }
 
   render() {
@@ -74,10 +72,28 @@ class CountdownClock extends Component {
           <b>Time until HackBeanpot 2019:</b>
 
           <div id="clock">
-            <div className="days">{this.state && this.state.days ? this.state.days : '00'}</div>
-            <div className="hours">{this.state && this.state.hours ? this.state.hours : '00'}</div>
-            <div className="minutes">{this.state && this.state.minutes ? this.state.minutes : '00'}</div>
-            <div className="seconds">{this.state && this.state.seconds ? this.state.seconds : '00'}</div>
+            <div className="countdown-block">
+              <div className={`days countdown-num`}>{this.state && this.state.days ? this.state.days : '00'}</div>
+              <div className="countdown-text">DAYS</div>
+            </div>
+            <div className="countdown-colon">:</div>
+
+            <div className="countdown-block">
+              <div className={`hours countdown-num`}>{this.state && this.state.hours ? this.state.hours : '00'}</div>
+              <div className="countdown-text">HOURS</div>
+            </div>
+            <div className="countdown-colon">:</div>
+
+            <div className="countdown-block">
+              <div className={`minutes countdown-num`}>{this.state && this.state.minutes ? this.state.minutes : '00'}</div>
+              <div className="countdown-text">MINUTES</div>
+            </div>
+            <div className="countdown-colon">:</div>
+
+            <div className="countdown-block">
+              <div className={`seconds countdown-num`}>{this.state && this.state.seconds ? this.state.seconds : '00'}</div>
+              <div className="countdown-text">SECONDS</div>
+            </div>
           </div>
         </Fragment>
       );

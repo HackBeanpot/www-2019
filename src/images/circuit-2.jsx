@@ -11,7 +11,7 @@ const Circuit2 = () => (
     y="0px"
     width="375.185px"
     height="837.463px"
-    viewBox="0 0 375.185 837.463"
+    viewBox="0 0 500 837.463"
     enableBackground="new 0 0 375.185 837.463"
     xmlSpace="preserve"
   >
