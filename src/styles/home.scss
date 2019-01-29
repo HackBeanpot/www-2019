@@ -190,15 +190,64 @@
   .sponsor {
     align-content: center;
     transition-duration: 0.3s;
-
-    height: 120px;
-    width: 100%;
     overflow: hidden;
 
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .catalant-logo {
+    width: 60%;
     @media (max-width: 992px) {
+      width: 80%;
+    }
+  }
+
+  .med-sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    .md-sponsor-image-wide {
+      width: 350px;
       height: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      @media (max-width: 992px) {
+        width: 60%;
+      }
+    }
+
+    .md-sponsor-image-tall {
+      width: auto;
+      height: 250px;
+      @media (max-width: 992px) {
+        height: auto;
+        width: 60%;
+      }
+    }
+  }
+
+  .small-sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .sm-sponsor-image-wide {
+      width: 250px;
+      height: auto;
+      @media (max-width: 992px) {
+        width: 150px;
+      }
+    }
+
+    .sm-sponsor-image-square {
+      width: auto;
+      height: 150px;
+      @media (max-width: 992px) {
+        height: 100px;
+      }
     }
   }
 
@@ -215,16 +264,6 @@
     }
   }
 
-  .intuit-logo {
-    height: 200px;
-    position: relative;
-    top: -50px;
-    @media (max-width: 992px) {
-      height: 130px;
-      top: 0;
-    }
-  }
-
   .sponsor-image {
     height: 100px;
     width: auto;
@@ -232,16 +271,6 @@
       height: auto;
       width: 80%;
     }
-  }
-
-  .sponsor-image-wide {
-    height: auto;
-    width: 100%;
-  }
-
-  .sponsor-image-tall {
-    height: 100px;
-    width: auto;
   }
 
   .sponsor-square-image {
@@ -328,7 +357,7 @@
   //light blue blob 2
   .home-blob-6 {
     right: -150px;
-    bottom: 1400px;
+    bottom: 1300px;
     // bottom: 1050px;
     @media (max-width: 1024px) {
       display: none;

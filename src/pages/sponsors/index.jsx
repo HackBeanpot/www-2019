@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import DynamicFooter from 'components/dynamic-footer';
 
 import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
-import SponsorLogos from 'components/sponsor-logos';
+import Sponsors2019 from 'components/sponsors-2019';
 
 import Circuit1 from 'images/circuit-1';
 import Circuit2 from 'images/circuit-2';
@@ -64,8 +64,8 @@ class SponsorsPage extends React.Component {
           <div className="light-background">
             <div className="container sponsors">
               <section className="sponsors-section container">
-                <p className="sponsors-title">2018 Sponsors</p>
-                <SponsorLogos />
+                <p className="sponsors-title">2019 Sponsors</p>
+                <Sponsors2019 />
               </section>
             </div>
             <SponsorBlob3 />
