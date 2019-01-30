@@ -212,8 +212,6 @@
     .md-sponsor-image-wide {
       width: 350px;
       height: auto;
-      margin-top: 20px;
-      margin-bottom: 20px;
       @media (max-width: 992px) {
         width: 60%;
       }
@@ -251,25 +249,16 @@
     }
   }
 
-  .sponsor-square {
-    height: 225px;
-    @media (max-width: 992px) {
-      height: auto;
-    }
-  }
-
   .sponsor:hover {
     @media (min-width: 992px) {
       transform: scale(1.02);
     }
   }
 
-  .sponsor-image {
-    height: 100px;
-    width: auto;
+  .sponsor-square {
+    height: 225px;
     @media (max-width: 992px) {
       height: auto;
-      width: 80%;
     }
   }
 
@@ -357,7 +346,7 @@
   //light blue blob 2
   .home-blob-6 {
     right: -150px;
-    bottom: 1300px;
+    bottom: 1450px;
     // bottom: 1050px;
     @media (max-width: 1024px) {
       display: none;

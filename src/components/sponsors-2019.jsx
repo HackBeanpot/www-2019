@@ -15,28 +15,16 @@ const Sponsors2019 = () => (
       </a>
     </div>
     <div className="row med-sponsors">
-      <div className="col-md-6">
-        <a
-          href="http://marketing.poweradvocate.com/"
-          className="sponsor col-md-12 text-center"
-          target="_blank"
-        >
-          <img
-            className="md-sponsor-image-wide"
-            src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/poweradvocate_1436px.png"
-          />
-        </a>
-        <a
-          href="https://www.drift.com/"
-          className="sponsor col-md-12 text-center"
-          target="_blank"
-        >
-          <img
-            className="md-sponsor-image-wide"
-            src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/drift_2500px.png"
-          />
-        </a>
-      </div>
+      <a
+        href="http://marketing.poweradvocate.com/"
+        className="sponsor text-center"
+        target="_blank"
+      >
+        <img
+          className="md-sponsor-image-wide"
+          src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/poweradvocate_1436px.png"
+        />
+      </a>
       <a
         href="http://www.statestreet.com/home.html"
         className="sponsor col-md-6 text-center"
@@ -45,6 +33,28 @@ const Sponsors2019 = () => (
         <img
           className="md-sponsor-image-tall"
           src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/statestreet_2286px.png"
+        />
+      </a>
+    </div>
+    <div className="row med-sponsors">
+      <a
+        href="https://www.drift.com/"
+        className="sponsor text-center"
+        target="_blank"
+      >
+        <img
+          className="md-sponsor-image-wide"
+          src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/drift_2500px.png"
+        />
+      </a>
+      <a
+        href="https://moltin.com/"
+        className="sponsor text-center"
+        target="_blank"
+      >
+        <img
+          className="md-sponsor-image-wide"
+          src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/moltin_753px.png"
         />
       </a>
     </div>
@@ -117,17 +127,7 @@ const Sponsors2019 = () => (
         >
           <img
             className="sponsor-image sponsor-square-image"
-            src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/unionsquaredonuts_468px.png"
-          />
-        </a>
-        <a
-          href="https://www.chipotle.com/"
-          className="sponsor sponsor-square col-md-6 text-center"
-          target="_blank"
-        >
-          <img
-            className="sponsor-image sponsor-square-image"
-            src="http://tools.hackbeanpot.com/assets/logos/2018-sponsors/chipotle_1200px.png"
+            src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/cnrg_1616px.png"
           />
         </a>
       </div>
