@@ -84,8 +84,8 @@ const App = () => {
                   Seaport District
 
                   <CountdownClock
-                    eventStartDate={new Date('February 8, 2019 00:00:01')}
-                    hackingEndDate={new Date('February 10, 2019 00:00:01')}
+                    eventStartDate={new Date('February 8, 2019 20:00:00')}
+                    hackingEndDate={new Date('February 10, 2019 11:00:00')}
                   />
                 </p>
               </div>
