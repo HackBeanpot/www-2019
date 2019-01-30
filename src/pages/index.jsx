@@ -72,9 +72,8 @@ const App = () => {
                 <p className="header-text">
                   An independently-run Boston hackathon for curious students,
                   hackers, makers, and beginners. 🎉
-
-                  <br /><br />
-
+                  <br />
+                  <br />
                   <strong>Come celebrate the Boston tech scene with us!</strong>
                   <br />
                   February 8-10, 2019
@@ -82,13 +81,13 @@ const App = () => {
                   Catalant Technologies
                   <br />
                   Seaport District
-
                   <CountdownClock
                     eventStartDate={new Date('February 8, 2019 20:00:00')}
                     hackingEndDate={new Date('February 10, 2019 11:00:00')}
                   />
                 </p>
               </div>
+              <div>Applications have now closed.</div>
             </div>
           </div>
         </section>
