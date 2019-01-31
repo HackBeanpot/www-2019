@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import FAQItems from 'components/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
+import CountdownClock from 'components/countdownClock/countdown-clock';
 import FAQs from 'data/faqs.json';
 import AboutContent from 'data/about-content.json';
 import Sponsors2019 from 'components/sponsors-2019';
@@ -61,6 +62,7 @@ const App = () => {
             </div>
             <div className="col-md-7 header">
               <div className="header-content">
+
                 <div className="logo-div">
                   <div className="mobile-logo">
                     <Logo />
@@ -79,6 +81,10 @@ const App = () => {
                   Catalant Technologies
                   <br />
                   Seaport District
+                  <CountdownClock
+                    eventStartDate={new Date('February 8, 2019 20:00:00')}
+                    hackingEndDate={new Date('February 10, 2019 11:00:00')}
+                  />
                 </p>
               </div>
               <div>Applications have now closed.</div>
