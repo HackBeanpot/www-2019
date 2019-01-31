@@ -99,7 +99,7 @@ const Sponsors2019 = () => (
       >
         <img
           className="sm-sponsor-image-wide"
-          src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/moltin_753px.png"
+          src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/moltin_754px.png"
         />
       </a>
       <a
