@@ -213,6 +213,10 @@
     align-items: center;
     text-align: left;
 
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+
     .md-sponsor-image-wide {
       width: 350px;
       height: auto;
@@ -359,7 +363,7 @@
   //light blue blob 2
   .home-blob-6 {
     right: -150px;
-    bottom: 1450px;
+    bottom: 1250px;
     // bottom: 1050px;
     @media (max-width: 1024px) {
       display: none;

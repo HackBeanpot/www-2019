@@ -48,9 +48,6 @@ const Sponsors2019 = () => (
         </a>
       </div>
     </div>
-    {/* <div className="row med-sponsors">
-
-    </div> */}
     <div className="row small-sponsors">
       <a
         href="https://www.carbonite.com/"
@@ -123,7 +120,7 @@ const Sponsors2019 = () => (
       </h2>
       <div className="row in-kind-sponsor-logos">
         <a
-          href="http://unionsquaredonuts.com/"
+          href="https://cnrguys.com/"
           className="sponsor text-center"
           target="_blank"
         >
@@ -133,7 +130,7 @@ const Sponsors2019 = () => (
           />
         </a>
         <a
-          href="http://unionsquaredonuts.com/"
+          href="https://www.kindsnacks.com/"
           className="sponsor text-center"
           target="_blank"
         >
@@ -143,7 +140,7 @@ const Sponsors2019 = () => (
           />
         </a>
         <a
-          href="http://unionsquaredonuts.com/"
+          href="https://barnana.com/"
           className="sponsor text-center"
           target="_blank"
         >
