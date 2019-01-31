@@ -200,6 +200,12 @@
     margin-bottom: 20px;
   }
 
+  .sponsor:hover {
+    @media (min-width: 992px) {
+      transform: scale(1.02);
+    }
+  }
+
   .catalant-logo {
     width: 60%;
     @media (max-width: 992px) {
@@ -255,12 +261,6 @@
       @media (max-width: 992px) {
         height: 100px;
       }
-    }
-  }
-
-  .sponsor:hover {
-    @media (min-width: 992px) {
-      transform: scale(1.02);
     }
   }
 
@@ -364,7 +364,6 @@
   .home-blob-6 {
     right: -150px;
     bottom: 1250px;
-    // bottom: 1050px;
     @media (max-width: 1024px) {
       display: none;
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SponsorLogos = () => (
+const Sponsors2018 = () => (
   <div>
     <div className="row">
       <a
@@ -146,4 +146,4 @@ const SponsorLogos = () => (
   </div>
 );
 
-export default SponsorLogos;
+export default Sponsors2018;
