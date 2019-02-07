@@ -51,6 +51,7 @@ img {
 .about-item-content {
   text-align: left;
   padding-left: 50px;
+  overflow-x: hidden;
   @media (max-width: 767px) {
     padding-left: 0;
   }

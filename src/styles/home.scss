@@ -3,10 +3,11 @@
   height: fit-content;
   align-items: center;
   margin-top: 175px;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
   @media (max-width: 1024px) {
     margin-bottom: 50px;
     padding-bottom: 20px;
+    margin-top: 75px;
   }
 }
 
@@ -49,11 +50,15 @@
   @media (max-width: 1024px) {
     width: 100%;
   }
+
+  .schedule-button {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 767px) {
   .mobile-logo {
-    display: block;
+    display: none;
     width: 25%;
   }
 }

@@ -84,6 +84,9 @@ const App = () => {
                     eventStartDate={new Date('February 8, 2019 20:00:00')}
                     hackingEndDate={new Date('February 10, 2019 11:00:00')}
                   />
+                  <a href="/" role="button" class="yellow-btn lg-btn">
+                    Our schedule!
+                  </a>
                 </p>
               </div>
             </div>
@@ -128,7 +131,7 @@ const App = () => {
           <a
             href="/sponsors"
             role="button"
-            class="yellow-btn lg-btn ponsor-button sponsor-button-center"
+            class="yellow-btn lg-btn sponsor-button sponsor-button-center"
           >
             Become a sponsor
           </a>

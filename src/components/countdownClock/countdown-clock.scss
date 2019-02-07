@@ -1,5 +1,9 @@
 #clock {
   margin-top: 7px;
+  margin-bottom: 50px;
+  @media (max-width: 767px) {
+    margin-bottom: 25px;
+  }
 }
 
 .countdown-block {
@@ -28,10 +32,13 @@
 
 .countdown-colon {
   display: inline-block;
-  //width: 100%;
   font-size: 40px;
   font-weight: 800;
-  bottom: 60px;
+  bottom: 40px;
   margin-left: 10px;
   margin-right: 10px;
+  @media (max-width: 767px) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
