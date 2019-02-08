@@ -149,6 +149,16 @@ const Sponsors2019 = () => (
             src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/barnana_1000px.png"
           />
         </a>
+        <a
+          href="https://www.eatyour.coffee/"
+          className="sponsor text-center"
+          target="_blank"
+        >
+          <img
+            className="in-kind-sponsor-image-wide eat-your-coffee"
+            src="http://tools.hackbeanpot.com/assets/logos/2019-sponsors/EYC_Logo.png"
+          />
+        </a>
       </div>
     </div>
   </div>
