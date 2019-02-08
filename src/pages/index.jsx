@@ -97,6 +97,13 @@ const App = () => {
             </div>
           </div>
         </section>
+
+        <section className="container">
+          <img
+            className="sponsor-image"
+            src="http://tools.hackbeanpot.com/assets/images/map.png"
+          />
+        </section>
         <section className="about-section container">
           <p className="about-title">HackBeanpot is about...</p>
           {AboutContent.map(item => (
