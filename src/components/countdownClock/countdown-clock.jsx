@@ -130,8 +130,8 @@ class CountdownClock extends Component {
 }
 
 CountdownClock.defaultProps = {
-  eventStartDate: new Date('February 8, 2019 20:00:00'), // Date that opening ceremony concludes
-  hackingEndDate: new Date('February 10, 2019 11:00:00') // Date that hacking concludes
+  eventStartDate: new Date('February 8, 2019 18:00:00'), // Date that opening ceremony concludes
+  hackingEndDate: new Date('February 10, 2019 10:00:00') // Date that hacking concludes
 };
 
 export default CountdownClock;

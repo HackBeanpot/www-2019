@@ -81,8 +81,8 @@ const App = () => {
                   <br />
                   Seaport District
                   <CountdownClock
-                    eventStartDate={new Date('February 8, 2019 20:00:00')}
-                    hackingEndDate={new Date('February 10, 2019 11:00:00')}
+                    eventStartDate={new Date('February 8, 2019 18:00:00')}
+                    hackingEndDate={new Date('February 10, 2019 10:00:00')}
                   />
                   <a
                     href="http://tools.hackbeanpot.com/assets/schedule/HackBeanpot-2019-Schedule.pdf"
