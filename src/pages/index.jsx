@@ -84,7 +84,12 @@ const App = () => {
                     eventStartDate={new Date('February 8, 2019 20:00:00')}
                     hackingEndDate={new Date('February 10, 2019 11:00:00')}
                   />
-                  <a href="/" role="button" class="yellow-btn lg-btn">
+                  <a
+                    href="http://tools.hackbeanpot.com/assets/schedule/HackBeanpot-2019-Schedule.pdf"
+                    role="button"
+                    target="_blank"
+                    class="yellow-btn lg-btn"
+                  >
                     Our schedule!
                   </a>
                 </p>
