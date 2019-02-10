@@ -72,25 +72,16 @@ const App = () => {
                   An independently-run Boston hackathon for curious students,
                   hackers, makers, and beginners. 🎉
                   <br />
+                  <strong>Thanks for coming to HackBeanpot 2019!</strong>
                   <br />
-                  <strong>Come celebrate the Boston tech scene with us!</strong>
-                  <br />
-                  February 8-10, 2019
-                  <br />
-                  Catalant Technologies
-                  <br />
-                  Seaport District
-                  <CountdownClock
-                    eventStartDate={new Date('February 8, 2019 18:00:00')}
-                    hackingEndDate={new Date('February 10, 2019 10:00:00')}
-                  />
                   <a
-                    href="http://tools.hackbeanpot.com/assets/schedule/HackBeanpot-2019-Schedule.pdf"
+                    style={{ top: '40px' }}
+                    href="https://hackbeanpot-2019.devpost.com/submissions"
                     role="button"
                     target="_blank"
-                    class="yellow-btn lg-btn"
+                    className="yellow-btn lg-btn"
                   >
-                    Our schedule!
+                    This year's projects
                   </a>
                 </p>
               </div>
@@ -98,12 +89,6 @@ const App = () => {
           </div>
         </section>
 
-        <section className="container">
-          <img
-            className="sponsor-image"
-            src="http://tools.hackbeanpot.com/assets/images/map.png"
-          />
-        </section>
         <section className="about-section container">
           <p className="about-title">HackBeanpot is about...</p>
           {AboutContent.map(item => (
