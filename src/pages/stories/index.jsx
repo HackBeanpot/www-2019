@@ -35,7 +35,7 @@ class StoriesPage extends React.Component {
             </div>
 
             <div className="row stories-tell-quote">
-              <div className="stories-round-image stories-round-image-large">
+              <div className="stories-round-image stories-round-image-large hide-small">
                 <img
                   className="portrait portrait-large"
                   src="http://tools.hackbeanpot.com/assets/images/2018-hbp-candid.jpg"
