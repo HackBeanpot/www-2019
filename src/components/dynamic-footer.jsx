@@ -33,7 +33,7 @@ const DynamicFooter = props => (
           href="http://eepurl.com/dFx_Cf"
           target="blank"
           role="button"
-          class="btn yellow-btn lg-btn"
+          className="btn yellow-btn lg-btn"
         >
           Join our mailing list!
         </a>

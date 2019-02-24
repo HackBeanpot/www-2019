@@ -113,7 +113,7 @@ const App = () => {
                 <a
                   href="mailto:team@hackbeanpot.com"
                   role="button"
-                  class="btn yellow-btn lg-btn"
+                  className="btn yellow-btn lg-btn"
                 >
                   Email Us
                 </a>
@@ -127,7 +127,7 @@ const App = () => {
           <a
             href="/sponsors"
             role="button"
-            class="yellow-btn lg-btn sponsor-button sponsor-button-center"
+            className="yellow-btn lg-btn sponsor-button sponsor-button-center"
           >
             Become a sponsor
           </a>

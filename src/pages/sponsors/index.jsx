@@ -51,7 +51,7 @@ class SponsorsPage extends React.Component {
                 <a
                   href="mailto:team@hackbeanpot.com"
                   role="button"
-                  class="btn yellow-btn lg-btn"
+                  className="btn yellow-btn lg-btn"
                 >
                   Email Us
                 </a>

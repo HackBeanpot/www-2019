@@ -106,3 +106,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+// NAV BAR
+.custom-nav {
+  margin: 0 !important;
+  @media (max-width: 1024px) {
+    margin: 0 !important;
+    display: block;
+  }
+}

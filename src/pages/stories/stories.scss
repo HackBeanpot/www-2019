@@ -7,8 +7,8 @@
   font-weight: 600;
   padding-top: 200px;
   padding-bottom: 50px;
-  @media (max-width: 1024px) {
-    padding-top: 50px;
+  @media (max-width: 767px) {
+    padding-top: 150px;
   }
 }
 
@@ -17,7 +17,7 @@
   font-weight: 600;
   padding-top: 100px;
   padding-bottom: 50px;
-  @media (max-width: 1024px) {
+  @media (max-width: 767px) {
     padding-top: 50px;
   }
 }
@@ -28,12 +28,19 @@
 
 .stories-tell-quote {
   padding-top: 50px;
+  @media (max-width: 767px) {
+    padding-top: 0;
+  }
+}
+
+.stories-welcome {
+  padding-bottom: 100px;
 }
 
 .stories-cta {
   text-align: left;
   font-size: $large-body;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 .stories-quote {
@@ -41,22 +48,86 @@
   font-size: $large-body;
 }
 
+.stories-quote-from {
+  padding-top: 25px;
+  font-weight: 600;
+}
+
 .stories-round-image {
   width: 200px;
   height: 200px;
   overflow: hidden;
-  background-color: red;
+  background-color: $light-blue;
   border-radius: 300px;
-  border-style: none;
+  border: solid 5px $gray;
+  transition: 0.5s;
+  @media (max-width: 767px) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.stories-round-image-large {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  border-style: none !important;
+  @media (max-width: 767px) {
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+.stories-round-image:hover {
+  border: solid 5px $yellow;
+}
+
+.portrait {
+  width: 215px;
+  height: auto;
+  @media (max-width: 767px) {
+    width: 100px;
+  }
+}
+
+.portrait-large {
+  width: 450px;
+  height: auto;
 }
 
 .stories-button-title {
   font-size: $med-title;
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
 .quote-box {
-  margin-bottom: 50px;
+  margin: 50px 150px 50px 100px;
+  font-size: $large-body;
+  @media (max-width: 1024px) {
+    margin: 30px 10px;
+  }
+}
+
+.noClick {
+  pointer-events: none;
+}
+
+.center {
+  margin: auto;
+}
+
+.top-images {
+  padding-right: 25%;
+  @media (max-width: 767px) {
+    padding-right: 0;
+  }
+}
+
+.bottom-images {
+  padding-left: 25%;
+  @media (max-width: 1024px) {
+    padding-left: 0;
+  }
 }

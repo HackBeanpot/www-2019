@@ -7,7 +7,7 @@ const Nav = () => (
     <Link className="navbar-brand" to="/">
       <img src={Logo} className="navbar-logo" />
     </Link>
-    <ul className="navbar-nav mr-auto">
+    <ul className="navbar-nav custom-nav mr-auto">
       <li className="nav-item">
         <Link className="nav-link" to="/stories">
           Stories
@@ -18,6 +18,8 @@ const Nav = () => (
           Sponsors
         </Link>
       </li>
+    </ul>
+    <ul className="navbar-nav custom-nav mr-auto">
       <li className="nav-item">
         <a
           className="nav-link"
