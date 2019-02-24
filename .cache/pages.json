@@ -42,20 +42,6 @@
         "path": "/sponsors/"
     },
     {
-        "componentChunkName": "component---src-pages-stories-components-featured-projects-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "stories-components-featured-projects.json",
-        "path": "/stories/components/featured-projects/"
-    },
-    {
-        "componentChunkName": "component---src-pages-stories-components-project-detailed-jsx",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-jsx",
-        "jsonName": "stories-components-project-detailed.json",
-        "path": "/stories/components/project-detailed/"
-    },
-    {
         "componentChunkName": "component---src-pages-stories-components-quote-jsx",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-jsx",
