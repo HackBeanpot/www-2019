@@ -7,12 +7,12 @@ import Sponsors2019 from 'components/sponsors-2019';
 import Circuit1 from 'images/circuit-1';
 import Circuit2 from 'images/circuit-2';
 import Circuit3 from 'images/circuit-3';
-import SponsorBlob1 from 'images/sponsor-blob-1';
-import SponsorBlob2 from 'images/sponsor-blob-2';
 import SponsorBlob3 from 'images/sponsor-blob-3';
+import SponsorVines from 'images/sponsor-vines';
 
 import MainContent from 'data/sponsor-main.json';
 import LevelContent from 'data/sponsor-level-content.json';
+
 
 class SponsorsPage extends React.Component {
   render() {
@@ -20,6 +20,7 @@ class SponsorsPage extends React.Component {
       <Fragment>
         <div className="sponsorship">
           <div className="light-background">
+            <SponsorVines />
             <div className="container sponsor-welcome">
               <div className="sponsor-title">{MainContent.title}</div>
               <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
@@ -34,9 +35,6 @@ class SponsorsPage extends React.Component {
                 Get In Touch
               </a>
             </div>
-            <Circuit1 />
-            <SponsorBlob1 />
-            <SponsorBlob2 />
           </div>
 
           <div className="dark-background">
