@@ -1,8 +1,5 @@
 import React from 'react';
 import Quote from 'pages/stories/components/quote';
-import Circuit1 from 'images/circuit-1';
-import SponsorBlob1 from 'images/sponsor-blob-1';
-import SponsorBlob2 from 'images/sponsor-blob-2';
 
 class Stories extends React.Component {
   constructor(props) {
@@ -90,7 +87,7 @@ class Stories extends React.Component {
 
   render() {
     return (
-      <div className="light-background stories-welcome">
+      <div className="pale-blue-bg stories-welcome">
         <div className="container">
           <div className="stories-title">We've got stories to share</div>
           <div className="row">
@@ -108,9 +105,6 @@ class Stories extends React.Component {
             {this.renderImages([3, 4, 5])}
           </div>
         </div>
-        <Circuit1 />
-        <SponsorBlob1 />
-        <SponsorBlob2 />
       </div>
     );
   }

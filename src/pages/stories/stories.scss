@@ -53,13 +53,11 @@
   font-weight: 600;
 }
 
-.stories-round-image {
+.stories-image {
   width: 200px;
   height: 200px;
   overflow: hidden;
   background-color: $light-blue;
-  border-radius: 300px;
-  border: solid 5px $gray;
   transition: 0.5s;
   @media (max-width: 767px) {
     width: 100px;
@@ -67,11 +65,9 @@
   }
 }
 
-.stories-round-image-large {
+.stories-image-large {
   width: 300px;
   height: 300px;
-  border-radius: 300px;
-  border-style: none !important;
   @media (max-width: 767px) {
     margin: auto;
     margin-top: 50px;
