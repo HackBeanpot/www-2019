@@ -19,7 +19,11 @@
   padding-bottom: 50px;
   padding-left: 0;
   text-align: left;
-  color: $hbp-navy;
+  color: $white;
+}
+
+.sponsor__cta {
+  @include primary-cta;
 }
 
 .sponsor-title {

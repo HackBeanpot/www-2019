@@ -26,6 +26,12 @@ body {
   overflow: hidden;
 }
 
+.dark-green-background {
+  background-color: $dark-green;
+  color: $white;
+  overflow: hidden;
+}
+
 .teal-background {
   background-color: $sprout-green;
   color: $hbp-navy;

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
-import Sponsors2019 from 'components/sponsors-2019';
+import Sponsors2020 from 'components/sponsors-2020';
 
 import Circuit1 from 'images/circuit-1';
 import Circuit2 from 'images/circuit-2';
@@ -18,7 +18,7 @@ class SponsorsPage extends React.Component {
     return (
       <Fragment>
         <div className="sponsorship">
-          <div className="light-background">
+          <div className="dark-green-background">
             <div className="container sponsor-welcome">
               <div className="sponsor-title">{MainContent.title}</div>
               <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
@@ -28,14 +28,11 @@ class SponsorsPage extends React.Component {
               <a
                 href="mailto:team@hackbeanpot.com"
                 role="button"
-                className="yellow-btn lg-btn sponsor-button"
+                className="sponsor__cta"
               >
                 Get In Touch
               </a>
             </div>
-            <Circuit1 />
-            <SponsorBlob1 />
-            <SponsorBlob2 />
           </div>
 
           <div className="dark-background">
@@ -56,15 +53,13 @@ class SponsorsPage extends React.Component {
                 </a>
               </div>
             </div>
-            <Circuit2 />
-            <Circuit3 />
           </div>
 
           <div className="light-background">
             <div className="container sponsors">
               <section className="sponsors-section container">
-                <p className="sponsors-title">2019 Sponsors</p>
-                <Sponsors2019 />
+                <p className="sponsors-title">2020 Sponsors</p>
+                <Sponsors2020 />
               </section>
             </div>
             <SponsorBlob3 />
