@@ -102,7 +102,7 @@ const App = () => {
           </div>
         </section>
 
-        <section className="faq">
+        <section id="faq" className="faq">
           <div className="container">
             <h2 className="faq__title">FAQ</h2>
             <FAQItems />
