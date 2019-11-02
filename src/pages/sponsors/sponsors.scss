@@ -9,6 +9,18 @@
   }
 }
 
+.sponsor-topper {
+  @include dark-green-bg;
+}
+
+.sponsor-perks {
+  @include pale-blue-bg;
+}
+
+.sponsor-listing {
+  @include yellow-green-bg;
+}
+
 .sponsor-perks {
   padding-bottom: 50px;
 }
@@ -27,7 +39,7 @@
 }
 
 .sponsor-title {
-  @include h2-text;
+  @include h2-text($hbp-navy);
   text-align: left;
   font-weight: 600;
   padding-top: 100px;
@@ -37,16 +49,19 @@
   }
 }
 
-.sponsor-subtitle {
-  @include h3-text;
+.sponsor-kits-title {
+  @include h3-text($hbp-navy);
+  padding-bottom: 25px;
+}
+
+.subtitle {
+  @include h4-text;
   font-weight: 600;
   padding-bottom: 25px;
-  display: inline-block;
-  padding-left: 25px;
 }
 
 .sponsor-section-header {
-  @include h2-text($white);
+  @include h2-text($hbp-navy);
   font-weight: 600;
   padding-top: 100px;
   padding-bottom: 50px;
@@ -72,7 +87,7 @@
 }
 
 .sponsor-perk-cta {
-  @include large-body-text($white);
+  @include large-body-text($hbp-navy);
   padding-bottom: 50px;
 }
 
@@ -100,8 +115,136 @@
 }
 
 .sponsor-level-description {
+  color: $hbp-navy;
   @media (max-width: 1024px) {
     padding-bottom: 30px;
+  }
+}
+
+
+
+.sponsor {
+  margin-bottom: 40px;
+}
+
+.sponsors-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @media (max-width: 1024px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .sponsor-header {
+    font-size: 35px;
+    padding-top: 15px;
+    line-height: 1.5;
+  }
+
+  .sponsor {
+    align-content: center;
+    transition-duration: 0.3s;
+    overflow: hidden;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sponsor:hover {
+    @media (min-width: 992px) {
+      transform: scale(1.02);
+    }
+  }
+
+  .catalant-logo {
+    width: 60%;
+    @media (max-width: 992px) {
+      width: 80%;
+    }
+  }
+
+  .med-sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+
+    .md-sponsor-image-wide {
+      width: 350px;
+      height: auto;
+      margin-top: 40px;
+      @media (max-width: 992px) {
+        width: 60%;
+      }
+    }
+
+    .md-sponsor-image-tall {
+      width: auto;
+      height: 250px;
+      @media (max-width: 992px) {
+        height: auto;
+        width: 60%;
+      }
+    }
+  }
+
+  .small-sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .sm-sponsor-image-wide {
+      width: 250px;
+      height: auto;
+      @media (max-width: 992px) {
+        width: 150px;
+      }
+    }
+
+    .sm-sponsor-image-square {
+      width: auto;
+      height: 150px;
+      @media (max-width: 992px) {
+        height: 100px;
+      }
+    }
+  }
+
+  .in-kind-sponsors {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .in-kind-heading {
+    line-height: 1.5;
+  }
+
+  .in-kind-sponsor-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .in-kind-sponsor-image-wide {
+      width: 250px;
+      height: auto;
+      @media (max-width: 992px) {
+        width: 200px;
+      }
+    }
+
+    .in-kind-sponsor-image-square {
+      width: auto;
+      height: 100px;
+      @media (max-width: 992px) {
+        height: 80px;
+      }
+    }
   }
 }
 
