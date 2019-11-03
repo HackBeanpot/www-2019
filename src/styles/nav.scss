@@ -9,11 +9,6 @@
   z-index: 100;
 }
 
-.nav__item,
-.nav-mobile__item {
-  list-style: none;
-}
-
 .nav__logo {
   width: 50px;
 
@@ -56,7 +51,6 @@
 .nav__link {
   @include body-text;
   font-weight: 700;
-  padding: 0;
 
   &:hover {
     color: $hbp-navy;
@@ -105,10 +99,6 @@
   > .menu-icon {
     color: $hbp-navy;
   }
-}
-
-.nav-mobile__list {
-  padding: 0;
 }
 
 .nav-mobile__item {

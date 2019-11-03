@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Instagram",
+    "link": "https://www.instagram.com/hackbeanpot",
+    "iconClass": "mdi-instagram"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://www.instagram.com/hackbeanpot",
+    "iconClass": "mdi-facebook"
+  },
+  {
+    "name": "Medium",
+    "link": "https://medium.com/@HackBeanpot",
+    "iconClass": "mdi-medium"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/hackbeanpot",
+    "iconClass": "mdi-twitter"
+  }
+]

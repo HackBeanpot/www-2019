@@ -4,8 +4,6 @@ import NavLinks from 'data/nav-links.json';
 
 import LogoIcon from 'images/svg/logo-icon.jsx';
 import LogoIconWhite from 'images/svg/logo-icon-white.jsx';
-import MenuIcon from 'mdi-react/MenuIcon';
-import CloseIcon from 'mdi-react/CloseIcon';
 
 class NavMobile extends Component {
   constructor(props) {
@@ -31,11 +29,13 @@ class NavMobile extends Component {
             {this.state.isNavOpen ? <LogoIconWhite /> : <LogoIcon />}
           </DynamicLink>
           <button onClick={this.menuToggle} className="nav-mobile__toggle-btn">
-            {this.state.isNavOpen ? (
-              <CloseIcon className="close-icon" />
-            ) : (
-              <MenuIcon className="menu-icon" />
-            )}
+            <i
+              className={
+                this.state.isNavOpen
+                  ? 'mdi mdi-24px mdi-close close-icon'
+                  : 'mdi mdi-24px mdi-menu menu-icon'
+              }
+            />
           </button>
         </div>
         <ul
