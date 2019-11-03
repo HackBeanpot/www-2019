@@ -1,26 +1,44 @@
+.nav,
+.nav-mobile {
+  @include drop-shadow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $white;
+  z-index: 100;
+}
+
+.nav__item,
+.nav-mobile__item {
+  list-style: none;
+}
+
+.nav__logo {
+  width: 50px;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .opened & {
+    padding: 3px;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Desktop Nav
 // ---------------------------------------------------------------------------
 
 .nav {
-  @include drop-shadow;
   display: none;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   padding: 10px 30px;
-  background-color: $white;
-  z-index: 100;
 
   @media (min-width: $md) {
     display: flex;
+    align-items: center;
   }
-}
-
-.nav__logo {
-  width: 50px;
 }
 
 .nav__list {
@@ -33,10 +51,9 @@
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
-  list-style: none;
 }
 
-.nav-link {
+.nav__link {
   @include body-text;
   font-weight: 700;
   padding: 0;
@@ -45,6 +62,7 @@
     color: $hbp-navy;
     border-bottom: 2px solid $hbp-navy;
     margin-bottom: -2px;
+    text-decoration: none;
   }
 }
 
@@ -54,16 +72,11 @@
 
 .nav-mobile {
   display: block;
-  height: 100%;
 
   &.opened {
-    position: fixed;
-    top: 0;
-    width: 100%;
     height: 100vh;
     background-color: $hbp-navy;
     overflow-y: hidden;
-    z-index: 100;
   }
 
   @media (min-width: $md) {
@@ -75,11 +88,15 @@
   @include padding;
   display: flex;
   justify-content: space-between;
+
+  .closed & {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .nav-mobile__toggle-btn {
   width: 50px;
-  z-index: 10;
 
   > .close-icon {
     color: $white;
@@ -95,21 +112,24 @@
 }
 
 .nav-mobile__item {
-  margin: 10px 0;
-  padding: 10px 0;
-  list-style: none;
+  margin: 20px 0;
+  background-color: $hbp-navy;
+  transition: background-color 0.2s ease;
 
   &:hover {
     background-color: $yellow-green-disabled;
-
-    .nav-mobile__link {
-      color: $hbp-navy;
-    }
   }
 }
 
 .nav-mobile__link {
   @include h4-text($white);
-  @include left-padding;
-  @include right-padding;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 40px;
+  color: background-color 0.2s ease;
+
+  &:hover {
+    color: $hbp-navy;
+    text-decoration: none;
+  }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import Logo from 'images/icon@4x.png';
-import LogoWhite from 'images/logo-white.jsx';
+import LogoIcon from 'images/svg/logo-icon.jsx';
+import LogoIconWhite from 'images/svg/logo-icon-white.jsx';
 import MenuIcon from 'mdi-react/MenuIcon';
 import CloseIcon from 'mdi-react/CloseIcon';
 
@@ -25,12 +25,8 @@ class NavMobile extends Component {
         className={`nav-mobile ${this.state.isNavOpen ? 'opened' : 'closed'}`}
       >
         <div className="nav-mobile__top">
-          <Link to="/">
-            {this.state.isNavOpen ? (
-              <img src={Logo} className="nav__logo" />
-            ) : (
-              <img src={Logo} className="nav__logo" />
-            )}
+          <Link to="/" className="nav__logo">
+            {this.state.isNavOpen ? <LogoIconWhite /> : <LogoIcon />}
           </Link>
           <button onClick={this.menuToggle} className="nav-mobile__toggle-btn">
             {this.state.isNavOpen ? (
@@ -47,17 +43,29 @@ class NavMobile extends Component {
           }
         >
           <li className="nav-mobile__item">
-            <a className="nav-mobile__link" href="#faq">
+            <a
+              className="nav-mobile__link"
+              href="/#faq"
+              onClick={this.menuToggle}
+            >
               FAQ
             </a>
           </li>
           <li className="nav-mobile__item">
-            <Link className="nav-mobile__link" to="/stories">
+            <Link
+              className="nav-mobile__link"
+              to="/stories"
+              onClick={this.menuToggle}
+            >
               Stories
             </Link>
           </li>
           <li className="nav-mobile__item">
-            <Link className="nav-mobile__link" to="/sponsors">
+            <Link
+              className="nav-mobile__link"
+              to="/sponsors"
+              onClick={this.menuToggle}
+            >
               Sponsors
             </Link>
           </li>
@@ -66,12 +74,17 @@ class NavMobile extends Component {
               className="nav-mobile__link"
               href="https://projects.hackbeanpot.com/"
               target="_blank"
+              onClick={this.menuToggle}
             >
               Projects
             </a>
           </li>
           <li className="nav-mobile__item">
-            <Link className="nav-mobile__link" to="/team">
+            <Link
+              className="nav-mobile__link"
+              to="/team"
+              onClick={this.menuToggle}
+            >
               Our Team
             </Link>
           </li>
