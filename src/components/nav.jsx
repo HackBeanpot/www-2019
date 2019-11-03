@@ -1,42 +1,23 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import LogoIcon from 'images/svg/logo-icon.jsx';
+import NavLinks from 'data/nav-links.json';
+import DynamicLink from './dynamic-link.jsx';
 
 const Nav = () => (
   <nav className="nav">
-    <Link to="/" className="nav__logo">
+    <DynamicLink to="/" className="nav__logo">
       <LogoIcon />
-    </Link>
+    </DynamicLink>
     <ul className="nav__list">
-      <li className="nav__item">
-        <a className="nav__link" href="/#faq">
-          FAQ
-        </a>
-      </li>
-      <li className="nav__item">
-        <Link className="nav__link" to="/stories">
-          Stories
-        </Link>
-      </li>
-      <li className="nav__item">
-        <Link className="nav__link" to="/sponsors">
-          Sponsors
-        </Link>
-      </li>
-      <li className="nav__item">
-        <a
-          className="nav__link"
-          href="https://projects.hackbeanpot.com/"
-          target="_blank"
-        >
-          Projects
-        </a>
-      </li>
-      <li className="nav__item">
-        <Link className="nav__link" to="/team">
-          Our Team
-        </Link>
-      </li>
+      {NavLinks.map((link, index) => {
+        return (
+          <li key={`nav-item-${index}`} className="nav__item">
+            <DynamicLink className="nav__link" to={link.path}>
+              {link.name}
+            </DynamicLink>
+          </li>
+        );
+      })}
     </ul>
   </nav>
 );
