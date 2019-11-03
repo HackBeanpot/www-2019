@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import DynamicLink from './dynamic-link.jsx';
+import NavLinks from 'data/nav-links.json';
+
 import LogoIcon from 'images/svg/logo-icon.jsx';
 import LogoIconWhite from 'images/svg/logo-icon-white.jsx';
 import MenuIcon from 'mdi-react/MenuIcon';
 import CloseIcon from 'mdi-react/CloseIcon';
-import NavLinks from 'data/nav-links.json';
-import DynamicLink from './dynamic-link.jsx';
 
 class NavMobile extends Component {
   constructor(props) {

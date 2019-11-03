@@ -1,8 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import FAQItems from 'components/faqItems/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
+import DynamicLink from 'components/dynamic-link';
 import AboutContent from 'data/about-content.json';
 
 import LogoAnimation from 'images/logo-sprout.gif';
@@ -143,9 +143,9 @@ const App = () => {
               >
                 Email Us
               </a>
-              <a className="home-sponsors__cta-link" href="/sponsors">
+              <DynamicLink className="home-sponsors__cta-link" to="/sponsors">
                 Or visit our Sponsors Page
-              </a>
+              </DynamicLink>
             </div>
           </div>
         </section>
