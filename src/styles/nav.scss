@@ -1,14 +1,22 @@
+// ---------------------------------------------------------------------------
+// Desktop Nav
+// ---------------------------------------------------------------------------
+
 .nav {
-  background-color: $white;
-  display: flex;
+  @include drop-shadow;
+  display: none;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 10px 30px;
+  background-color: $white;
   z-index: 100;
-  @include drop-shadow;
+
+  @media (min-width: $md) {
+    display: flex;
+  }
 }
 
 .nav__logo {
@@ -22,10 +30,10 @@
 
 .nav__item {
   display: inline-block;
-  list-style: none;
-  padding: 0;
   margin-left: 20px;
   margin-right: 20px;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-link {
@@ -38,4 +46,70 @@
     border-bottom: 2px solid $hbp-navy;
     margin-bottom: -2px;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Mobile Nav
+// ---------------------------------------------------------------------------
+
+.nav-mobile {
+  display: block;
+  height: 100%;
+
+  &.opened {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $hbp-navy;
+    overflow-y: hidden;
+    z-index: 100;
+  }
+
+  @media (min-width: $md) {
+    display: none;
+  }
+}
+
+.nav-mobile__top {
+  @include padding;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-mobile__toggle-btn {
+  width: 50px;
+  z-index: 10;
+
+  > .close-icon {
+    color: $white;
+  }
+
+  > .menu-icon {
+    color: $hbp-navy;
+  }
+}
+
+.nav-mobile__list {
+  padding: 0;
+}
+
+.nav-mobile__item {
+  margin: 10px 0;
+  padding: 10px 0;
+  list-style: none;
+
+  &:hover {
+    background-color: $yellow-green-disabled;
+
+    .nav-mobile__link {
+      color: $hbp-navy;
+    }
+  }
+}
+
+.nav-mobile__link {
+  @include h4-text($white);
+  @include left-padding;
+  @include right-padding;
 }

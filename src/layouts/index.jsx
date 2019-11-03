@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import StaticFooter from '../components/static-footer';
 import Nav from 'components/nav';
+import NavMobile from 'components/nav-mobile';
 import 'styles/main.scss';
 import favicon from '../pages/favicon.png';
 
@@ -30,6 +31,7 @@ const Layout = ({ children }) => (
       link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
     />
     <Nav />
+    <NavMobile />
     <div>{children()}</div>
     <StaticFooter />
   </div>
