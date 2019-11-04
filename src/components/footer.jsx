@@ -1,5 +1,5 @@
 import React from 'react';
-import DynamicLink from './dynamic-link';
+import DynamicLink from './DynamicLink';
 import SocialLinks from 'data/social-links.json';
 
 import LogoWhite from 'images/logo-white.jsx';

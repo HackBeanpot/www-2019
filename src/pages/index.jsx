@@ -1,8 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import FAQItems from 'components/faqItems/faq-items';
-import AboutItem from 'components/aboutItem/about-item';
-import DynamicLink from 'components/dynamic-link';
+import AboutItem from 'components/AboutItem/AboutItem';
+import DynamicLink from 'components/DynamicLink';
 import AboutContent from 'data/about-content.json';
 
 import LogoAnimation from 'images/logo-sprout.gif';

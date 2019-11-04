@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import Footer from '../components/footer';
-import Nav from 'components/nav';
-import NavMobile from 'components/nav-mobile';
+import Nav from 'components/Nav';
+import NavMobile from 'components/NavMobile';
+import Footer from '../components/Footer';
 
 import favicon from '../pages/favicon.png';
 

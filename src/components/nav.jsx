@@ -1,5 +1,5 @@
 import React from 'react';
-import DynamicLink from './dynamic-link.jsx';
+import DynamicLink from './DynamicLink';
 import NavLinks from 'data/nav-links.json';
 
 import LogoIcon from 'images/svg/logo-icon.jsx';
