@@ -95,7 +95,7 @@ const App = () => {
                 index={index}
                 title={item.title}
                 content={item.content}
-                imgSrc={item.imgSrc}
+                img={item.img}
                 btn={item.btn}
               />
             ))}
