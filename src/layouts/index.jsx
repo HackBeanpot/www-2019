@@ -11,7 +11,7 @@ import favicon from '../pages/favicon.png';
 const Layout = ({ children }) => (
   <div>
     <Helmet
-      title="HackBeanpot 2019"
+      title="HackBeanpot 2020"
       meta={[
         {
           name: 'description',

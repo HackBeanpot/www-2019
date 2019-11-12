@@ -20,7 +20,7 @@ class StoriesPage extends React.Component {
                 In 2013, a small group of Northeastern students brought 80
                 students together at the Microsoft NERD Center for the very
                 first HackBeanpot, an opportunity for students to express their
-                creativity and explore. 2019 marks our seventh annual event and
+                creativity and explore. 2020 marks our eighth annual event and
                 carries forward the same mission we began with: to foster a
                 diverse community of curious students and engage them with the
                 Boston tech community

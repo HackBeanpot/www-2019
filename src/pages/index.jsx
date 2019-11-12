@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <Helmet
-        title="HackBeanpot 2019"
+        title="HackBeanpot 2020"
         meta={[
           {
             name: 'description',
