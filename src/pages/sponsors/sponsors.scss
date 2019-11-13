@@ -1,4 +1,4 @@
-@import '../../styles/constants.scss';
+@import "../../styles/constants.scss";
 
 .sponsor-welcome {
   margin-top: 100px;
@@ -21,8 +21,12 @@
   @include yellow-green-bg;
 }
 
-.sponsor-perks {
-  padding-bottom: 50px;
+.sponsor-vines {
+  z-index: 2;
+  position: absolute;
+  right: -150px;
+  top: -120px;
+
 }
 
 .sponsor-cta {
@@ -47,6 +51,18 @@
   @media (max-width: 1024px) {
     padding-top: 50px;
   }
+}
+
+.sponsor-subtitle {
+  @include h4-text($hbp-navy);
+  @include top-margin;
+  text-align: left;
+}
+
+.faq-button-title {
+  @include h4-text($hbp-navy);
+  width: 50%;
+  margin: auto;
 }
 
 .sponsor-kits-title {
@@ -120,8 +136,6 @@
     padding-bottom: 30px;
   }
 }
-
-
 
 .sponsor {
   margin-bottom: 40px;
@@ -296,5 +310,5 @@
     }
   }
 
-  @import '../../styles/image-style.scss';
+  @import "../../styles/image-style.scss";
 }

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
-import GrowIcon from 'images/grow-icon';
-import RecruitIcon from 'images/recruit-icon';
-import InspireIcon from 'images/inspire-icon';
+import EngagementIcon from 'images/svg/engagement-icon';
+import InnovationIcon from 'images/svg/innovation-icon';
+import RecruitmentIcon from 'images/svg/recruitment-icon';
 
 class SponsorLevel extends React.Component {
   constructor(props) {
@@ -12,19 +12,19 @@ class SponsorLevel extends React.Component {
   renderSponsorColumn(levelContent, index) {
     let icon;
     if (levelContent.title === 'Engagement') {
-      icon = <GrowIcon />;
+      icon = <EngagementIcon />;
     } else if (levelContent.title === 'Innovation') {
-      icon = <InspireIcon />;
+      icon = <InnovationIcon />;
     } else if (levelContent.title === 'Recruitment') {
-      icon = <RecruitIcon />;
+      icon = <RecruitmentIcon />;
     }
 
     return (
-      <div key={`sponsor-level-${index}`} className="sponsor-level col-xl-12">
+      <div key={`sponsor-level-${index}`} className="sponsor-level">
         <div className="text-center">{icon}</div>
-        <div className="text-center sponsor-subtitle">{levelContent.title}</div>
+        <div className="sponsor-subtitle">{levelContent.title}</div>
         <div className="row sponsor-level-row">
-          <div className="sponsor-level-description">
+          <div className="sponsor-level-description col">
             {levelContent.description}         
           </div>
           </div>
