@@ -1,52 +1,120 @@
-/* Styles for the site footer*/
 .footer {
-  p {
-    margin: 0;
-  }
-  padding: 50px 0;
-}
+  @include padding;
+  @include navy-bg;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
-.footer-links {
-  margin: auto;
-  .coc-link {
-    color: $sprout-green;
-  }
-}
-
-.footer-cta {
-  @media (max-width: 1024px) {
-    margin-top: 30px;
+  @media (min-width: $md) {
+    flex-direction: row;
   }
 }
 
-.logo-small {
+.footer__leaves-left,
+.footer__leaves-right {
+  display: block;
+  position: absolute;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.footer__leaves-left {
   width: 150px;
+  top: -15px;
+  left: -60px;
+  transform: rotate(20deg);
+
+  @media (min-width: $sm) {
+    width: 160px;
+  }
+
+  @media (min-width: $xl) {
+    width: 220px;
+    top: 40px;
+    left: -70px;
+  }
 }
 
-.icon-small {
-  color: white;
-  width: 50px;
-  height: 50px;
-  padding: 5px;
-  vertical-align: middle;
+.footer__leaves-right {
+  width: 180px;
+  bottom: -60px;
+  right: -70px;
+
+  @media (min-width: $sm) {
+    width: 200px;
+    right: -60px;
+  }
+
+  @media (min-width: $xl) {
+    width: 250px;
+    bottom: -70px;
+    right: -70px;
+  }
 }
 
-.footer-heading {
-  @include h4-text;
+.footer__logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 25px;
+
+  @media (min-width: $md) {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $lg) {
+    width: 200px;
+  }
+}
+
+.footer__content {
+  width: 70%;
+  text-align: center;
+
+  @media (min-width: $sm) {
+    width: 50%;
+  }
+
+  @media (min-width: $md) {
+    width: 300px;
+    text-align: left;
+  }
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $md) {
+    margin-left: 0;
+    width: 90%;
+  }
+}
+
+.footer__social-link {
+  color: $white;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $sprout-green-light;
+  }
+}
+
+.footer__coc-link {
   color: $sprout-green;
-  overflow: hidden;
-}
+  transition: color 0.2s ease;
 
-.coc {
-  margin-top: 150px;
-  margin-bottom: 75px;
-}
-
-.coc ul {
-  list-style-type: disc;
-}
-
-.coc-header {
-  @include h2-text;
-  margin: 25px 0;
+  &:hover {
+    color: $sprout-green-light;
+    text-decoration: none;
+  }
 }

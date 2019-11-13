@@ -1,8 +1,8 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import FAQItems from 'components/faqItems/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
+import DynamicLink from 'components/dynamic-link';
 import AboutContent from 'data/about-content.json';
 
 import LogoAnimation from 'images/logo-sprout.gif';
@@ -95,14 +95,14 @@ const App = () => {
                 index={index}
                 title={item.title}
                 content={item.content}
-                imgSrc={item.imgSrc}
+                img={item.img}
                 btn={item.btn}
               />
             ))}
           </div>
         </section>
 
-        <section className="faq">
+        <section id="faq" className="faq">
           <div className="container">
             <h2 className="faq__title">FAQ</h2>
             <FAQItems />
@@ -143,9 +143,9 @@ const App = () => {
               >
                 Email Us
               </a>
-              <a className="home-sponsors__cta-link" href="/sponsors">
+              <DynamicLink className="home-sponsors__cta-link" to="/sponsors">
                 Or visit our Sponsors Page
-              </a>
+              </DynamicLink>
             </div>
           </div>
         </section>

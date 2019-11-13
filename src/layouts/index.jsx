@@ -2,10 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import StaticFooter from '../components/static-footer';
+import Footer from '../components/footer';
 import Nav from 'components/nav';
-import 'styles/main.scss';
+import NavMobile from 'components/nav-mobile';
+
 import favicon from '../pages/favicon.png';
+
+import '../../node_modules/@mdi/font/css/materialdesignicons.min.css';
+import 'styles/main.scss';
 
 // Shows the header and footer on every page
 const Layout = ({ children }) => (
@@ -30,8 +34,9 @@ const Layout = ({ children }) => (
       link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
     />
     <Nav />
+    <NavMobile />
     <div>{children()}</div>
-    <StaticFooter />
+    <Footer />
   </div>
 );
 

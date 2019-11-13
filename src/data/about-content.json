@@ -1,7 +1,10 @@
 [
   {
     "title": "The stories.",
-    "imgSrc": "http://tools.hackbeanpot.com/assets/images/2020-images/Girl%201%20%2B%20Circle.png",
+    "img": {
+      "src": "http://tools.hackbeanpot.com/assets/images/2020-assets/homepage-illustration-1.png",
+      "alt": "Illustration of someone holding a plant"
+    },
     "btn": {
       "text": "Read the stories",
       "url": "https://hackbeanpot.com/stories"
@@ -10,7 +13,10 @@
   },
   {
     "title": "The projects.",
-    "imgSrc": "http://tools.hackbeanpot.com/assets/images/2020-images/Girl%202%20%2B%20Circle.png",
+    "img": {
+      "src": "http://tools.hackbeanpot.com/assets/images/2020-assets/homepage-illustration-2.png",
+      "alt": "Illustration of someone holding a watering can"
+    },
     "btn": {
       "text": "See past projects",
       "url": "https://projects.hackbeanpot.com/"
@@ -19,7 +25,10 @@
   },
   {
     "title": "The people.",
-    "imgSrc": "http://tools.hackbeanpot.com/assets/images/2020-images/Girl%203%20%2B%20Circle.png",
+    "img": {
+      "src": "http://tools.hackbeanpot.com/assets/images/2020-assets/homepage-illustration-3.png",
+      "alt": "Illustration of someone holding a laptop"
+    },
     "btn": {
       "text": "Learn more about sponsorship",
       "url": "/sponsors"
