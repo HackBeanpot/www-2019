@@ -1,0 +1,41 @@
+.coc {
+  @include pale-blue-bg;
+  @include padding;
+}
+
+.coc__leaf {
+  display: block;
+  position: absolute;
+  width: 200px;
+  top: 175px;
+  left: -50px;
+
+  svg {
+    width: 100%;
+    height: auto;
+    fill: $sprout-green;
+  }
+
+  @media (min-width: $md) {
+    width: 300px;
+    top: 200px;
+  }
+}
+
+.coc__heading {
+  @include h1-text;
+  margin-top: 200px;
+  margin-bottom: 50px;
+
+  @media (min-width: $md) {
+    width: 80%;
+  }
+}
+
+.coc__body {
+  @include body-text;
+}
+
+.coc__subheading {
+  @include h5-text;
+}

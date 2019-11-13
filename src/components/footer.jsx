@@ -30,7 +30,7 @@ const Footer = () => (
         })}
       </ul>
       <p>HackBeanpot, Inc. is a registered 501(c)(3) organization.&nbsp;</p>
-      <DynamicLink className="footer__coc-link" to="/CodeOfConduct">
+      <DynamicLink className="footer__coc-link" to="/code-of-conduct">
         Code of Conduct
       </DynamicLink>
     </div>
