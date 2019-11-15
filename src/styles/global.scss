@@ -25,10 +25,6 @@ button {
 }
 
 // SECTIONS
-.logo-div {
-  font-family: $font-logo;
-}
-
 .light-background {
   background-color: $grey;
   color: $hbp-navy;
@@ -62,19 +58,4 @@ button {
 // GENERAL
 .center-text {
   text-align: center;
-}
-
-.center-h-v {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-// NAV BAR
-.custom-nav {
-  margin: 0 !important;
-  @media (max-width: 1024px) {
-    margin: 0 !important;
-    display: block;
-  }
 }
