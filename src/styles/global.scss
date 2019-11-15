@@ -25,24 +25,8 @@ button {
 }
 
 // SECTIONS
-.logo-div {
-  font-family: $font-logo;
-}
-
 .light-background {
   background-color: $grey;
-  color: $hbp-navy;
-  overflow: hidden;
-}
-
-.light-blue-background {
-  background-color: $hbp-blue;
-  color: $hbp-navy;
-  overflow: hidden;
-}
-
-.teal-background {
-  background-color: $sprout-green;
   color: $hbp-navy;
   overflow: hidden;
 }
@@ -62,19 +46,4 @@ button {
 // GENERAL
 .center-text {
   text-align: center;
-}
-
-.center-h-v {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-// NAV BAR
-.custom-nav {
-  margin: 0 !important;
-  @media (max-width: 1024px) {
-    margin: 0 !important;
-    display: block;
-  }
 }
