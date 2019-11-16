@@ -3,7 +3,8 @@ import React, { Fragment } from 'react';
 import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
 import Sponsors2020 from 'components/sponsors-2020';
 import Sponsors2019 from 'components/sponsors-2019';
-import SponsorshipVines from 'images/svg/sponsorship-vines'
+import SponsorshipVines from 'images/svg/sponsorship-vines';
+import SponsorsLeafPattern from 'images/sponsors-leaf-pattern.png';
 
 import MainContent from 'data/sponsor-main.json';
 import LevelContent from 'data/sponsor-level-content.json';
@@ -29,24 +30,31 @@ class SponsorsPage extends React.Component {
               </a>
             </div>
           </div>
-          <div className="container sponsor-perks">
-            <div className="sponsor-section-header">{MainContent.perks}</div>
-            <div className="sponsor-perk-cta">{MainContent.perksCta}</div>
-            <div className="sponsor-kits-title">The 3 Kits</div>
-            <SponsorLevels content={LevelContent} />
-            <div className="center-text faq-button-title">
-              Interested in learning about our full sponsorship packet?
+          <section className="sponsor-perks">
+            <div className="container">
+              <div className="sponsor-section-header">{MainContent.perks}</div>
+              <div className="sponsor-perk-cta">{MainContent.perksCta}</div>
+              <div className="sponsor-kits-title">The 3 Kits</div>
+              <SponsorLevels content={LevelContent} />
+              <div className="center-text faq-button-title">
+                Interested in learning about our full sponsorship packet?
+                  <br />
                 <br />
-              <br />
-              <a
-                href="mailto:team@hackbeanpot.com"
-                role="button"
-                className="btn yellow-btn lg-btn"
-              >
-                Email Us
-                </a>
+                <a
+                  href="mailto:team@hackbeanpot.com"
+                  role="button"
+                  className="btn yellow-btn lg-btn"
+                >
+                  Email Us
+                  </a>
+              </div>
             </div>
-          </div>
+          <img
+            src={SponsorsLeafPattern}
+            alt="Animated logo"
+            className="sponsors__pattern"
+            />
+          </section>
 
           <div className="sponsor-listing">
             <div className="container">

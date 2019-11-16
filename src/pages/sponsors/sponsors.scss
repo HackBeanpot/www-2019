@@ -25,7 +25,16 @@
   position: absolute;
   right: 0px;
   top: 0px;
+}
 
+.sponsors__pattern {
+  position: absolute;
+  width: 110%;
+  min-width: $xl;
+  top: 50%;
+  transform: translateY(-50%) scale(1.5);
+  z-index: 2;
+  opacity: 0.1;
 }
 
 .sponsor-cta {
