@@ -4,16 +4,45 @@
 
 .header {
   @include pale-blue-bg;
-  @include top-padding;
   @include bottom-padding;
   position: relative;
+  padding-top: 150px;
 }
 
 .header__skyline {
   width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: auto;
+  z-index: 0;
+
+  svg {
+    width: 130%;
+  }
+
+  @media (min-width: $lg) {
+    margin-top: -100px;
+
+    svg {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: $sm) {
+    margin-top: 50px;
+  }
+}
+
+.header__content {
+  width: 100%;
+
+  @media (min-width: $lg) {
+    width: 60%;
+    margin-right: 50px;
+  }
+
+  @media (min-width: $xl) {
+    width: 45%;
+    margin-right: 50px;
+  }
 }
 
 .header__title {
@@ -212,5 +241,22 @@
 
   &:hover {
     text-decoration: none;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Animations
+// ---------------------------------------------------------------------------
+
+.cloud {
+  animation: moveAcross 12s linear infinite;
+}
+
+@keyframes moveAcross {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(100vw);
   }
 }

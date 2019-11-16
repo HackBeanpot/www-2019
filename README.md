@@ -1,6 +1,6 @@
 # beta.hackbeanpot.com
 
-HackBeanpot's website for 2018-2019. It is written in React and served using GitHub Pages. We use Gatsby to compile our files into static assets for deployment.
+HackBeanpot's website for 2018-2020. It is written in React and served using GitHub Pages. We use Gatsby to compile our files into static assets for deployment.
 
 ## Getting Set Up For Development
 

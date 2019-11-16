@@ -18,8 +18,12 @@ const AboutItem = props => {
 
   return (
     <div className={`about-item ${props.index % 2 === 0 ? 'left' : 'right'}`}>
-      <img src={props.imgSrc} className="about-item__img" />
-      <div className="col-md-6 about-item__content">
+      <img
+        src={props.img.src}
+        alt={props.img.alt}
+        className={`about-item__img img-${props.index}`}
+      />
+      <div className="about-item__content">
         <p className="about-item__title">{props.title}</p>
         <p
           className="about-item__description"
@@ -34,7 +38,7 @@ const AboutItem = props => {
 AboutItem.defaultProps = {
   title: '',
   content: '',
-  imgSrc: '',
+  img: {},
   hasBtn: false,
   floatDirection: 'left'
 };

@@ -1,0 +1,25 @@
+.not-found-page {
+  padding: 200px 40px;
+  text-align: center;
+}
+
+.not-found-page__heading {
+  color: $hbp-navy;
+  font-family: $font-body;
+  font-size: 100px;
+  font-weight: 700;
+  opacity: 0.4;
+
+  @media (min-width: $sm) {
+    font-size: 200px;
+  }
+}
+
+.not-found-page__text {
+  @include h6-text;
+  margin-bottom: 40px;
+}
+
+.not-found-page__btn {
+  @include secondary-cta;
+}

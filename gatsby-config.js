@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'HackBeanpot 2019',
+    title: 'HackBeanpot 2020',
     siteUrl: 'https://hackbeanpot.com/'
   },
   plugins: [

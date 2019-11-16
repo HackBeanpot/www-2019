@@ -1,10 +1,11 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import FAQItems from 'components/faqItems/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
+import DynamicLink from 'components/dynamic-link';
 import AboutContent from 'data/about-content.json';
 
+import Skyline from 'images/svg/skyline.jsx';
 import LogoAnimation from 'images/logo-sprout.gif';
 import HomeAboutPattern from 'images/home-about-pattern.png';
 import HomeSponsorsCircuit from 'images/svg/home-sponsors-circuit.jsx';
@@ -14,7 +15,7 @@ const App = () => {
   return (
     <div>
       <Helmet
-        title="HackBeanpot 2019"
+        title="HackBeanpot 2020"
         meta={[
           {
             name: 'description',
@@ -35,7 +36,7 @@ const App = () => {
 
       <div className="home">
         <section className="header">
-          <div className="container">
+          <div className="container header__content">
             <h1 className="header__title">HackBeanpot</h1>
             <p className="header__description">
               An independently-run Boston hackathon for curious students,
@@ -50,6 +51,9 @@ const App = () => {
             >
               Join our mailing list
             </a>
+          </div>
+          <div className="header__skyline">
+            <Skyline />
           </div>
         </section>
 
@@ -95,14 +99,14 @@ const App = () => {
                 index={index}
                 title={item.title}
                 content={item.content}
-                imgSrc={item.imgSrc}
+                img={item.img}
                 btn={item.btn}
               />
             ))}
           </div>
         </section>
 
-        <section className="faq">
+        <section id="faq" className="faq">
           <div className="container">
             <h2 className="faq__title">FAQ</h2>
             <FAQItems />
@@ -143,9 +147,9 @@ const App = () => {
               >
                 Email Us
               </a>
-              <a className="home-sponsors__cta-link" href="/sponsors">
+              <DynamicLink className="home-sponsors__cta-link" to="/sponsors">
                 Or visit our Sponsors Page
-              </a>
+              </DynamicLink>
             </div>
           </div>
         </section>

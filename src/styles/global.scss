@@ -9,21 +9,19 @@ body {
   background-color: $pale-blue;
 }
 
-// SECTIONS
-.logo-div {
-  font-family: $font-logo;
+ul {
+  padding: 0;
+  list-style-type: none;
 }
 
-.light-background {
-  background-color: $grey;
-  color: $hbp-navy;
-  overflow: hidden;
-}
-
-.light-blue-background {
-  background-color: $hbp-blue;
-  color: $hbp-navy;
-  overflow: hidden;
+button {
+  padding: 0;
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 .dark-green-background {
@@ -34,6 +32,12 @@ body {
 
 .teal-background {
   background-color: $sprout-green;
+  color: $hbp-navy;
+  overflow: hidden;
+}
+
+.light-background {
+  background-color: $grey;
   color: $hbp-navy;
   overflow: hidden;
 }
@@ -53,19 +57,4 @@ body {
 // GENERAL
 .center-text {
   text-align: center;
-}
-
-.center-h-v {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-// NAV BAR
-.custom-nav {
-  margin: 0 !important;
-  @media (max-width: 1024px) {
-    margin: 0 !important;
-    display: block;
-  }
 }

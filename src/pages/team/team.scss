@@ -1,0 +1,217 @@
+// ---------------------------------------------------------------------------
+// Page Header
+// ---------------------------------------------------------------------------
+
+.team__header {
+  @include yellow-green-bg;
+  @include bottom-padding;
+  padding-top: 200px;
+}
+
+.team-header__description {
+  @include large-body-text;
+  @include bottom-margin;
+  width: 100%;
+  display: inline-block;
+
+  @media (min-width: $md) {
+    width: 60%;
+  }
+}
+
+.team-header__info-container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.team-badge-leaf__container {
+  width: 250px;
+  height: 250px;
+  align-self: flex-end;
+  margin-top: -50px;
+
+  @media (min-width: $md) {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.team-badge-leaf {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.team-badge-leaf__content {
+  @include h6-text($white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  text-align: center;
+}
+
+// ---------------------------------------------------------------------------
+// All Teams Section
+// ---------------------------------------------------------------------------
+
+.all-teams {
+  @include pale-blue-bg;
+  @include top-padding;
+  @include bottom-padding;
+  position: relative;
+}
+
+.team__title {
+  @include h4-text;
+  margin-top: 50px;
+
+  @media (min-width: $md) {
+    margin-top: 100px;
+  }
+}
+
+.team-leaf {
+  margin-top: -125px;
+  margin-left: -200px;
+  transform: scale(0.4);
+  z-index: 2;
+
+  @media (min-width: $sm) {
+    margin-left: -200px;
+    transform: scale(0.6);
+  }
+
+  @media (min-width: $md) {
+    margin-left: -100px;
+    transform: scale(1);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Page bottom CTA
+// ---------------------------------------------------------------------------
+
+.team__cta-container {
+  width: 100%;
+  margin: 150px 0;
+
+  @media (min-width: $md) {
+    width: 70%;
+  }
+
+  @media (min-width: $xl) {
+    width: 50%;
+  }
+}
+
+.team__cta-label {
+  @include h3-text;
+  margin-bottom: 40px;
+}
+
+.team__cta {
+  @include primary-cta;
+}
+
+.team-leaf-pattern {
+  position: absolute;
+  z-index: 0;
+  transform: scale(0.4);
+  right: -250px;
+  bottom: -100px;
+
+  @media (min-width: $sm) {
+    transform: scale(0.6);
+  }
+
+  @media (min-width: $md) {
+    transform: scale(1);
+    right: 0px;
+    bottom: -200px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Team Member Headshot
+// ---------------------------------------------------------------------------
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-member__image-container {
+  position: relative;
+  margin-bottom: 20px;
+
+  &:hover {
+    cursor: pointer;
+
+    .team-member__circle {
+      opacity: 0.8;
+    }
+
+    .team-member__fun-fact {
+      opacity: 1;
+    }
+  }
+}
+
+.team-member__image,
+.team-member__circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid $hbp-navy;
+
+  @media (min-width: $md) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.team-member__circle,
+.team-member__fun-fact {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transition: opacity 0.2s ease;
+}
+
+.team-member__image {
+  backface-visibility: hidden;
+}
+
+.team-member__circle {
+  background-color: $hbp-navy;
+}
+
+.team-member__fun-fact {
+  @include small-body-text($white);
+  width: 150px;
+  line-height: 1.4em;
+
+  @media (max-width: $md) {
+    width: 100px;
+  }
+}
+
+.team-member__name {
+  @include h5-text;
+  margin-bottom: 0;
+}

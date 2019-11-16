@@ -70,6 +70,12 @@
 // Colorblock Backgrounds
 // ---------------------------------------------------------------------------
 
+@mixin navy-bg {
+  background-color: $hbp-navy;
+  color: $white;
+  overflow: hidden;
+}
+
 @mixin pale-blue-bg {
   @include inline-link;
   background-color: $pale-blue;
