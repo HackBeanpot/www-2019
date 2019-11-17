@@ -8,10 +8,10 @@ const Quote = props => (
           <span className="noClick">"{props.quote.content}"</span>
         </div>
         <h6 className="stories-quote-from noClick">
-        {props.quote.author},{' '}
-        <span className="noClick">{props.quote.company}</span>
-      </h6>
-    </div>
+          {props.quote.attribution},{' '}
+          <span className="noClick">{props.quote.role}</span>
+        </h6>
+      </div>
     ) : null}
   </Fragment>
 );
