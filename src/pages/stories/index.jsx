@@ -1,22 +1,32 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Stories from 'pages/stories/components/stories';
 import DynamicLink from '../../components/dynamic-link';
 
+import StoriesPattern from 'images/stories-leaf-pattern.png';
+
 const StoriesPage = () => {
   return (
-    <Fragment>
-      <div className="stories-welcome container">
-        <h1 className="stories__title">We've got stories to share</h1>
-        <p className="stories__description col-md-8">
-          Here's a collection of stories from past attendees, organizers, and
-          sponsors. Our goal is for everyone’s HackBeanpot experience to be as
-          awesome as theirs was!
-        </p>
-        <Stories />
-      </div>
+    <div className="stories">
+      <section className="stories__header">
+        <img
+          src={StoriesPattern}
+          alt="Background pattern"
+          className="stories__pattern"
+        />
+        <div className="container">
+          <h1 className="header__title">We've got stories to&nbsp;share</h1>
+          <p className="stories__description">
+            Here's a collection of stories from past attendees, organizers, and
+            sponsors. Our goal is for everyone’s HackBeanpot experience to be as
+            awesome as theirs was!
+          </p>
+        </div>
 
-      <div className="stories-tell">
+        <Stories />
+      </section>
+
+      <section className="stories-tell">
         <div className="container">
           <h2 className="stories-tell__heading">
             ...and we've got a story to&nbsp;tell.
@@ -51,8 +61,8 @@ const StoriesPage = () => {
             </div>
           </div>
         </div>
-      </div>
-    </Fragment>
+      </section>
+    </div>
   );
 };
 

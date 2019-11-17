@@ -8,6 +8,16 @@
   padding-top: 200px;
 }
 
+.team-header__info-container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $md) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .team-header__description {
   @include large-body-text;
   @include bottom-margin;
@@ -16,16 +26,6 @@
 
   @media (min-width: $md) {
     width: 60%;
-  }
-}
-
-.team-header__info-container {
-  display: flex;
-  flex-direction: column;
-
-  @media (min-width: $md) {
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 

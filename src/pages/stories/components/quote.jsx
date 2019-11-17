@@ -5,7 +5,7 @@ const Quote = props => (
     {!!props.quote ? (
       <div className="quote">
         <div className="quote-box" id={props.quoteId}>
-          <span className="noClick">"{props.quote.content}"</span>
+          <span>"{props.quote.content}"</span>
         </div>
         <h6 className="quote__attribution noClick">
           {props.quote.attribution},{' '}

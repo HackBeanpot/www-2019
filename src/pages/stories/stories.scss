@@ -2,9 +2,20 @@
 // Stories
 // ---------------------------------------------------------------------------
 
-.stories-welcome {
+.stories__header {
   @include pale-blue-bg;
+  @include bottom-padding;
   padding-top: 200px;
+}
+
+.stories__pattern {
+  position: absolute;
+  width: 110%;
+  min-width: $xl;
+  top: 0;
+  top: -10%;
+  left: 0;
+  opacity: 0.05;
 }
 
 .stories__title {
@@ -13,58 +24,71 @@
 
 .stories__description {
   @include large-body-text;
+  width: 100%;
+
+  @media (min-width: $md) {
+    width: 60%;
+  }
 }
 
 // ---------------------------------------------------------------------------
 // Stories Component
 // ---------------------------------------------------------------------------
 
-.stories-round-image {
-  cursor: pointer;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 300px;
-  border: solid 1px $charles-river-blue;
-  transition: 0.5s;
-  @media (max-width: 767px) {
-    width: 100px;
-    height: 100px;
-  }
-
-  .stories-round-image img {
-    display: block;
-  }
+.stories-circles {
+  position: relative;
+  margin: 150px 50px;
 }
 
-.stories-round-image__selected {
-  border: solid 5px $charles-river-blue;
-  transform: scale(1.25);
-}
-
-.hide-small {
-  @media (max-width: 767px) {
-    display: none;
-  }
-}
-
-.top-images {
+.stories-circles__top {
+  display: flex;
   padding-right: 25%;
-  @media (max-width: 767px) {
+  @media (max-width: 1024px) {
     padding-right: 0;
   }
 }
 
-.bottom-images {
+.stories-circles__bottom {
+  display: flex;
   padding-left: 25%;
   @media (max-width: 1024px) {
     padding-left: 0;
   }
 }
 
-.portrait {
+.stories-circles__img-container {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s;
+
+  &:hover {
+    border: solid 2px $hbp-blue;
+  }
+
+  &.selected {
+    border: solid 5px $hbp-blue;
+    transform: scale(1.25);
+
+    img {
+      filter: grayscale(0%);
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.stories-circles__img {
   width: 215px;
   height: auto;
+  filter: grayscale(100%);
+
   @media (max-width: 767px) {
     width: 100px;
   }
@@ -74,7 +98,8 @@
 // ---------------------------------------------------------------------------
 
 .quote {
-  margin: 50px 200px 50px 100px;
+  margin: 70px auto;
+  max-width: 600px;
 
   @media (max-width: 1024px) {
     margin: 0;
@@ -87,6 +112,7 @@
   border-radius: 10px;
   padding: 20px 30px;
   pointer-events: none;
+  @include drop-shadow;
 }
 
 .quote__attribution {
