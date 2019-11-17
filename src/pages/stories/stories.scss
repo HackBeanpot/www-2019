@@ -73,27 +73,30 @@
 // Quote
 // ---------------------------------------------------------------------------
 
-.stories-quote-from {
-  margin-top: 30px;
-  font-weight: 600;
-}
-
-.quote-box-container {
+.quote {
   margin: 50px 200px 50px 100px;
+
   @media (max-width: 1024px) {
-    margin: 30px 10px;
+    margin: 0;
   }
 }
 
 .quote-box {
   @include charles-river-blue-bg;
-  @include large-body-text($white);
+  @include body-text($white);
   border-radius: 10px;
   padding: 20px 30px;
+  pointer-events: none;
 }
 
-.noClick {
-  pointer-events: none;
+.quote__attribution {
+  @include body-text;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.quote__role {
+  font-weight: normal;
 }
 
 // ---------------------------------------------------------------------------
