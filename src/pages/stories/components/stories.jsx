@@ -1,15 +1,12 @@
-import React, { Fragment } from 'react'; 
+import React, { Fragment } from 'react';
 import Quote from 'pages/stories/components/quote';
-import Circuit1 from 'images/circuit-1';
-import SponsorBlob1 from 'images/sponsor-blob-1';
-import SponsorBlob2 from 'images/sponsor-blob-2';
 import Quotes from 'data/quotes.json';
 
 class Stories extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentQuote: 0,
+      currentQuote: 0
     };
   }
 
@@ -21,7 +18,11 @@ class Stories extends React.Component {
       return (
         <div key={`stories-${index}`} style={{ width: '33%', bottom: bottom }}>
           <div
-            className={ (this.state.currentQuote == index ? "stories-round-image__selected " : "") + "stories-round-image center" }
+            className={
+              (this.state.currentQuote == index
+                ? 'stories-round-image__selected '
+                : '') + 'stories-round-image center'
+            }
           >
             <img
               className="portrait"
@@ -38,13 +39,11 @@ class Stories extends React.Component {
 
   render() {
     return (
-        <Fragment>
-          <div className="row top-images">{this.renderImages([0, 1, 2])}</div>
-          <Quote quote={Quotes[this.state.currentQuote]} />
-          <div className="row bottom-images">
-            {this.renderImages([3, 4, 5])}
-          </div>
-        </Fragment>
+      <Fragment>
+        <div className="row top-images">{this.renderImages([0, 1, 2])}</div>
+        <Quote quote={Quotes[this.state.currentQuote]} />
+        <div className="row bottom-images">{this.renderImages([3, 4, 5])}</div>
+      </Fragment>
     );
   }
 }

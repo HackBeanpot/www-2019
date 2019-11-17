@@ -1,58 +1,23 @@
-@import '../styles/constants.scss';
-@import '../../styles/image-style.scss';
-
-.stories__title {
-  @include h2-text;
-  text-align: left;
-  font-weight: 600;
-  padding-top: 200px;
-  padding-bottom: 50px;
-  @media (max-width: 767px) {
-    padding-top: 150px;
-  }
-}
-
-.stories-section-header {
-  @include h2-text($white);
-  font-weight: 600;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  @media (max-width: 767px) {
-    padding-top: 50px;
-  }
-}
-
-.stories-tell {
-  margin-bottom: 150px;
-}
-
-.stories-tell-quote {
-  @include bottom-padding;
-  padding-top: 50px;
-  @media (max-width: 767px) {
-    padding-top: 0;
-  }
-}
+// ---------------------------------------------------------------------------
+// Stories
+// ---------------------------------------------------------------------------
 
 .stories-welcome {
   @include pale-blue-bg;
-  padding-bottom: 100px;
+  padding-top: 200px;
+}
+
+.stories__title {
+  @include h1-text;
 }
 
 .stories__description {
   @include large-body-text;
-  text-align: left;
-  margin-bottom: 100px;
 }
 
-.stories-quote {
-  @include large-body-text($white);
-}
-
-.stories-quote-from {
-  margin-top: 30px;
-  font-weight: 600;
-}
+// ---------------------------------------------------------------------------
+// Stories Component
+// ---------------------------------------------------------------------------
 
 .stories-round-image {
   cursor: pointer;
@@ -77,42 +42,33 @@
   transform: scale(1.25);
 }
 
-
 .hide-small {
   @media (max-width: 767px) {
     display: none;
   }
 }
 
-
-.portrait {
-  width: 215px;
-  height: auto;
+.top-images {
+  padding-right: 25%;
   @media (max-width: 767px) {
-    width: 100px;
+    padding-right: 0;
   }
 }
 
-.stories-tell-section {
-  @include top-margin;
-  @include charles-river-blue-bg;
-  border-radius: 0px !important;
+.bottom-images {
+  padding-left: 25%;
+  @media (max-width: 1024px) {
+    padding-left: 0;
+  }
 }
 
-.portrait-large {
-  width: 450px;
-  height: auto;
-}
+// ---------------------------------------------------------------------------
+// Quote
+// ---------------------------------------------------------------------------
 
-.stories-cta__title {
-  @include h3-text($white);
-  font-weight: 700;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-.stories-cta {
-  @include primary-cta;
+.stories-quote-from {
+  margin-top: 30px;
+  font-weight: 600;
 }
 
 .quote-box-container {
@@ -133,20 +89,63 @@
   pointer-events: none;
 }
 
+// ---------------------------------------------------------------------------
+// "We've got a story to tell" Section
+// ---------------------------------------------------------------------------
+
+.stories-tell {
+  @include top-padding;
+  @include bottom-padding;
+  @include charles-river-blue-bg;
+}
+
+.stories-tell__heading {
+  @include h2-text($white);
+  margin-bottom: 50px;
+}
+
+.stories-tell__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: $md) {
+    flex-direction: row;
+  }
+}
+
+.stories-tell__desc-cta {
+  width: 100%;
+  margin-bottom: 50px;
+
+  @media (min-width: $md) {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+
+.stories-tell__description {
+  @include body-text($white);
+  margin-bottom: 50px;
+}
+
+.stories-tell__img-container {
+  width: 100%;
+
+  @media (min-width: $md) {
+    width: 40%;
+  }
+}
+
+.stories-tell__img {
+  width: 100%;
+  height: auto;
+}
+
+.stories-tell__cta {
+  @include primary-cta;
+}
+
 .center {
   margin: auto;
-}
-
-.top-images {
-  padding-right: 25%;
-  @media (max-width: 767px) {
-    padding-right: 0;
-  }
-}
-
-.bottom-images {
-  padding-left: 25%;
-  @media (max-width: 1024px) {
-    padding-left: 0;
-  }
 }
