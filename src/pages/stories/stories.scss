@@ -1,139 +1,187 @@
-@import '../styles/constants.scss';
-@import '../../styles/image-style.scss';
+// ---------------------------------------------------------------------------
+// Stories
+// ---------------------------------------------------------------------------
 
-.stories-title {
-  @include h2-text;
-  text-align: left;
-  font-weight: 600;
+.stories__header {
+  @include pale-blue-bg;
+  @include bottom-padding;
   padding-top: 200px;
-  padding-bottom: 50px;
-  @media (max-width: 767px) {
-    padding-top: 150px;
-  }
 }
 
-.stories-section-header {
-  @include h2-text($white);
-  font-weight: 600;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  @media (max-width: 767px) {
-    padding-top: 50px;
-  }
+.stories__pattern {
+  position: absolute;
+  width: 110%;
+  min-width: $xl;
+  top: 0;
+  top: -10%;
+  left: 0;
+  opacity: 0.05;
 }
 
-.stories-tell {
-  margin-bottom: 150px;
+.stories__title {
+  @include h1-text;
 }
 
-.stories-tell-quote {
-  padding-top: 50px;
-  @media (max-width: 767px) {
-    padding-top: 0;
-  }
-}
-
-.stories-welcome {
-  padding-bottom: 100px;
-}
-
-.stories-cta {
+.stories__description {
   @include large-body-text;
-  text-align: left;
-  margin-bottom: 100px;
+  width: 100%;
+
+  @media (min-width: $md) {
+    width: 60%;
+  }
 }
 
-.stories-quote {
-  @include large-body-text($white);
-  padding-top: 50px;
+// ---------------------------------------------------------------------------
+// Stories Component
+// ---------------------------------------------------------------------------
+
+.stories-circles {
+  position: relative;
+  margin: 150px 50px;
 }
 
-.stories-quote-from {
-  padding-top: 25px;
-  font-weight: 600;
+.stories-circles__top {
+  display: flex;
+  padding-right: 25%;
+  @media (max-width: 1024px) {
+    padding-right: 0;
+  }
 }
 
-.stories-round-image {
+.stories-circles__bottom {
+  display: flex;
+  padding-left: 25%;
+  @media (max-width: 1024px) {
+    padding-left: 0;
+  }
+}
+
+.stories-circles__img-container {
+  cursor: pointer;
   width: 200px;
   height: 200px;
+  border: solid 2px transparent;
+  border-radius: 50%;
   overflow: hidden;
-  background-color: $hbp-blue;
-  border-radius: 300px;
-  border: solid 5px $grey;
-  transition: 0.5s;
+  transition: all 0.3s;
+
+  &:hover {
+    border: solid 2px $hbp-blue;
+  }
+
+  &.selected {
+    border: solid 5px $hbp-blue;
+    transform: scale(1.25);
+
+    img {
+      filter: grayscale(0%);
+    }
+  }
+
   @media (max-width: 767px) {
     width: 100px;
     height: 100px;
   }
 }
 
-.stories-round-image-large {
-  width: 300px;
-  height: 300px;
-  border-radius: 300px;
-  border-style: none !important;
-  @media (max-width: 767px) {
-    margin: auto;
-    margin-top: 50px;
-  }
-}
-
-.hide-small {
-  @media (max-width: 767px) {
-    display: none;
-  }
-}
-
-.stories-round-image:hover {
-  border: solid 5px $yellow-green;
-}
-
-.portrait {
+.stories-circles__img {
   width: 215px;
   height: auto;
+  filter: grayscale(100%);
+
   @media (max-width: 767px) {
     width: 100px;
   }
 }
+// ---------------------------------------------------------------------------
+// Quote
+// ---------------------------------------------------------------------------
 
-.portrait-large {
-  width: 450px;
-  height: auto;
-}
+.quote {
+  margin: 70px auto;
+  max-width: 600px;
 
-.stories-button-title {
-  @include h3-text($white);
-  font-weight: 700;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-.quote-box {
-  @include large-body-text;
-  margin: 50px 150px 50px 100px;
   @media (max-width: 1024px) {
-    margin: 30px 10px;
+    margin: 0;
   }
 }
 
-.noClick {
+.quote-box {
+  @include charles-river-blue-bg;
+  @include body-text($white);
+  border-radius: 10px;
+  padding: 20px 30px;
   pointer-events: none;
+  @include drop-shadow;
+}
+
+.quote__attribution {
+  @include body-text;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.quote__role {
+  font-weight: normal;
+}
+
+// ---------------------------------------------------------------------------
+// "We've got a story to tell" Section
+// ---------------------------------------------------------------------------
+
+.stories-tell {
+  @include top-padding;
+  @include bottom-padding;
+  @include charles-river-blue-bg;
+}
+
+.stories-tell__heading {
+  @include h2-text($white);
+  margin-bottom: 50px;
+}
+
+.stories-tell__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: $md) {
+    flex-direction: row;
+  }
+}
+
+.stories-tell__desc-cta {
+  width: 100%;
+  margin-bottom: 50px;
+
+  @media (min-width: $md) {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+
+.stories-tell__description {
+  @include body-text($white);
+  margin-bottom: 50px;
+}
+
+.stories-tell__img-container {
+  width: 100%;
+
+  @media (min-width: $md) {
+    width: 40%;
+  }
+}
+
+.stories-tell__img {
+  width: 100%;
+  height: auto;
+}
+
+.stories-tell__cta {
+  @include primary-cta;
 }
 
 .center {
   margin: auto;
-}
-
-.top-images {
-  padding-right: 25%;
-  @media (max-width: 767px) {
-    padding-right: 0;
-  }
-}
-
-.bottom-images {
-  padding-left: 25%;
-  @media (max-width: 1024px) {
-    padding-left: 0;
-  }
 }

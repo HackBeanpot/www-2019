@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from 'gatsby';
 
 const DynamicLink = props => {
   if (props.to.substring(0, 1) === '/') {

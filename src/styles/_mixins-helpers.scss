@@ -90,6 +90,13 @@
   overflow: hidden;
 }
 
+@mixin charles-river-blue-bg {
+  @include inline-link;
+  background-color: $charles-river-blue;
+  color: $white;
+  overflow: hidden;
+}
+
 @mixin yellow-green-bg {
   @include inline-link;
   background-color: $yellow-green;

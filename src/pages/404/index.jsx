@@ -1,5 +1,12 @@
 import React from 'react';
+import Layout from '../../components/layout';
 import DynamicLink from 'components/dynamic-link';
+
+export default () => (
+  <Layout>
+    <NotFoundPage />
+  </Layout>
+);
 
 const NotFoundPage = () => (
   <div className="not-found-page">
@@ -12,5 +19,3 @@ const NotFoundPage = () => (
     </DynamicLink>
   </div>
 );
-
-export default NotFoundPage;

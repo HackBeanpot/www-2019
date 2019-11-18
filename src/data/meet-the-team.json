@@ -5,13 +5,13 @@
       {
         "name": "Rucha Khanolkar",
         "funFact": "Rucha has tried over 30 types of hummus!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/rucha-01.jpg",
         "position": "President"
       },
       {
         "name": "Ashna Shah",
         "funFact": "Ashna can say the alphabet backwards in under 4 seconds!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/ashna-01.jpg",
         "position": "Vice President"
       }
     ]
@@ -22,31 +22,31 @@
       {
         "name": "Caitlin Wang",
         "funFact": "Caitlin once slept for 20 hours straight!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/caitlin-01.jpg",
         "position": "Design Lead"
       },
       {
         "name": "Catu Berretta",
         "funFact": "Catu loves to talk about herself!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/catu-01.jpg",
         "position": "Designer (Sponsorship)"
       },
       {
         "name": "Jenn Der",
         "funFact": "Jenn is allergic to gluten but loves bread!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/jenn-01.jpg",
         "position": "Designer (Outreach)"
       },
       {
         "name": "Sindhu Majeti",
         "funFact": "Sindhu can touch her toungue to her nose!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/sindhu-01.jpg",
         "position": "Designer (Tech)"
       },
       {
         "name": "Willa Shiomos",
         "funFact": "Willa can greek folk dance!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/willa-01.jpg",
         "position": "Designer (Social Media)"
       }
     ]
@@ -57,25 +57,25 @@
       {
         "name": "Felicia Zhang",
         "funFact": "Felicia has a black belt in Kenpo karate!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/felicia-01.jpg",
         "position": "Outreach Lead"
       },
       {
         "name": "Ifteda Ahmed",
         "funFact": "Ifteda wears size 3 shoes!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/ifteda-01.jpg",
         "position": "Outreach Member"
       },
       {
         "name": "Gauri Dandi",
         "funFact": "Gauri can speak 3 languages!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/gauri-01.jpg",
         "position": "Outreach Member"
       },
       {
         "name": "Sarah Wessel",
         "funFact": "Sarah can ride a unicycle...and falls often!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/sarah-01.jpg",
         "position": "Outreach Member"
       }
     ]
@@ -86,7 +86,7 @@
       {
         "name": "Nupur Neogi",
         "funFact": "Nupur's dream job is to be a park ranger!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/nupur.jpg",
         "position": "Social Lead"
       }
     ]
@@ -97,25 +97,25 @@
       {
         "name": "Raquel Levy",
         "funFact": "Raquel went to her first concert at age 6!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/raquel-01.jpg",
         "position": "Sponsorship Lead"
       },
       {
         "name": "Nikitha Koppu",
         "funFact": "Nikitha is wicked good at Disney trivia!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/nikitha-01.jpg",
         "position": "Sponsorship Member"
       },
       {
         "name": "Caroline Liu",
         "funFact": "Caroline must be booked a month in advance!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/cari-01.jpg",
         "position": "Sponsorship Member"
       },
       {
         "name": "Daniel Wang",
         "funFact": "**placeholder text**",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/daniel-01.jpg",
         "position": "Sponsorship Member"
       }
     ]
@@ -126,25 +126,19 @@
       {
         "name": "Vyshnavi Chunduru",
         "funFact": "Vyshnavi was in 5 different countries in less than a week!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/vyshnavi-01.jpg",
         "position": "Tech Lead"
       },
       {
         "name": "Warren Partridge",
         "funFact": "Warren once ate an entire baguette while riding a bike!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/warren.png",
         "position": "Tech Member"
       },
       {
         "name": "Kyle Posluns",
         "funFact": "Kyle has a third nipple!",
-        "picture": "",
-        "position": "Tech Member"
-      },
-      {
-        "name": "Nabeel Sherazi",
-        "funFact": "Nabeel isn't actually a CS major!",
-        "picture": "",
+        "headshot": "http://tools.hackbeanpot.com/assets/images/2020-headshots/kyle-01.jpg",
         "position": "Tech Member"
       }
     ]

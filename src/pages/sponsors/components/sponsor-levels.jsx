@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import EngagementIcon from 'images/svg/engagement-icon';
 import InnovationIcon from 'images/svg/innovation-icon';
 import RecruitmentIcon from 'images/svg/recruitment-icon';

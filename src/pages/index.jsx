@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Layout from '../components/layout';
 import FAQItems from 'components/faqItems/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
 import DynamicLink from 'components/dynamic-link';
@@ -10,6 +11,12 @@ import LogoAnimation from 'images/logo-sprout.gif';
 import HomeAboutPattern from 'images/home-about-pattern.png';
 import HomeSponsorsCircuit from 'images/svg/home-sponsors-circuit.jsx';
 import favicon from './favicon.png';
+
+export default () => (
+  <Layout>
+    <App />
+  </Layout>
+);
 
 const App = () => {
   return (
@@ -44,10 +51,11 @@ const App = () => {
               are opening soon!
             </p>
             <a
+              className="header__cta"
               href="http://eepurl.com/gCU4x1"
               role="button"
               target="_blank"
-              className="header__cta"
+              rel="noopener noreferrer"
             >
               Join our mailing list
             </a>
@@ -72,7 +80,10 @@ const App = () => {
                   Sprout is a representation of what we stand for as an
                   organization and what we hope to offer all our attendees:
                   growth in new skills, relationships, and experiences. Oh, and
-                  we're trying to up our sustainability game too. ♻️
+                  we're trying to up our sustainability game too.{' '}
+                  <span role="img" aria-label="Recycle emoji">
+                    ♻️
+                  </span>
                 </p>
                 <p>
                   So whether you're a seasoned hackathon-goer, a
@@ -157,5 +168,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;

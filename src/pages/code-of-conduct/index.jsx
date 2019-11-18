@@ -1,6 +1,13 @@
 import React from 'react';
+import Layout from '../../components/layout';
 
 import BasicLeaf from 'images/svg/basic-leaf';
+
+export default () => (
+  <Layout>
+    <CodeOfConduct />
+  </Layout>
+);
 
 const CodeOfConduct = () => (
   <div className="coc">
@@ -54,7 +61,11 @@ const CodeOfConduct = () => (
         </li>
         <li>
           Twitter:{' '}
-          <a href="https://www.twitter.com/hackbeanpot" target="_blank">
+          <a
+            href="https://www.twitter.com/hackbeanpot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             @HackBeanpot
           </a>
         </li>
@@ -62,5 +73,3 @@ const CodeOfConduct = () => (
     </div>
   </div>
 );
-
-export default CodeOfConduct;

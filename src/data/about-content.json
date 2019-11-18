@@ -7,7 +7,7 @@
     },
     "btn": {
       "text": "Read the stories",
-      "url": "https://hackbeanpot.com/stories"
+      "url": "/stories"
     },
     "content": "<p>Memorable stories from HackBeanpot are just one of the things that make us unique. Our attendees range from graduate CS students to designers who have never written a line of code in their life!</p>"
   },
