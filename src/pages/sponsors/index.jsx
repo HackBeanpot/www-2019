@@ -21,10 +21,14 @@ class SponsorsPage extends React.Component {
     return (
       <Fragment>
         <div className="sponsorship">
-          <div className="sponsor-topper px-3">
+          <div className="sponsor-header px-3">
             <div className="container sponsor-welcome">
-              <div className="sponsor-title">{MainContent.title}</div>
-              <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
+              <div className="sponsor-title">
+                {MainContent.title}
+              </div>
+              <div className="sponsor-cta col-md-8">
+                {MainContent.cta}
+              </div>
               <div className="sponsor-cta col-md-8">
                 <strong>{MainContent.ps}</strong>
               </div>

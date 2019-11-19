@@ -4,10 +4,6 @@ import InnovationIcon from 'images/svg/innovation-icon';
 import RecruitmentIcon from 'images/svg/recruitment-icon';
 
 class SponsorLevel extends React.Component {
-  constructor(props) {
-    super(props);
-    this.renderSponsorRow = this.renderSponsorRow;
-  }
 
   renderSponsorColumn(levelContent, index) {
     let icon;

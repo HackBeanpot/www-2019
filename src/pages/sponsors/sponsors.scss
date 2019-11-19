@@ -1,5 +1,10 @@
 @import "../../styles/constants.scss";
 
+
+// -------------------------------------------------
+// SPONSOR WELCOME
+// -------------------------------------------------
+
 .sponsor-welcome {
   margin-top: 100px;
   margin-bottom: 175px;
@@ -9,16 +14,8 @@
   }
 }
 
-.sponsor-topper {
+.sponsor-header {
   @include dark-green-bg;
-}
-
-.sponsor-perks {
-  @include pale-blue-bg;
-}
-
-.sponsor-listing {
-  @include yellow-green-bg;
 }
 
 .sponsor-vines {
@@ -29,16 +26,6 @@
   @media (max-width: $md) {
     display: none;
   }
-}
-
-.sponsors__pattern {
-  position: absolute;
-  width: 110%;
-  min-width: $xl;
-  top: 50%;
-  transform: translateY(-50%) scale(1.5);
-  z-index: 2;
-  opacity: 0.1;
 }
 
 .sponsor-cta {
@@ -52,6 +39,26 @@
 
 .sponsor__cta {
   @include primary-cta;
+}
+
+
+
+// -------------------------------------------------
+// PERKS
+// -------------------------------------------------
+
+.sponsor-perks {
+  @include pale-blue-bg;
+}
+
+.sponsors__pattern {
+  position: absolute;
+  width: 110%;
+  min-width: $xl;
+  top: 50%;
+  transform: translateY(-50%) scale(1.5);
+  z-index: 2;
+  opacity: 0.1;
 }
 
 .sponsor-title {
@@ -98,22 +105,6 @@
   }
 }
 
-.sponsor-button {
-  @include large-body-text;
-  background-color: $yellow-green;
-  color: white;
-  padding: 10px 40px;
-  border-radius: 33px;
-  border-style: none;
-}
-
-.sponsor-button-center {
-  margin: 0 auto;
-  display: block;
-  width: 250px;
-  text-align: center;
-}
-
 .sponsor-perk-cta {
   @include large-body-text($hbp-navy);
   padding-bottom: 50px;
@@ -129,24 +120,20 @@
   padding-bottom: 25px;
 }
 
-.sponsor-level-quote {
-  color: $hbp-blue;
-  font-style: italic;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  padding: 15px;
-}
-
-.sponsor-level-credit {
-  font-weight: bold;
-  text-align: right;
-}
-
 .sponsor-level-description {
   color: $hbp-navy;
   @media (max-width: 1024px) {
     padding-bottom: 30px;
   }
+}
+
+
+// -------------------------------------------------
+// 2019 SPONSORS 
+// -------------------------------------------------
+
+.sponsor-listing {
+  @include yellow-green-bg;
 }
 
 .sponsor {
