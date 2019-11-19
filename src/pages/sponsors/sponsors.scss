@@ -28,7 +28,7 @@
   }
 }
 
-.sponsor-cta {
+.sponsor-header__description {
   @include large-body-text;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -61,7 +61,7 @@
   opacity: 0.1;
 }
 
-.sponsor-title {
+.sponsor__title {
   @include h2-text($hbp-navy);
   text-align: left;
   font-weight: 600;
@@ -72,7 +72,7 @@
   }
 }
 
-.sponsor-subtitle {
+.sponsor-level__title {
   @include h4-text($hbp-navy);
   @include top-margin;
   text-align: left;
@@ -84,7 +84,7 @@
   margin: auto;
 }
 
-.sponsor-kits-title {
+.sponsor-perk__title {
   @include h3-text($hbp-navy);
   padding-bottom: 25px;
 }
@@ -95,17 +95,7 @@
   padding-bottom: 25px;
 }
 
-.sponsor-section-header {
-  @include h2-text($hbp-navy);
-  font-weight: 600;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  @media (max-width: 1024px) {
-    padding-top: 50px;
-  }
-}
-
-.sponsor-perk-cta {
+.sponsor-perk__cta {
   @include large-body-text($hbp-navy);
   padding-bottom: 50px;
 }
@@ -120,7 +110,7 @@
   padding-bottom: 25px;
 }
 
-.sponsor-level-description {
+.sponsor-level__description {
   color: $hbp-navy;
   @media (max-width: 1024px) {
     padding-bottom: 30px;

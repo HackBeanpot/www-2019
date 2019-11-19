@@ -18,9 +18,9 @@ class SponsorLevel extends React.Component {
     return (
       <div key={`sponsor-level-${index}`} className="sponsor-level">
         <div className="text-center">{icon}</div>
-        <div className="sponsor-subtitle">{levelContent.title}</div>
+        <div className="sponsor-level__title">{levelContent.title}</div>
         <div className="row sponsor-level-row">
-          <div className="sponsor-level-description col">
+          <div className="sponsor-level__description col">
             {levelContent.description}         
           </div>
           </div>

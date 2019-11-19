@@ -23,13 +23,13 @@ class SponsorsPage extends React.Component {
         <div className="sponsorship">
           <div className="sponsor-header px-3">
             <div className="container sponsor-welcome">
-              <div className="sponsor-title">
+              <div className="sponsor__title">
                 {MainContent.title}
               </div>
-              <div className="sponsor-cta col-md-8">
+              <div className="sponsor-header__description col-md-8">
                 {MainContent.cta}
               </div>
-              <div className="sponsor-cta col-md-8">
+              <div className="sponsor-header__description col-md-8">
                 <strong>{MainContent.ps}</strong>
               </div>
               <a
@@ -43,9 +43,9 @@ class SponsorsPage extends React.Component {
           </div>
           <section className="sponsor-perks">
             <div className="container">
-              <div className="sponsor-section-header">{MainContent.perks}</div>
-              <div className="sponsor-perk-cta">{MainContent.perksCta}</div>
-              <div className="sponsor-kits-title">The 3 Kits</div>
+              <div className="sponsor__title">{MainContent.perks}</div>
+              <div className="sponsor-perk__cta">{MainContent.perksCta}</div>
+              <div className="sponsor-perk__title">The 3 Kits</div>
               <SponsorLevels content={LevelContent} />
               <div className="center-text faq-button-title">
                 Interested in learning about our full sponsorship packet?
@@ -70,7 +70,7 @@ class SponsorsPage extends React.Component {
           <div className="sponsor-listing">
             <div className="container">
               <section className="sponsors-section container">
-                <p className="sponsor-title">2019 Sponsors</p>
+                <p className="sponsor__title">2019 Sponsors</p>
                 <Sponsors2019 />
               </section>
             </div>
