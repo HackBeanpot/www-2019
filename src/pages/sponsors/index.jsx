@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import Layout from '../../components/layout';
 
 import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
+import SponsorLevelsMobile from 'pages/sponsors/components/sponsor-levels-mobile';
 import Sponsors2020 from 'components/sponsors-2020';
 import Sponsors2019 from 'components/sponsors-2019';
 import SponsorshipVines from 'images/svg/sponsorship-vines';
@@ -46,7 +47,7 @@ class SponsorsPage extends React.Component {
               <div className="sponsor__title">{MainContent.perks}</div>
               <div className="sponsor-perk__cta">{MainContent.perksCta}</div>
               <div className="sponsor-perk__title">The 3 Kits</div>
-              <SponsorLevels content={LevelContent} />
+              <SponsorLevelsMobile content={LevelContent} />
               <div className="center-text faq-button-title">
                 Interested in learning about our full sponsorship packet?
                   <br />
