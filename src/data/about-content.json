@@ -21,7 +21,7 @@
       "text": "See past projects",
       "url": "https://projects.hackbeanpot.com/"
     },
-    "content": "<p>The projects made at HackBeanpot are interesting, meaningful, and a lot of the times, silly! Past projects have ranged from a <a href='https://github.com/crowddj/crowddj-react/' target='_blank'>crowdsourced music playlist</a> to a <a href='https://github.com/dan3944/emojiscript/' target='_blank'>scripting language made entirely of emojis</a>.</p>"
+    "content": "<p>The projects made at HackBeanpot are interesting, meaningful, and a lot of the times, silly! Past projects have ranged from a <a href='https://github.com/crowddj/crowddj-react/' target='_blank'><strong>crowdsourced music playlist</strong></a> to a <a href='https://github.com/dan3944/emojiscript/' target='_blank'><strong>scripting language made entirely of emojis</strong></a>.</p>"
   },
   {
     "title": "The people.",
