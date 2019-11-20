@@ -1,22 +1,18 @@
 import React from 'react';
+import Flickity from 'react-flickity-component';
+
 import EngagementIcon from 'images/svg/engagement-icon';
 import InnovationIcon from 'images/svg/innovation-icon';
 import RecruitmentIcon from 'images/svg/recruitment-icon';
 
-import Flickity from 'flickity';
-import 'flickity/dist/flickity.min.css';
+const flickityOptions = {
+  wrapAround: false,
+  prevNextButtons: true,
+  pageDots: true,
+  adaptiveHeight: true
+};
 
 class SponsorLevelsMobile extends React.Component {
-
-  componentDidMount() {
-    this.flkty = new Flickity('.sponsor-levels-carousel', {
-      wrapAround: true,
-      prevNextButtons: true,
-      pageDots: true,
-      lazyLoad: 1
-    });
-  }
-
   renderSponsorColumn(levelContent, index) {
     let icon;
     if (levelContent.title === 'Engagement') {
@@ -33,29 +29,31 @@ class SponsorLevelsMobile extends React.Component {
         <div className="sponsor-level__title">{levelContent.title}</div>
         <div className="row sponsor-level-row">
           <div className="sponsor-level__description col">
-            {levelContent.description}         
+            {levelContent.description}
           </div>
-          </div>
+        </div>
       </div>
     );
   }
 
   render() {
-    if (this.props !== undefined && this.props.content !== undefined) {
-      return (
-        <div className="sponsor-levels-carousel" data-flickity="">
-          {this.props.content.map((content, index) =>
-            <div className ="carousel-cell">
-              {this.renderSponsorColumn(content, index)}
-            </div>
-          )}
-        </div>
-      );
-    } else {
-      return '';
+    if (typeof window !== 'undefined') {
+      if (this.props !== undefined && this.props.content !== undefined) {
+        return (
+          <Flickity
+            className="sponsor-levels-carousel"
+            options={flickityOptions}
+          >
+            {this.props.content.map((content, index) =>
+              this.renderSponsorColumn(content, index)
+            )}
+          </Flickity>
+        );
+      } else {
+        return null;
+      }
     }
   }
 }
 
 export default SponsorLevelsMobile;
-

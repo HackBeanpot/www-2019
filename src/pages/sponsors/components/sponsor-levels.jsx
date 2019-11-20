@@ -4,7 +4,6 @@ import InnovationIcon from 'images/svg/innovation-icon';
 import RecruitmentIcon from 'images/svg/recruitment-icon';
 
 class SponsorLevel extends React.Component {
-
   renderSponsorColumn(levelContent, index) {
     let icon;
     if (levelContent.title === 'Engagement') {
@@ -17,13 +16,11 @@ class SponsorLevel extends React.Component {
 
     return (
       <div key={`sponsor-level-${index}`} className="sponsor-level">
-        <div className="text-center">{icon}</div>
+        <div className="sponsor-level__icon">{icon}</div>
         <div className="sponsor-level__title">{levelContent.title}</div>
-        <div className="row sponsor-level-row">
-          <div className="sponsor-level__description col">
-            {levelContent.description}         
-          </div>
-          </div>
+        <div className="sponsor-level__description">
+          {levelContent.description}
+        </div>
       </div>
     );
   }
@@ -31,10 +28,10 @@ class SponsorLevel extends React.Component {
   render() {
     if (this.props !== undefined && this.props.content !== undefined) {
       return (
-        <div className="row sponsor-levels">
-          {this.props.content.map((content, index) =>
-          <div className ="col">{this.renderSponsorColumn(content, index)}</div>
-          )}
+        <div className="sponsor-levels">
+          {this.props.content.map((content, index) => {
+            return this.renderSponsorColumn(content, index);
+          })}
         </div>
       );
     } else {

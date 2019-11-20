@@ -1,71 +1,104 @@
-@import "../../styles/constants.scss";
-
-
 // -------------------------------------------------
-// SPONSOR WELCOME
+// Sponsor Header
 // -------------------------------------------------
 
-.sponsor-welcome {
-  margin-top: 100px;
-  margin-bottom: 175px;
-  overflow: visible;
-  @media (max-width: 1024px) {
-    margin-bottom: 100px;
-  }
+.sponsors {
+  position: relative;
+  overflow-x: hidden;
 }
 
-.sponsor-header {
-  @include dark-green-bg;
-}
-
-.sponsor-vines {
+.sponsors-vines {
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: -100px;
+  top: -50px;
+  z-index: 1;
+  opacity: 0.8;
 
-  @media (max-width: $md) {
+  svg {
+    width: 85%;
+  }
+
+  @media (max-width: $lg) {
     display: none;
   }
 }
 
-.sponsor-header__description {
-  @include large-body-text;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  padding-left: 0;
-  text-align: left;
-  color: $white;
+.sponsors-header {
+  @include dark-green-bg;
+  @include bottom-padding;
+  padding-top: 200px;
+  position: relative;
 }
 
-.sponsor__cta {
+.sponsors-header__title {
+  @include h1-text($white);
+  margin-bottom: 30px;
+}
+
+.sponsors-header__description {
+  @include large-body-text($white);
+  width: 100%;
+
+  @media (min-width: $lg) {
+    width: 70%;
+  }
+}
+
+.sponsors-header__ps {
+  @include body-text($white);
+  margin: 40px 0;
+  font-style: italic;
+}
+
+.sponsors__cta {
   @include primary-cta;
 }
 
-
-
 // -------------------------------------------------
-// PERKS
+// Sponsor Perks Section
 // -------------------------------------------------
-
-.sponsor-levels {
-  @media (max-width: $md) {
-    display: none;
-  }
-}
-
-.sponsor-levels-carousel {
-  display: block;
-
-  @media (min-width: $md) {
-    display: none;
-  }
-}
 
 .sponsor-perks {
   @include pale-blue-bg;
+  @include top-padding;
+  @include bottom-padding;
 }
 
-.sponsors__pattern {
+.sponsor-perks__title,
+.sponsors-list__title {
+  @include h2-text($hbp-navy);
+  margin-bottom: 50px;
+}
+
+.sponsor-perks__description {
+  width: 100%;
+  margin-bottom: 50px;
+
+  @media (min-width: $md) {
+    width: 70%;
+  }
+}
+
+.sponsor-perks__subtitle {
+  @include h4-text($hbp-navy);
+  padding-bottom: 25px;
+}
+
+.sponsor-perks__cta-group {
+  text-align: center;
+}
+
+.sponsor-perks__cta-label {
+  @include large-body-text;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.sponsor-perks__cta {
+  @include primary-cta;
+}
+
+.sponsor-perks__pattern {
   position: absolute;
   width: 110%;
   min-width: $xl;
@@ -75,20 +108,57 @@
   opacity: 0.1;
 }
 
-.sponsor__title {
-  @include h2-text($hbp-navy);
-  text-align: left;
-  font-weight: 600;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  @media (max-width: 1024px) {
-    padding-top: 50px;
+// -------------------------------------------------
+// Sponsor Kits
+// -------------------------------------------------
+
+.sponsor-levels {
+  @include bottom-margin;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $md) {
+    display: none;
+  }
+}
+
+.sponsor-levels-carousel {
+  @include top-margin;
+  display: block;
+  margin-bottom: 100px;
+
+  @media (min-width: $md) {
+    display: none;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    background-color: $hbp-navy;
+  }
+}
+
+.sponsor-level {
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (min-width: $md) {
+    width: 28%;
+  }
+}
+
+.sponsor-level__icon {
+  width: 100%;
+
+  svg {
+    display: block;
+    width: 80%;
+    margin: auto;
   }
 }
 
 .sponsor-level__title {
-  @include h4-text($hbp-navy);
-  @include top-margin;
+  @include h5-text($hbp-navy);
+  margin: 30px 0;
   text-align: left;
 
   @media (max-width: $md) {
@@ -96,67 +166,20 @@
   }
 }
 
-.faq-button-title {
-  @include h4-text($hbp-navy);
-  width: 50%;
-  margin: auto;
+.sponsor-level__description {
+  @include body-text;
 
   @media (max-width: $md) {
-    @include top-margin;
-  }
-
-}
-
-.sponsor-perk__title {
-  @include h3-text($hbp-navy);
-  padding-bottom: 25px;
-}
-
-.subtitle {
-  @include h4-text;
-  font-weight: 600;
-  padding-bottom: 25px;
-}
-
-.sponsor-perk__cta {
-  @include large-body-text($hbp-navy);
-  padding-bottom: 50px;
-}
-
-.sponsor-level {
-  padding-bottom: 50px;
-  width: 80%;
-  margin: auto;
-  
-  @media (min-width: $md) {
-    width: 100%
+    text-align: center;
   }
 }
-
-.sponsor-level-row {
-  @include large-body-text($white);
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.sponsor-level__description {
-  color: $hbp-navy;
-  @media (max-width: 1024px) {
-    padding-bottom: 30px;
-  }
-}
-
 
 // -------------------------------------------------
-// 2019 SPONSORS 
+// 2019 SPONSORS
 // -------------------------------------------------
 
 .sponsor-listing {
   @include yellow-green-bg;
-}
-
-.faq-button-title .yellow-btn {
-  @include bottom-margin;
 }
 
 .sponsor {
@@ -282,20 +305,4 @@
       }
     }
   }
-}
-
-// FLICKITY
-
-.carousel-cell {
-  width: 100%;
-  padding-top: 50px;
-  height: auto;
-  margin-right: 10px;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
-  text-align: center;
-}
-
-.flickity-button {
-  background: transparent !important;
 }
