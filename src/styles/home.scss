@@ -152,6 +152,10 @@
 .faq__title {
   @include h2-text;
   @include bottom-margin;
+
+  @media (max-width: $md) {
+    @include top-padding;
+  }
 }
 
 .faq__cta-group {
