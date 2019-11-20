@@ -48,7 +48,7 @@ const StoriesPage = () => {
                 creativity and explore.
                 <br />
                 <br />
-                2020 marks our seventh annual event and carries forward the same
+                2020 marks our eighth annual event and carries forward the same
                 mission we began with: to foster a diverse community of curious
                 students and engage them with the Boston tech community.
               </p>
