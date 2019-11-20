@@ -14,6 +14,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-flickity-component": "^3.4.0",
     "react-helmet": "^5.2.1",
     "react-masonry-component": "^6.2.1"
   },

@@ -38,6 +38,11 @@
 .stories-circles {
   position: relative;
   margin: 150px 50px;
+  display: none;
+
+  @media (min-width: $md) {
+    display: block;
+  }
 }
 
 .stories-circles__top {
@@ -76,11 +81,10 @@
     img {
       filter: grayscale(0%);
     }
-  }
 
-  @media (max-width: 767px) {
-    width: 100px;
-    height: 100px;
+    @media (max-width: $md) {
+      @include bottom-margin;
+    }
   }
 }
 
@@ -88,10 +92,6 @@
   width: 215px;
   height: auto;
   filter: grayscale(100%);
-
-  @media (max-width: 767px) {
-    width: 100px;
-  }
 }
 // ---------------------------------------------------------------------------
 // Quote
@@ -101,8 +101,9 @@
   margin: 70px auto;
   max-width: 600px;
 
-  @media (max-width: 1024px) {
-    margin: 0;
+  @media (max-width: $md) {
+    width: 80%;
+    margin: auto;
   }
 }
 
@@ -184,4 +185,41 @@
 
 .center {
   margin: auto;
+}
+
+// ---------------------------------------------------------------------------
+// Stories Mobile
+// ---------------------------------------------------------------------------
+
+.stories-carousel {
+  @include top-margin;
+  @include bottom-margin;
+  display: block;
+
+  @media (min-width: $md) {
+    display: none;
+  }
+
+  .flickity-page-dots .dot.is-selected {
+    background-color: $hbp-navy;
+  }
+}
+
+.stories-carousel-cell {
+  width: 100%;
+  height: auto;
+
+  .stories-circles__img-container {
+    margin: auto;
+    border: solid 5px $hbp-blue;
+
+    img {
+      filter: grayscale(0%);
+    }
+  }
+
+  .quote {
+    margin: auto;
+    margin-top: 30px;
+  }
 }
