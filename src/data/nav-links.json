@@ -12,11 +12,11 @@
     "path": "/sponsors"
   },
   {
-    "name": "Projects",
-    "path": "https://projects.hackbeanpot.com/"
-  },
-  {
     "name": "Our Team",
     "path": "/team"
+  },
+  {
+    "name": "Projects",
+    "path": "https://projects.hackbeanpot.com/"
   }
 ]
