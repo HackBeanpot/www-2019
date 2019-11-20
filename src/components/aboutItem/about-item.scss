@@ -56,3 +56,12 @@
   @include primary-cta;
   white-space: nowrap;
 }
+
+.img-1,
+.img-2 {
+  transform: scale(1.4);
+
+  @media (min-width: $md) {
+    transform: scale(1);
+  }
+}
