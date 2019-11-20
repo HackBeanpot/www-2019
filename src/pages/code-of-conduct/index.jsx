@@ -57,7 +57,7 @@ const CodeOfConduct = () => (
       <ul>
         <li>
           Email:{' '}
-          <a href="mailto:staff@hackbeanpot.com">staff@hackbeanpot.com</a>
+          <a href="mailto:team@hackbeanpot.com">team@hackbeanpot.com</a>
         </li>
         <li>
           Twitter:{' '}
