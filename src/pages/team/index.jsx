@@ -277,7 +277,7 @@ const Team = () => {
                 <TeamBadgeLeaf />
               </span>
               <span className="team-badge-leaf__content">
-                Hover over a headshot for a fun fact!
+                Hover or Tap over a headshot for a fun fact!
               </span>
             </div>
           </div>
