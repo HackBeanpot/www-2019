@@ -47,6 +47,7 @@ class SponsorsPage extends React.Component {
               <div className="sponsor__title">{MainContent.perks}</div>
               <div className="sponsor-perk__cta">{MainContent.perksCta}</div>
               <div className="sponsor-perk__title">The 3 Kits</div>
+              <SponsorLevels content={LevelContent} />
               <SponsorLevelsMobile content={LevelContent} />
               <div className="center-text faq-button-title">
                 Interested in learning about our full sponsorship packet?

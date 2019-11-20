@@ -3,11 +3,19 @@ import EngagementIcon from 'images/svg/engagement-icon';
 import InnovationIcon from 'images/svg/innovation-icon';
 import RecruitmentIcon from 'images/svg/recruitment-icon';
 
-import Flickity from 'react-flickity-component';
-
-const flickityOptions = {}
+import Flickity from 'flickity';
+import 'flickity/dist/flickity.min.css';
 
 class SponsorLevelsMobile extends React.Component {
+
+  componentDidMount() {
+    this.flkty = new Flickity('.sponsor-levels-carousel', {
+      wrapAround: true,
+      prevNextButtons: true,
+      pageDots: true,
+      lazyLoad: 1
+    });
+  }
 
   renderSponsorColumn(levelContent, index) {
     let icon;
@@ -35,24 +43,13 @@ class SponsorLevelsMobile extends React.Component {
   render() {
     if (this.props !== undefined && this.props.content !== undefined) {
       return (
-        <Flickity
-          className={'carousel'} // default ''
-          elementType={'div'} // default 'div'
-          options={flickityOptions} // takes flickity options {}
-          disableImagesLoaded={false} // default false
-          reloadOnUpdate // default false
-          static // default false
-        >
-          <div>
-            <EngagementIcon />
-          </div>
-          <div>
-            <InnovationIcon />
-          </div>
-          <div>
-            <RecruitmentIcon />
-          </div>
-        </Flickity>
+        <div className="sponsor-levels-carousel" data-flickity="">
+          {this.props.content.map((content, index) =>
+            <div className ="carousel-cell">
+              {this.renderSponsorColumn(content, index)}
+            </div>
+          )}
+        </div>
       );
     } else {
       return '';

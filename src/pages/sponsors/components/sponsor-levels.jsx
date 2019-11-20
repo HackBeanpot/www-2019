@@ -31,7 +31,7 @@ class SponsorLevel extends React.Component {
   render() {
     if (this.props !== undefined && this.props.content !== undefined) {
       return (
-        <div className="row">
+        <div className="row sponsor-levels">
           {this.props.content.map((content, index) =>
           <div className ="col">{this.renderSponsorColumn(content, index)}</div>
           )}

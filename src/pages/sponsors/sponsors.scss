@@ -47,6 +47,20 @@
 // PERKS
 // -------------------------------------------------
 
+.sponsor-levels {
+  @media (max-width: $md) {
+    display: none;
+  }
+}
+
+.sponsor-levels-carousel {
+  display: block;
+
+  @media (min-width: $md) {
+    display: none;
+  }
+}
+
 .sponsor-perks {
   @include pale-blue-bg;
 }
@@ -76,12 +90,21 @@
   @include h4-text($hbp-navy);
   @include top-margin;
   text-align: left;
+
+  @media (max-width: $md) {
+    text-align: center;
+  }
 }
 
 .faq-button-title {
   @include h4-text($hbp-navy);
   width: 50%;
   margin: auto;
+
+  @media (max-width: $md) {
+    @include top-margin;
+  }
+
 }
 
 .sponsor-perk__title {
@@ -102,6 +125,12 @@
 
 .sponsor-level {
   padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  
+  @media (min-width: $md) {
+    width: 100%
+  }
 }
 
 .sponsor-level-row {
@@ -124,6 +153,10 @@
 
 .sponsor-listing {
   @include yellow-green-bg;
+}
+
+.faq-button-title .yellow-btn {
+  @include bottom-margin;
 }
 
 .sponsor {
@@ -251,53 +284,18 @@
   }
 }
 
-// images
-.sponsorship {
-  .yellow-btn {
-    margin-bottom: 30px;
-  }
+// FLICKITY
 
-  .inspire-icon {
-    height: 90px;
-    .cls-1 {
-      fill: #fbdd40;
-    }
-    .cls-2 {
-      fill: none;
-      stroke: #fff;
-      stroke-linecap: round;
-      stroke-miterlimit: 10;
-      stroke-width: 2px;
-    }
-  }
+.carousel-cell {
+  width: 100%;
+  padding-top: 50px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+  text-align: center;
+}
 
-  .grow-icon {
-    height: 90px;
-    .cls-1 {
-      fill: #70e0a3;
-    }
-    .cls-2 {
-      fill: none;
-      stroke: #fff;
-      stroke-linecap: round;
-      stroke-miterlimit: 10;
-      stroke-width: 1.89px;
-    }
-  }
-
-  .recruit-icon {
-    height: 90px;
-    .cls-1 {
-      fill: #25c9d0;
-    }
-    .cls-2 {
-      fill: none;
-      stroke: #fff;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-width: 2px;
-    }
-  }
-
-  @import "../../styles/image-style.scss";
+.flickity-button {
+  background: transparent !important;
 }
