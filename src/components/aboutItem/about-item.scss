@@ -54,4 +54,5 @@
 
 .about-item__cta {
   @include primary-cta;
+  white-space: nowrap;
 }
