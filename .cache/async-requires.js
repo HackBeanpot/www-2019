@@ -2,31 +2,15 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---src-pages-404-jsx": require("gatsby-module-loader?name=component---src-pages-404-jsx!/home/circleci/project/src/pages/404.jsx"),
-  "component---src-pages-code-of-conduct-index-jsx": require("gatsby-module-loader?name=component---src-pages-code-of-conduct-index-jsx!/home/circleci/project/src/pages/codeOfConduct/index.jsx"),
-  "component---src-pages-index-jsx": require("gatsby-module-loader?name=component---src-pages-index-jsx!/home/circleci/project/src/pages/index.jsx"),
-  "component---src-pages-projects-index-jsx": require("gatsby-module-loader?name=component---src-pages-projects-index-jsx!/home/circleci/project/src/pages/projects/index.jsx"),
-  "component---src-pages-sponsors-components-sponsor-levels-jsx": require("gatsby-module-loader?name=component---src-pages-sponsors-components-sponsor-levels-jsx!/home/circleci/project/src/pages/sponsors/components/sponsor-levels.jsx"),
-  "component---src-pages-sponsors-index-jsx": require("gatsby-module-loader?name=component---src-pages-sponsors-index-jsx!/home/circleci/project/src/pages/sponsors/index.jsx"),
-  "component---src-pages-stories-components-quote-jsx": require("gatsby-module-loader?name=component---src-pages-stories-components-quote-jsx!/home/circleci/project/src/pages/stories/components/quote.jsx"),
-  "component---src-pages-stories-components-stories-jsx": require("gatsby-module-loader?name=component---src-pages-stories-components-stories-jsx!/home/circleci/project/src/pages/stories/components/stories.jsx"),
-  "component---src-pages-stories-index-jsx": require("gatsby-module-loader?name=component---src-pages-stories-index-jsx!/home/circleci/project/src/pages/stories/index.jsx")
+  "component---src-pages-404-index-jsx": () => import("../src/pages/404/index.jsx" /* webpackChunkName: "component---src-pages-404-index-jsx" */),
+  "component---src-pages-code-of-conduct-index-jsx": () => import("../src/pages/code-of-conduct/index.jsx" /* webpackChunkName: "component---src-pages-code-of-conduct-index-jsx" */),
+  "component---src-pages-index-jsx": () => import("../src/pages/index.jsx" /* webpackChunkName: "component---src-pages-index-jsx" */),
+  "component---src-pages-sponsors-components-sponsor-kits-jsx": () => import("../src/pages/sponsors/components/sponsor-kits.jsx" /* webpackChunkName: "component---src-pages-sponsors-components-sponsor-kits-jsx" */),
+  "component---src-pages-sponsors-index-jsx": () => import("../src/pages/sponsors/index.jsx" /* webpackChunkName: "component---src-pages-sponsors-index-jsx" */),
+  "component---src-pages-stories-components-quote-jsx": () => import("../src/pages/stories/components/quote.jsx" /* webpackChunkName: "component---src-pages-stories-components-quote-jsx" */),
+  "component---src-pages-stories-components-stories-mobile-jsx": () => import("../src/pages/stories/components/stories-mobile.jsx" /* webpackChunkName: "component---src-pages-stories-components-stories-mobile-jsx" */),
+  "component---src-pages-stories-components-stories-jsx": () => import("../src/pages/stories/components/stories.jsx" /* webpackChunkName: "component---src-pages-stories-components-stories-jsx" */),
+  "component---src-pages-stories-index-jsx": () => import("../src/pages/stories/index.jsx" /* webpackChunkName: "component---src-pages-stories-index-jsx" */),
+  "component---src-pages-team-index-jsx": () => import("../src/pages/team/index.jsx" /* webpackChunkName: "component---src-pages-team-index-jsx" */)
 }
 
-exports.json = {
-  "layout-index.json": require("gatsby-module-loader?name=path---!/home/circleci/project/.cache/json/layout-index.json"),
-  "404.json": require("gatsby-module-loader?name=path---404!/home/circleci/project/.cache/json/404.json"),
-  "code-of-conduct.json": require("gatsby-module-loader?name=path---code-of-conduct!/home/circleci/project/.cache/json/code-of-conduct.json"),
-  "index.json": require("gatsby-module-loader?name=path---index!/home/circleci/project/.cache/json/index.json"),
-  "projects.json": require("gatsby-module-loader?name=path---projects!/home/circleci/project/.cache/json/projects.json"),
-  "sponsors-components-sponsor-levels.json": require("gatsby-module-loader?name=path---sponsors-components-sponsor-levels!/home/circleci/project/.cache/json/sponsors-components-sponsor-levels.json"),
-  "sponsors.json": require("gatsby-module-loader?name=path---sponsors!/home/circleci/project/.cache/json/sponsors.json"),
-  "stories-components-quote.json": require("gatsby-module-loader?name=path---stories-components-quote!/home/circleci/project/.cache/json/stories-components-quote.json"),
-  "stories-components-stories.json": require("gatsby-module-loader?name=path---stories-components-stories!/home/circleci/project/.cache/json/stories-components-stories.json"),
-  "stories.json": require("gatsby-module-loader?name=path---stories!/home/circleci/project/.cache/json/stories.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/home/circleci/project/.cache/json/404-html.json")
-}
-
-exports.layouts = {
-  "layout---index": require("gatsby-module-loader?name=component---src-layouts-index-jsx!/home/circleci/project/.cache/layouts/index.js")
-}
