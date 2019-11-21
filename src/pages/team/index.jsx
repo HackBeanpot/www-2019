@@ -264,7 +264,7 @@ const Team = () => {
       <section className="team__header">
         <div className="container">
           <h1 className="team-header__title">
-            Meet the Team behind HackBeanpot
+            Meet the team&nbsp;behind HackBeanpot
           </h1>
           <div className="team-header__info-container">
             <p className="team-header__description">
