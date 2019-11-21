@@ -298,7 +298,7 @@ const Team = () => {
               Want to learn more about our team and HackBeanpot?
             </h3>
             <a
-              href="mailto:team@hackbeapot.com"
+              href="http://eepurl.com/gCU4x1"
               className="team__cta"
               role="button"
             >
