@@ -9,13 +9,13 @@
 
 .sponsors-vines {
   position: absolute;
-  right: -100px;
-  top: -50px;
+  right: 0px;
+  top: -100px;
   z-index: 1;
   opacity: 0.8;
 
   svg {
-    width: 85%;
+    width: 90%;
   }
 
   @media (max-width: $lg) {
