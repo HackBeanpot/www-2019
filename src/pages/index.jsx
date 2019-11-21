@@ -45,10 +45,11 @@ const App = () => {
         <section className="header">
           <div className="container header__content">
             <h1 className="header__title">HackBeanpot</h1>
+            <h2 className="header__event-date">February 7-9, 2020</h2>
             <p className="header__description">
               An independently-run Boston hackathon for curious students,
               hackers, makers, and beginners. Applications for HackBeanpot 2020
-              are opening soon!
+              will be available starting November&nbsp;27,&nbsp;2019!
             </p>
             <a
               className="header__cta"
@@ -80,10 +81,7 @@ const App = () => {
                   Sprout is a representation of what we stand for as an
                   organization and what we hope to offer all our attendees:
                   growth in new skills, relationships, and experiences. Oh, and
-                  we're trying to up our sustainability game too.{' '}
-                  <span role="img" aria-label="Recycle emoji">
-                    ♻️
-                  </span>
+                  we're trying to up our sustainability game too.
                 </p>
                 <p>
                   So whether you're a seasoned hackathon-goer, a
@@ -128,7 +126,7 @@ const App = () => {
                 role="button"
                 className="faq__cta"
               >
-                Email Us
+                Let us know!
               </a>
             </div>
           </div>
@@ -156,7 +154,7 @@ const App = () => {
                 role="button"
                 className="home-sponsors__cta"
               >
-                Email Us
+                Email us
               </a>
               <DynamicLink className="home-sponsors__cta-link" to="/sponsors">
                 Or visit our Sponsors Page

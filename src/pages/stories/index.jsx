@@ -23,7 +23,7 @@ const StoriesPage = () => {
           className="stories__pattern"
         />
         <div className="container">
-          <h1 className="header__title">We've got stories to&nbsp;share</h1>
+          <h1 className="stories__title">We've got stories to&nbsp;share</h1>
           <p className="stories__description">
             Here's a collection of stories from past attendees, organizers, and
             sponsors. Our goal is for everyone’s HackBeanpot experience to be as
@@ -46,8 +46,8 @@ const StoriesPage = () => {
               <p className="stories-tell__description">
                 In 2013, a small group of Northeastern students brought 80
                 students together at the Microsoft NERD Center for the very
-                first HackBeanpot, an opportunity for students to express their
-                creativity and explore.
+                first HackBeanpot. It was an opportunity for students to express
+                their creativity and explore their technical interests.
                 <br />
                 <br />
                 2020 marks our eighth annual event and carries forward the same

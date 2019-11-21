@@ -1,19 +1,19 @@
 [
   {
     "question": "When and where is HackBeanpot 2020?",
-    "answer": "HackBeanpot 2020 is February 7-9th at Catalant Technologies in the Seaport district of Boston."
+    "answer": "HackBeanpot 2020 is from February 7-9, 2020 at Catalant Technologies in the Seaport district of Boston."
   },
   {
     "question": "How do I apply?",
-    "answer": "Applications for HackBeanpot 2020 will be out on November 27th, 2019. Join our mailing list and follow our social accounts for updates!"
+    "answer": "Applications for HackBeanpot 2020 will be available starting November 27th, 2019. Join our mailing list and follow our social accounts for updates!"
   },
   {
     "question": "I don't have a lot of programming experience. Are hackathons for me?",
-    "answer": "Yes! People of all experience levels attend HackBeanpot. If you get stuck, we have mentors to provide assistance. We care much more about fostering a fun environment where you can learn rather than an environment that only attracts \"elite\" hackers. Our blog advice for first-time hackers can be found <a href=\"https://medium.com/hackbeanblog/simple-advice-for-first-time-hackers-641b30bfa3ae\" target=\"__blank\"><strong>here</strong></a> and <a href=\"https://medium.com/hackbeanblog/more-advice-for-first-time-hackers-76d461e641d9\" target=\"_blank\"><strong>here</strong></a>."
+    "answer": "Yes! People of all experience levels attend HackBeanpot. If you get stuck, we have mentors to provide assistance. We care much more about fostering a fun learning environment than an environment that only attracts experienced hackers. Our blog advice for first-time hackathon attendees can be found <a href=\"https://medium.com/hackbeanblog/simple-advice-for-first-time-hackers-641b30bfa3ae\" target=\"__blank\"><strong>here</strong></a> and <a href=\"https://medium.com/hackbeanblog/more-advice-for-first-time-hackers-76d461e641d9\" target=\"_blank\"><strong>here</strong></a>."
   },
   {
     "question": "I am a student from ____. Is HackBeanpot open to students from my school?",
-    "answer": "Yes! HackBeanpot is open to anyone who is at least 16 years old. If you will be under 18 at the start of the event, please contact team@hackbeanpot.com to fill out extra paperwork before the event."
+    "answer": "Yes! HackBeanpot is open to anyone who is at least 16 years old. If you will be under 18 by February 7, 2020, please contact team@hackbeanpot.com to fill out extra paperwork beforehand."
   },
   {
     "question": "Do you provide travel reimbursements?",
@@ -21,11 +21,11 @@
   },
   {
     "question": "Are there limits on team size?",
-    "answer": "No limits! However, because prizes are budgeted for teams of 5 and under, we recommend max. 5 members per team."
+    "answer": "No limits! However, prizes are budgeted for teams of 5 and under so we recommend at most 5 members per team."
   },
   {
     "question": "Should I bring my resume?",
-    "answer": "There is no need! You will upload your resume when you apply and we'll pass it along to sponsoring companies."
+    "answer": "There is no need! You can upload your resume when you apply and we'll pass it along to sponsoring companies."
   },
   {
     "question": "Can I work on an old project?",

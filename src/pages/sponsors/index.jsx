@@ -1,18 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Layout from '../../components/layout';
 
-import SponsorLevels from 'pages/sponsors/components/sponsor-levels';
+import SponsorKits from 'pages/sponsors/components/sponsor-kits';
 import Sponsors2019 from 'components/sponsors-2019';
-
-import Circuit1 from 'images/circuit-1';
-import Circuit2 from 'images/circuit-2';
-import Circuit3 from 'images/circuit-3';
-import SponsorBlob1 from 'images/sponsor-blob-1';
-import SponsorBlob2 from 'images/sponsor-blob-2';
-import SponsorBlob3 from 'images/sponsor-blob-3';
-
-import MainContent from 'data/sponsor-main.json';
-import LevelContent from 'data/sponsor-level-content.json';
+import SponsorshipVines from 'images/svg/sponsorship-vines';
+import SponsorsLeafPattern from 'images/sponsors-leaf-pattern.png';
 
 export default () => (
   <Layout>
@@ -23,61 +15,84 @@ export default () => (
 class SponsorsPage extends React.Component {
   render() {
     return (
-      <Fragment>
-        <div className="sponsorship">
-          <div className="light-background">
-            <div className="container sponsor-welcome">
-              <div className="sponsor-title">{MainContent.title}</div>
-              <div className="sponsor-cta col-md-8">{MainContent.cta}</div>
-              <div className="sponsor-cta col-md-8">
-                <strong>{MainContent.ps}</strong>
-              </div>
+      <div className="sponsors">
+        {/* Header */}
+        <section className="sponsors-header">
+          <span className="sponsors-vines">
+            <SponsorshipVines />
+          </span>
+          <div className="container">
+            <h1 className="sponsors-header__title">Sponsor HackBeanpot</h1>
+            <div className="sponsors-header__description">
+              <p>
+                Want to get involved in sponsoring HackBeanpot? We are always
+                looking for additions to our growing family. Our sponsors are
+                innovative companies interested in embracing the hackathon
+                spirit and connecting with our community of talented students
+                and partners. Read more about our sponsorship opportunities
+                below!
+              </p>
+              <p className="sponsors-header__ps">
+                P.S. First time sponsoring a hackathon? HackBeanpot is a great
+                place to start! Our sponsorship team will guide you through the
+                process.
+              </p>
+            </div>
+
+            <a
+              href="mailto:team@hackbeanpot.com"
+              role="button"
+              className="sponsors__cta"
+            >
+              Get in touch
+            </a>
+          </div>
+        </section>
+
+        {/* Our Sponsorship Model */}
+        <section className="sponsorship-model">
+          <div className="container">
+            <h2 className="sponsorship-model__title">Our Sponsorship Model</h2>
+            <div className="sponsorship-model__description">
+              We know that our sponsors have different goals in partnering with
+              us, which is why we want to equip you with the ability to create a
+              custom sponsorship package! We have broken our sponsorship perks
+              down into three kits that you can mix and match — giving you the
+              tools to personalize your company’s hackathon experience. Here's a
+              brief overview of each kit:
+            </div>
+            <div className="sponsorship-model__subtitle">The 3 Kits</div>
+            <SponsorKits />
+            <div className="sponsorship-model__cta-group">
+              <p className="sponsorship-model__cta-label">
+                What to receive our full sponsorship package?
+              </p>
               <a
-                href="mailto:team@hackbeanpot.com"
+                href="mailto:sponsorship@hackbeanpot.com"
                 role="button"
-                className="yellow-btn lg-btn sponsor-button"
+                className="sponsorship-model__cta"
               >
-                Get In Touch
+                Email our team
               </a>
             </div>
-            <Circuit1 />
-            <SponsorBlob1 />
-            <SponsorBlob2 />
           </div>
+          <img
+            src={SponsorsLeafPattern}
+            alt="Background leaf pattern"
+            className="sponsorship-model__pattern"
+          />
+        </section>
 
-          <div className="dark-background">
-            <div className="container sponsor-perks">
-              <div className="sponsor-section-header">{MainContent.perks}</div>
-              <div className="sponsor-perk-cta">{MainContent.perksCta}</div>
-              <SponsorLevels content={LevelContent} />
-              <div className="center-text faq-button-title">
-                Interested in learning about our full sponsorship packet?
-                <br />
-                <br />
-                <a
-                  href="mailto:team@hackbeanpot.com"
-                  role="button"
-                  className="btn yellow-btn lg-btn"
-                >
-                  Email Us
-                </a>
-              </div>
-            </div>
-            <Circuit2 />
-            <Circuit3 />
+        {/* 2019 Sponsors */}
+        <section className="sponsors-list">
+          <div className="container">
+            <section className="sponsors-list__logos">
+              <h2 className="sponsors-list__title">2019 Sponsors</h2>
+              <Sponsors2019 />
+            </section>
           </div>
-
-          <div className="light-background">
-            <div className="container sponsors">
-              <section className="sponsors-section container">
-                <p className="sponsors-title">2019 Sponsors</p>
-                <Sponsors2019 />
-              </section>
-            </div>
-            <SponsorBlob3 />
-          </div>
-        </div>
-      </Fragment>
+        </section>
+      </div>
     );
   }
 }

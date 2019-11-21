@@ -5,7 +5,11 @@
 .stories__header {
   @include pale-blue-bg;
   @include bottom-padding;
-  padding-top: 200px;
+  padding-top: 150px;
+
+  @media (min-width: $md) {
+    padding-top: 200px;
+  }
 }
 
 .stories__pattern {
@@ -20,6 +24,7 @@
 
 .stories__title {
   @include h1-text;
+  margin-bottom: 30px;
 }
 
 .stories__description {

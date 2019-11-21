@@ -6,7 +6,7 @@ import Quote from 'pages/stories/components/quote';
 
 const flickityOptions = {
   wrapAround: false,
-  prevNextButtons: false,
+  prevNextButtons: true,
   pageDots: true,
   adaptiveHeight: true
 };

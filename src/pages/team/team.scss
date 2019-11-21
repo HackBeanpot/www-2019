@@ -5,7 +5,16 @@
 .team__header {
   @include yellow-green-bg;
   @include bottom-padding;
-  padding-top: 200px;
+  padding-top: 150px;
+
+  @media (min-width: $md) {
+    padding-top: 200px;
+  }
+}
+
+.team-header__title {
+  @include h1-text;
+  margin-bottom: 30px;
 }
 
 .team-header__info-container {
@@ -58,8 +67,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 150px;
+  width: 130px;
   text-align: center;
+
+  @media (min-width: $md) {
+    width: 150px;
+  }
 }
 
 // ---------------------------------------------------------------------------
