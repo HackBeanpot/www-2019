@@ -52,6 +52,8 @@ class SponsorLevelsMobile extends React.Component {
       } else {
         return null;
       }
+    } else {
+      return null;
     }
   }
 }
