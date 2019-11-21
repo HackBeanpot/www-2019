@@ -27,14 +27,14 @@ class SponsorsPage extends React.Component {
               <p>
                 Want to get involved in sponsoring HackBeanpot? We are always
                 looking for additions to our growing family. Our sponsors are
-                innovators interested in embracing the spirit of creativity in
-                Boston, and connecting with our community of students, partners,
-                and leaders. If that sounds like you, read more about our
-                sponsorship opportunities below!
+                innovative companies interested in embracing the hackathon
+                spirit and connecting with our community of talented students
+                and partners. Read more about our sponsorship opportunities
+                below!
               </p>
               <p className="sponsors-header__ps">
                 P.S. First time sponsoring a hackathon? HackBeanpot is a great
-                place to start! Let our sponsorship team guide you through the
+                place to start! Our sponsorship team will guide you through the
                 process.
               </p>
             </div>
@@ -54,25 +54,25 @@ class SponsorsPage extends React.Component {
           <div className="container">
             <h2 className="sponsorship-model__title">Our Sponsorship Model</h2>
             <div className="sponsorship-model__description">
-              We know that our sponsors have different goals in joining the
-              team, which is why we want to equip you with the ability to create
-              a custom package that achieves your wildest hackathon dreams. We
-              have broken perks down into three distinct kits that you can mix
-              and match — giving you the tools to personalize your company’s
-              hackathon experience.
+              We know that our sponsors have different goals in partnering with
+              us, which is why we want to equip you with the ability to create a
+              custom sponsorship package! We have broken our sponsorship perks
+              down into three kits that you can mix and match — giving you the
+              tools to personalize your company’s hackathon experience. Here's a
+              brief overview of each kit:
             </div>
             <div className="sponsorship-model__subtitle">The 3 Kits</div>
             <SponsorKits />
             <div className="sponsorship-model__cta-group">
               <p className="sponsorship-model__cta-label">
-                Interested in receiving our full sponsorship package?
+                What to receive our full sponsorship package?
               </p>
               <a
-                href="mailto:team@hackbeanpot.com"
+                href="mailto:sponsorship@hackbeanpot.com"
                 role="button"
                 className="sponsorship-model__cta"
               >
-                Email Us
+                Email our team
               </a>
             </div>
           </div>
