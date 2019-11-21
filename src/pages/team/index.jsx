@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import Layout from '../../components/layout';
 
 import TeamData from 'data/meet-the-team.json';
-import TeamNameLeaf from 'images/team-name-leaf.jsx';
-import TeamLeafPattern from 'images/team-leaf-pattern.jsx';
-import TeamBadgeLeaf from 'images/team-badge-leaf.jsx';
+import TeamNameLeaf from 'images/svg/team-name-leaf.jsx';
+import TeamLeafPattern from 'images/svg/team-leaf-pattern.jsx';
+import TeamBadgeLeaf from 'images/svg/team-badge-leaf.jsx';
 
 export default () => (
   <Layout>

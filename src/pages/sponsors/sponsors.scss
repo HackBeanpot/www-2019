@@ -58,19 +58,19 @@
 // Sponsor Perks Section
 // -------------------------------------------------
 
-.sponsor-perks {
+.sponsorship-model {
   @include pale-blue-bg;
   @include top-padding;
   @include bottom-padding;
 }
 
-.sponsor-perks__title,
+.sponsorship-model__title,
 .sponsors-list__title {
   @include h2-text($hbp-navy);
   margin-bottom: 50px;
 }
 
-.sponsor-perks__description {
+.sponsorship-model__description {
   width: 100%;
   margin-bottom: 50px;
 
@@ -79,26 +79,26 @@
   }
 }
 
-.sponsor-perks__subtitle {
+.sponsorship-model__subtitle {
   @include h4-text($hbp-navy);
   padding-bottom: 25px;
 }
 
-.sponsor-perks__cta-group {
+.sponsorship-model__cta-group {
   text-align: center;
 }
 
-.sponsor-perks__cta-label {
+.sponsorship-model__cta-label {
   @include large-body-text;
   font-weight: 700;
   margin-bottom: 30px;
 }
 
-.sponsor-perks__cta {
+.sponsorship-model__cta {
   @include primary-cta;
 }
 
-.sponsor-perks__pattern {
+.sponsorship-model__pattern {
   position: absolute;
   width: 110%;
   min-width: $xl;
@@ -112,7 +112,7 @@
 // Sponsor Kits
 // -------------------------------------------------
 
-.sponsor-levels {
+.sponsor-kits {
   @include bottom-margin;
   margin-top: 20px;
   display: flex;
@@ -123,7 +123,7 @@
   }
 }
 
-.sponsor-levels-carousel {
+.sponsor-kits-carousel {
   @include top-margin;
   display: block;
   margin-bottom: 100px;
@@ -137,7 +137,7 @@
   }
 }
 
-.sponsor-level {
+.sponsor-kit {
   width: 100%;
   margin-bottom: 20px;
 
@@ -146,7 +146,7 @@
   }
 }
 
-.sponsor-level__icon {
+.sponsor-kit__icon {
   width: 100%;
 
   svg {
@@ -156,7 +156,7 @@
   }
 }
 
-.sponsor-level__title {
+.sponsor-kit__title {
   @include h5-text($hbp-navy);
   margin: 30px 0;
   text-align: left;
@@ -166,7 +166,7 @@
   }
 }
 
-.sponsor-level__description {
+.sponsor-kit__description {
   @include body-text;
 
   @media (max-width: $md) {
@@ -178,20 +178,18 @@
 // 2019 SPONSORS
 // -------------------------------------------------
 
-.sponsor-listing {
+.sponsors-list {
   @include yellow-green-bg;
+  @include top-padding;
+  @include bottom-padding;
 }
 
 .sponsor {
   margin-bottom: 40px;
 }
 
-.sponsors-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+.sponsors-list__logos {
   @media (max-width: 1024px) {
-    padding-top: 50px;
-    padding-bottom: 50px;
     text-align: center;
   }
 
