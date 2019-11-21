@@ -263,21 +263,23 @@ const Team = () => {
     <div className="team">
       <section className="team__header">
         <div className="container">
-          <h1 className="header__title">Meet the Team behind HackBeanpot</h1>
+          <h1 className="team-header__title">
+            Meet the Team behind HackBeanpot
+          </h1>
           <div className="team-header__info-container">
             <p className="team-header__description">
               We are a group of ~20 driven students who aim to make technical
-              experience and knowledge accessible to anyone. In the months
-              leading up to our hackathon in February, we work hard both within
-              and across our five teams - Design, Outreach, Social Media,
-              Sponsorship, and Tech!
+              experience and knowledge accessible to anyone who's interested. In
+              the months leading up to our hackathon in February, we work hard
+              both within and across our five teams - Design, Outreach, Social
+              Media, Sponsorship, and Tech. Meet them below!
             </p>
             <div className="team-badge-leaf__container">
               <span className="team-badge-leaf">
                 <TeamBadgeLeaf />
               </span>
               <span className="team-badge-leaf__content">
-                Hover or Tap over a headshot for a fun fact!
+                Hover over/tap a headshot for a fun fact!
               </span>
             </div>
           </div>
@@ -302,7 +304,7 @@ const Team = () => {
               className="team__cta"
               role="button"
             >
-              Email us
+              Sign up for our newsletter
             </a>
           </div>
         </div>

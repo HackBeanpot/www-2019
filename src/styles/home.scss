@@ -47,6 +47,11 @@
 
 .header__title {
   @include h1-text;
+  margin-bottom: 10px;
+}
+
+.header__event-date {
+  @include h4-text;
   margin-bottom: 30px;
 }
 

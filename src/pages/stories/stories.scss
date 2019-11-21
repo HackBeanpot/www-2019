@@ -20,6 +20,7 @@
 
 .stories__title {
   @include h1-text;
+  margin-bottom: 30px;
 }
 
 .stories__description {
