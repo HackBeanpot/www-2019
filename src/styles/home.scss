@@ -215,15 +215,6 @@
   @include bottom-margin;
 }
 
-.home-sponsors__content {
-  width: 100%;
-  margin-bottom: 40px;
-
-  @media (min-width: $md) {
-    width: 45%;
-  }
-}
-
 .home-sponsors__cta-group {
   display: flex;
   align-items: center;

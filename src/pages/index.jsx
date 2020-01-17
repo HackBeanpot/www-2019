@@ -5,6 +5,7 @@ import FAQItems from 'components/faqItems/faq-items';
 import AboutItem from 'components/aboutItem/about-item';
 import DynamicLink from 'components/dynamic-link';
 import AboutContent from 'data/about-content.json';
+import Sponsors2020 from 'components/sponsors-2020'
 
 import Skyline from 'images/svg/skyline.jsx';
 import LogoAnimation from 'images/logo-sprout.gif';
@@ -138,28 +139,7 @@ const App = () => {
           </span>
           <div className="container">
             <h2 className="home-sponsors__title">Our Sponsors</h2>
-            <div className="home-sponsors__content">
-              <p>
-                Check back closer to the event for a full list of our
-                HackBeanpot 2020 sponsors.
-              </p>
-              <p>
-                If your company is interested in joining the HackBeanpot
-                community and becoming a sponsor, reach out to us!
-              </p>
-            </div>
-            <div className="home-sponsors__cta-group">
-              <a
-                href="mailto:sponsorship@hackbeanpot.com"
-                role="button"
-                className="home-sponsors__cta"
-              >
-                Email us
-              </a>
-              <DynamicLink className="home-sponsors__cta-link" to="/sponsors">
-                Or visit our Sponsors Page
-              </DynamicLink>
-            </div>
+            <Sponsors2020 />
           </div>
         </section>
       </div>

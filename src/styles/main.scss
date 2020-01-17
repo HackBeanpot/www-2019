@@ -2,7 +2,7 @@
 
 // Vendor
 @import './normalize.scss';
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
 @import './flickity.scss';
 
 // Global helpers
