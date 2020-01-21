@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../../components/layout';
 
 import SponsorKits from 'pages/sponsors/components/sponsor-kits';
-import Sponsors2019 from 'components/sponsors-2019';
+import Sponsors2020 from 'components/sponsors-2020';
 import SponsorshipVines from 'images/svg/sponsorship-vines';
 import SponsorsLeafPattern from 'images/sponsors-leaf-pattern.png';
 
@@ -87,8 +87,8 @@ class SponsorsPage extends React.Component {
         <section className="sponsors-list">
           <div className="container">
             <section className="sponsors-list__logos">
-              <h2 className="sponsors-list__title">2019 Sponsors</h2>
-              <Sponsors2019 />
+              <h2 className="sponsors-list__title">2020 Sponsors</h2>
+              <Sponsors2020 />
             </section>
           </div>
         </section>
