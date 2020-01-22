@@ -95,28 +95,45 @@ const Sponsors2020 = () => (
       <div className="col-1"/>
     </div>
 
-    {/* Bookbub, DataDog, Simplisafe */}
+    {/* DataDog, Upstatement */}
     <div className="row">
       <a
-        href="https://www.bookbub.com/"
-        className="col-md-4 d-flex align-items-center"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/bookbub_1652px.png"
-          alt="BookBub logo"
-        />
-      </a>
-      <a
         href="https://www.datadoghq.com/"
-        className="col-md-4 d-flex align-items-center"
+        className="col-md-5 offset-md-1 d-flex align-items-center"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
           src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/datadog_931px.png"
           alt="DataDog logo"
+        />
+      </a>
+      <a
+        href="https://www.upstatement.com/"
+        className="col-md-5 d-flex align-items-center"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/upstatement_3135px.png"
+          alt="Upstatement logo"
+        />
+      </a>
+    </div>
+
+    <br/>
+
+    {/* PluralSight, SimpliSafe and BookBub */}
+    <div className="row">
+      <a
+        href="https://www.pluralsight.com/"
+        className="col-md-4 d-flex align-items-center"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/pluralsight_975.png"
+          alt="Pluralsight logo"
         />
       </a>
       <a
@@ -130,37 +147,17 @@ const Sponsors2020 = () => (
           alt="SimpliSafe logo"
         />
       </a>
-    </div>
-
-    <br/>
-
-    {/* PluralSign and Upstatement */}
-    <div className="row">
-      <div className="col-2"/>
       <a
-        href="https://www.pluralsight.com/"
+        href="https://www.bookbub.com/"
         className="col-md-4 d-flex align-items-center"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img
-          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/pluralsight_975.png"
-          alt="Pluralsight logo"
+          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/bookbub_1652px.png"
+          alt="BookBub logo"
         />
       </a>
-      <a
-        href="https://www.upstatement.com/"
-        className="col-md-4 d-flex align-items-center"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          className="catalant-logo"
-          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/upstatement_3135px.png"
-          alt="Upstatement logo"
-        />
-      </a>
-      <div className="col-2"/>
     </div>
 
     <br/>

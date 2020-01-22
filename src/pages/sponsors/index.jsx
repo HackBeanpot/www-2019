@@ -86,10 +86,8 @@ class SponsorsPage extends React.Component {
         {/* 2019 Sponsors */}
         <section className="sponsors-list">
           <div className="container">
-            <section className="sponsors-list__logos">
-              <h2 className="sponsors-list__title">2020 Sponsors</h2>
-              <Sponsors2020 />
-            </section>
+            <h2 className="sponsors-list__title">2020 Sponsors</h2>
+            <Sponsors2020 />
           </div>
         </section>
       </div>
