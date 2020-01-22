@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Flickity from 'react-flickity-component';
 
 import KitContent from 'data/sponsor-kit-content.json';
