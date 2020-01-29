@@ -43,8 +43,9 @@ const Sponsors2020 = () => (
         rel="noopener noreferrer"
       >
           <img 
-            src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/pathai_304px.png" 
-            alt="PathAI"/>
+            src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/pathai_498px.png" 
+            alt="PathAI"
+          />
       </a>
       <a
         href="https://w3.poweradvocate.com/"
