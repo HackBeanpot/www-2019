@@ -34,11 +34,21 @@ const Sponsors2020 = () => (
       </a>
     </div>
 
-    {/* PowerAdvocate and Drift */}
+    {/* PathAI, PowerAdvocate and Drift */}
     <div className="row">
+      <a 
+        href="https://www.pathai.com/"
+        className="col-md-4 d-flex align-items-center my-3"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+          <img 
+            src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/pathai_304px.png" 
+            alt="PathAI"/>
+      </a>
       <a
         href="https://w3.poweradvocate.com/"
-        className="col-md-4 offset-md-2 d-flex align-items-center my-3"
+        className="col-md-4 d-flex align-items-center my-3"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -118,7 +128,7 @@ const Sponsors2020 = () => (
     <div className="row">
       <a
         href="https://www.bookbub.com/"
-        className="col-md-4 d-flex align-items-center my-xs-0 my-sm-3"
+        className="col-md-4 offset-md-2 d-flex align-items-center my-xs-0 my-sm-3"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -136,17 +146,6 @@ const Sponsors2020 = () => (
         <img
           src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/pluralsight_975.png"
           alt="Pluralsight logo"
-        />
-      </a>
-      <a
-        href="https://simplisafe.com/"
-        className="col-md-4 d-flex align-items-center my-3"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/simplisafe_1024px.png"
-          alt="SimpliSafe logo"
         />
       </a>
     </div>
