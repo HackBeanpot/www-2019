@@ -157,7 +157,7 @@ const Sponsors2020 = () => (
     <div className="row">
       <a
         href="https://www.yelp.com/"
-        className="col-md-2 offset-md-5 d-flex align-items-center my-xs-0 my-sm-3"
+        className="col-md-2 offset-md-4 d-flex align-items-center my-xs-0 my-sm-3"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -166,7 +166,17 @@ const Sponsors2020 = () => (
           alt="Yelp logo"
         />
       </a>
-      <div className="col-5"/>
+      <a
+        href="https://www.crosspointassociates.com/"
+        className="col-md-2 d-flex align-items-center my-3"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://tools.hackbeanpot.com/assets/logos/2020-sponsors/crosspoint_2274px.JPG"
+          alt="Crosspoint logo"
+        />
+      </a>
     </div>
   </div>
 );
