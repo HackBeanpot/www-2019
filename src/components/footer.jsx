@@ -8,12 +8,25 @@ import FooterLeaves2 from 'images/svg/footer-leaves-2';
 
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 
+
 const Footer = () => {
   // state stuff goes here 
   const [email, setEmail] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    console.log(e.target.value) //for testing
+    addToMailchimp(email) 
+    .then(data => {
+      // I recommend setting data to React state
+      // but you can do whatever you want (including ignoring this `then()` altogether)
+      console.log(data)
+    })
+    .catch(() => {
+      // unnecessary because Mailchimp only ever
+      // returns a 200 status code
+      // see below for how to handle errors
+    })
+   e.preventDefault();
   };
 
 
