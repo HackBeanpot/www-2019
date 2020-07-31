@@ -14,6 +14,7 @@
 }
 
 .footer__leaves-left,
+
 .footer__leaves-right {
   display: block;
   position: absolute;
@@ -74,7 +75,7 @@
 }
 
 .footer__content {
-  width: 70%;
+  width: 90%;
   text-align: center;
 
   @media (min-width: $sm) {
@@ -90,7 +91,7 @@
 .footer__social {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
 
@@ -116,5 +117,65 @@
   &:hover {
     color: $sprout-green-light;
     text-decoration: none;
+  }
+}
+
+.footer__newsletter {
+  width: 300px;
+  height: auto;
+  margin-bottom: 25px;
+
+  @media (min-width: $md) {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $lg) {
+    width: 300px;
+  }
+}
+
+input {
+  border: 0;
+ outline: 0;
+//  background: transparent;
+//  border-bottom: 2px solid $yellow;
+ width: 300px;
+ height: 40px;
+
+//  @media (min-width: $small-mobile-width) {
+//    width: 300px;
+//  }
+//  @media (min-width: $tablet-width) {
+//    width: 350px;
+//  }
+//  @media (min-width: $thirteen-inch) {
+//    width: 400px;
+//  }
+
+}
+
+
+// COME BACK HERE FOR FOOTER STUFF
+
+.footer__cta {
+  @include body-text;
+  @include drop-shadow;
+  background-color: $yellow-green;
+  padding: 5px 28px;
+  margin-top: 20px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    color: $hbp-navy;
+    background-color: $yellow-green-hover;
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  @media (min-width: $md) {
+    @include h5-text;
+    // padding: 12px 40px;
   }
 }
