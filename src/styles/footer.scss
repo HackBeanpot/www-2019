@@ -14,7 +14,6 @@
 }
 
 .footer__leaves-left,
-
 .footer__leaves-right {
   display: block;
   position: absolute;
@@ -137,23 +136,26 @@
 
 input {
   border: 0;
- outline: 0;
- width: 300px;
- height: 40px;
-
+  outline: 0;
+  width: 300px;
+  height: 40px;
 }
 
-.footer__cta:focus{outline:none; }
-
+.footer__cta:focus {
+  outline: none;
+}
 
 .footer__cta {
   @include body-text;
   @include drop-shadow;
+  @include h5-text;
   background-color: $yellow-green;
   padding: 5px 28px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 50px;
   transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 0.5rem 0;
 
   &:hover {
     color: $hbp-navy;
@@ -161,9 +163,28 @@ input {
     opacity: 1;
     text-decoration: none;
   }
+}
+
+.footer-form {
+  margin-top: 25px;
+
+  .footer-form-heading {
+    @include h5-text;
+    color: $white;
+    margin-bottom: 1rem;
+  }
+
+  .footer-form-msg {
+    margin-top: 0.5rem;
+  }
+
+  .footer-form-input {
+    border-radius: 10px;
+    padding: 0 0.5rem;
+  }
 
   @media (min-width: $md) {
-    @include h5-text;
-    // padding: 12px 40px;
+    margin-left: 80px;
+    margin-top: 0;
   }
 }
