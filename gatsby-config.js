@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-          endpoint: "https://hackbeanpot.us18.list-manage.com/subscribe/post?u=8d9901211393038273091ce5a&amp;id=9054b3454d", // string; add your MC list endpoint here; see instructions below
+          endpoint: "https://hackbeanpot.us10.list-manage.com/subscribe/post?u=a98050d47fdae2481521f0474&amp;id=dccd8c8431", // string; add your MC list endpoint here; see instructions below
       },
   },
   ]
